@@ -19,6 +19,23 @@
 	}
 }
 
+#startOver {
+	height: 2em;
+	width: 4em;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Circular';
+	display: none;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#startOver:hover{
+	color: white;
+	background-color: black;
+}
 
 #header {
 	padding-top: 50px;
