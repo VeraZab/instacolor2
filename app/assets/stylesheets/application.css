@@ -63,8 +63,7 @@ table {
 
 @font-face {
     font-family: 'Circular';
-    src: url(/assets/CircularStd-Book.ttf) format('truetype');
+    src: url('fonts/CircularStd-Book.ttf') format('truetype');
     font-weight: normal;
   	font-style: normal;
 }
-
