@@ -224,11 +224,13 @@ function getAttributes(colors){
 
 function type(string, index){
   	var val = string.charAt(index);
-  	document.getElementById('formstyle').value += val;
+  	var form = document.getElementById('formstyle');
+  	form.value += val;
 
 	if (index < string.length) {
 		setTimeout(function(){ type(string, index + 1); }, Math.random() * 100);
 	}else{
+		form.blur();
 		setTimeout(function(){displayButton();}, 500);
 	}
 }
