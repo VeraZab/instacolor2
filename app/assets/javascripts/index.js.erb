@@ -6,14 +6,17 @@
  	} else{
  		param = string;
  	}
-
+ 	var once = 0;
  	var url = '/search?utf8=✓&q='+param;
  	var xhr = new XMLHttpRequest();
  	xhr.onreadystatechange = function() {
  		if (xhr.readyState === 4 && xhr.status === 200) {
  			createParentComponent(JSON.parse(xhr.responseText));
  		} else if(xhr.status === 500){
- 			document.getElementById('errorMessage').innerHTML = "sorry can't find that user";
+ 			if(once === 0) {
+ 				type(": sorry can't find that user", 0);
+ 				once=1;
+ 			}
  		}
  	};
  	xhr.open('GET', url, true);
@@ -22,7 +25,10 @@
  }
 
  function createParentComponent(array){	
- 	
+ 	if(!array.length){
+ 		type(': sorry, I can\'t see your pictures', 0);
+ 	};
+
  	var numberOfPics = array.length;
 	var dimPar;
 	 if(numberOfPics<12){
@@ -50,7 +56,7 @@
 	 	}else if(window.innerWidth>=509&&window.innerWidth<=900){
 	 		dimPar = '14%';
 	 	}else if (window.innerWidth>900){
-	 		dimPar = '7.5%';
+	 		dimPar = '8%';
 	 	}
 	 }
 
@@ -86,7 +92,7 @@ function createImgandColorDiv(url, dim){
 		COLORS.push(hsl);
 		cdiv.style.backgroundColor = 'hsl('+hsl[0]+','+hsl[1]+'%,'+hsl[2]+'%)';
 		if(COLORS.length===c.length){
-			setTimeout(function(){type(getAttributes(COLORS), 0);}, 1000);
+			setTimeout(function(){type(getAttributes(COLORS), 0);}, 2000);
 		};
 	};
 
@@ -236,7 +242,6 @@ function start(){
 
 	form.addEventListener('keydown', function(e){
 		if(e.keyCode === 8||e.ctrlKey||e.keyCode===224||e.keyCode===17||e.keyCode===91||e.keyCode===93){
-			document.getElementById('errorMessage').innerHTML = '';
 			COLORS = [];
 			for(var o = 0; o<COLOR_DEFINITIONS.length; o++){
 				COLOR_DEFINITIONS[o].count = 0;	
