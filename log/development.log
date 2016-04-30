@@ -21961,3 +21961,335 @@ RestClient::ResourceNotFound (404 Resource Not Found):
   Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
   Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (114.2ms)
 source=rack-timeout id=6c107d0364b642b9aa7baf3751a70e29 timeout=40000ms service=691ms state=completed
+source=rack-timeout id=3e9bd37523db884dc298cc556b5acd28 timeout=40000ms state=ready
+source=rack-timeout id=3e9bd37523db884dc298cc556b5acd28 timeout=40000ms service=1ms state=active
+
+
+Started GET "/" for 192.168.1.6 at 2016-04-30 10:39:00 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 262ms (Views: 244.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=3e9bd37523db884dc298cc556b5acd28 timeout=40000ms service=442ms state=completed
+source=rack-timeout id=96352e9c7d52ee8f1de4e2a515c5bf53 timeout=40000ms state=ready
+source=rack-timeout id=96352e9c7d52ee8f1de4e2a515c5bf53 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.6 at 2016-04-30 10:39:01 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=96352e9c7d52ee8f1de4e2a515c5bf53 timeout=40000ms service=7ms state=completed
+source=rack-timeout id=bdf744062abaaaeb0ebb85a2a99a526a timeout=40000ms state=ready
+source=rack-timeout id=bdf744062abaaaeb0ebb85a2a99a526a timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-3579e6c12f3d8dc6d328a3ddab70cb7d1b6f7cf65b54124c794c7515e905dbaf.css?body=1" for 192.168.1.6 at 2016-04-30 10:39:01 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=bdf744062abaaaeb0ebb85a2a99a526a timeout=40000ms service=6ms state=completed
+source=rack-timeout id=8130b6ad83d7a511094d686441d3722f timeout=40000ms state=ready
+source=rack-timeout id=8130b6ad83d7a511094d686441d3722f timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.6 at 2016-04-30 10:39:01 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=8130b6ad83d7a511094d686441d3722f timeout=40000ms service=8ms state=completed
+source=rack-timeout id=1232ea7a1385160ea10f00acfcc52414 timeout=40000ms state=ready
+source=rack-timeout id=1232ea7a1385160ea10f00acfcc52414 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.6 at 2016-04-30 10:39:01 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=1232ea7a1385160ea10f00acfcc52414 timeout=40000ms service=6ms state=completed
+source=rack-timeout id=4048bc24ed45e392d446246d55d00993 timeout=40000ms state=ready
+source=rack-timeout id=4048bc24ed45e392d446246d55d00993 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.6 at 2016-04-30 10:39:01 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=4048bc24ed45e392d446246d55d00993 timeout=40000ms service=7ms state=completed
+source=rack-timeout id=0255cee1ff1be40f87331e90ba998f1c timeout=40000ms state=ready
+source=rack-timeout id=0255cee1ff1be40f87331e90ba998f1c timeout=40000ms service=0ms state=active
+
+
+Started GET "/search?utf8=%E2%9C%93&q=verazab" for 192.168.1.6 at 2016-04-30 10:39:04 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#search as JS
+  Parameters: {"utf8"=>"✓", "q"=>"verazab"}
+Completed 200 OK in 569ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=0255cee1ff1be40f87331e90ba998f1c timeout=40000ms service=575ms state=completed
+source=rack-timeout id=4b7c2b7ad94fa7c12c47a27f05dc70fd timeout=40000ms state=ready
+source=rack-timeout id=4b7c2b7ad94fa7c12c47a27f05dc70fd timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12783984_1017962604964514_172725946_n.jpg%3Fig_cache_key%3DMTIwNDY2NTUzNDcwMjYxNjEzNA%253D%253D.2" for 192.168.1.6 at 2016-04-30 10:39:04 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12783984_1017962604964514_172725946_n.jpg?ig_cache_key=MTIwNDY2NTUzNDcwMjYxNjEzNA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (3.1ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 153ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=4b7c2b7ad94fa7c12c47a27f05dc70fd timeout=40000ms service=170ms state=completed
+source=rack-timeout id=ccd02f7611c863d75cb44f199baf570d timeout=40000ms state=ready
+source=rack-timeout id=ccd02f7611c863d75cb44f199baf570d timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F11356729_714516318652189_1395589551_n.jpg%3Fig_cache_key%3DMTA0NjM5MzkyMjk4NDI4MDAyMw%253D%253D.2" for 192.168.1.6 at 2016-04-30 10:39:04 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/11356729_714516318652189_1395589551_n.jpg?ig_cache_key=MTA0NjM5MzkyMjk4NDI4MDAyMw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 140ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ccd02f7611c863d75cb44f199baf570d timeout=40000ms service=147ms state=completed
+source=rack-timeout id=b05e6850d02d49f427c338c739f9be52 timeout=40000ms state=ready
+source=rack-timeout id=b05e6850d02d49f427c338c739f9be52 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F1389025_615954215129169_1011758740_n.jpg%3Fig_cache_key%3DNTk1NDQzMzU5NjYzNDU1OTg0.2" for 192.168.1.6 at 2016-04-30 10:39:05 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/1389025_615954215129169_1011758740_n.jpg?ig_cache_key=NTk1NDQzMzU5NjYzNDU1OTg0.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 140ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=b05e6850d02d49f427c338c739f9be52 timeout=40000ms service=148ms state=completed
+source=rack-timeout id=502b2e37cf2d0847cc3bfba05e65dbbc timeout=40000ms state=ready
+source=rack-timeout id=502b2e37cf2d0847cc3bfba05e65dbbc timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F1173036_209378399246299_1340352897_n.jpg%3Fig_cache_key%3DNjAxMjE0NDgyNTQ4MTk1MDA1.2" for 192.168.1.6 at 2016-04-30 10:39:05 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/1173036_209378399246299_1340352897_n.jpg?ig_cache_key=NjAxMjE0NDgyNTQ4MTk1MDA1.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 180ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=502b2e37cf2d0847cc3bfba05e65dbbc timeout=40000ms service=196ms state=completed
+source=rack-timeout id=4f07649a5e805f2fe268f5fff802efe7 timeout=40000ms state=ready
+source=rack-timeout id=4f07649a5e805f2fe268f5fff802efe7 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11424596_1037363426274703_78899999_n.jpg%3Fig_cache_key%3DNTU0NDU0MDc2NjI2NzYzMzMw.2" for 192.168.1.6 at 2016-04-30 10:39:05 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11424596_1037363426274703_78899999_n.jpg?ig_cache_key=NTU0NDU0MDc2NjI2NzYzMzMw.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 159ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=4f07649a5e805f2fe268f5fff802efe7 timeout=40000ms service=169ms state=completed
+source=rack-timeout id=30c40d64f280314f9bd896ce9cc7c6c8 timeout=40000ms state=ready
+source=rack-timeout id=30c40d64f280314f9bd896ce9cc7c6c8 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F928380_743765902303712_1408036519_n.jpg%3Fig_cache_key%3DNTk2MzQxNjMxMjg2NDQzNDIy.2" for 192.168.1.6 at 2016-04-30 10:39:05 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/928380_743765902303712_1408036519_n.jpg?ig_cache_key=NTk2MzQxNjMxMjg2NDQzNDIy.2"}
+  Rendered text template (0.0ms)
+Sent data  (1.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 155ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=30c40d64f280314f9bd896ce9cc7c6c8 timeout=40000ms service=164ms state=completed
+source=rack-timeout id=af5039e66f02c25ca40b6ba544ce2445 timeout=40000ms state=ready
+source=rack-timeout id=af5039e66f02c25ca40b6ba544ce2445 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11280469_1612514515662279_2082826305_n.jpg%3Fig_cache_key%3DNDA4NTUwMDA4MjA2MDY1MDgw.2" for 192.168.1.6 at 2016-04-30 10:39:05 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11280469_1612514515662279_2082826305_n.jpg?ig_cache_key=NDA4NTUwMDA4MjA2MDY1MDgw.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 195ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=af5039e66f02c25ca40b6ba544ce2445 timeout=40000ms service=202ms state=completed
+source=rack-timeout id=9ff7daa02ff1f13a6cb50d72370f28a4 timeout=40000ms state=ready
+source=rack-timeout id=9ff7daa02ff1f13a6cb50d72370f28a4 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11236089_1439893479640199_1517373856_n.jpg%3Fig_cache_key%3DMzQ0MTk3ODQxNzM1NTgxMDUx.2" for 192.168.1.6 at 2016-04-30 10:39:06 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11236089_1439893479640199_1517373856_n.jpg?ig_cache_key=MzQ0MTk3ODQxNzM1NTgxMDUx.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 155ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=9ff7daa02ff1f13a6cb50d72370f28a4 timeout=40000ms service=161ms state=completed
+source=rack-timeout id=721c602617f3140d4425a028c5bc1c35 timeout=40000ms state=ready
+source=rack-timeout id=721c602617f3140d4425a028c5bc1c35 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11379201_448264955332753_316122639_n.jpg%3Fig_cache_key%3DNDc4NDA0OTAzMjY4MTg3NDIy.2" for 192.168.1.6 at 2016-04-30 10:39:06 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11379201_448264955332753_316122639_n.jpg?ig_cache_key=NDc4NDA0OTAzMjY4MTg3NDIy.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 191ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=721c602617f3140d4425a028c5bc1c35 timeout=40000ms service=198ms state=completed
+source=rack-timeout id=04f616689579c680a99ec219baff5fe0 timeout=40000ms state=ready
+source=rack-timeout id=04f616689579c680a99ec219baff5fe0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11265827_1644716685759344_427828236_n.jpg%3Fig_cache_key%3DMzQ2NTU5Nzk1MDk1NjAxMDk1.2" for 192.168.1.6 at 2016-04-30 10:39:06 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11265827_1644716685759344_427828236_n.jpg?ig_cache_key=MzQ2NTU5Nzk1MDk1NjAxMDk1.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 169ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=04f616689579c680a99ec219baff5fe0 timeout=40000ms service=175ms state=completed
+source=rack-timeout id=0aac249a3d89aacecbef7d079d602b5e timeout=40000ms state=ready
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11375818_982226021789087_1535971252_n.jpg%3Fig_cache_key%3DNDg4MzEzMjEzMTE5Mjk4OTA4.2" for 192.168.1.6 at 2016-04-30 10:39:06 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11375818_982226021789087_1535971252_n.jpg?ig_cache_key=NDg4MzEzMjEzMTE5Mjk4OTA4.2"}
+source=rack-timeout id=0aac249a3d89aacecbef7d079d602b5e timeout=40000ms service=5ms state=active
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 504ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=0aac249a3d89aacecbef7d079d602b5e timeout=40000ms service=509ms state=completed
+source=rack-timeout id=272dee20acfd0d7f2e56b349371ab329 timeout=40000ms state=ready
+source=rack-timeout id=272dee20acfd0d7f2e56b349371ab329 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11287462_366015486930523_1073154552_n.jpg%3Fig_cache_key%3DNTU0NDQ4NDIzNTM1NDQzMzMz.2" for 192.168.1.6 at 2016-04-30 10:39:07 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11287462_366015486930523_1073154552_n.jpg?ig_cache_key=NTU0NDQ4NDIzNTM1NDQzMzMz.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 127ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=272dee20acfd0d7f2e56b349371ab329 timeout=40000ms service=132ms state=completed
+source=rack-timeout id=4dd19f6b44fa37bbb38b3e3df831e1cb timeout=40000ms state=ready
+source=rack-timeout id=4dd19f6b44fa37bbb38b3e3df831e1cb timeout=40000ms service=0ms state=active
+
+
+Started GET "/search?utf8=%E2%9C%93&q=orysia_Zabeida" for 192.168.1.6 at 2016-04-30 10:39:16 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#search as JS
+  Parameters: {"utf8"=>"✓", "q"=>"orysia_Zabeida"}
+Completed 500 Internal Server Error in 714ms (ActiveRecord: 0.0ms)
+
+RestClient::ResourceNotFound (404 Resource Not Found):
+  app/controllers/welcome_controller.rb:23:in `search'
+
+
+source=rack-timeout id=4dd19f6b44fa37bbb38b3e3df831e1cb timeout=40000ms service=1005ms state=active
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.0ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.1ms)
+source=rack-timeout id=4dd19f6b44fa37bbb38b3e3df831e1cb timeout=40000ms service=1093ms state=completed
+source=rack-timeout id=f4ab5ee398a1c7e9e3c1ac28608e9f7c timeout=40000ms state=ready
+source=rack-timeout id=f4ab5ee398a1c7e9e3c1ac28608e9f7c timeout=40000ms service=0ms state=active
+
+
+Started GET "/search?utf8=%E2%9C%93&q=asldfkjslfkjslfj" for 192.168.1.6 at 2016-04-30 10:39:24 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#search as JS
+  Parameters: {"utf8"=>"✓", "q"=>"asldfkjslfkjslfj"}
+Completed 500 Internal Server Error in 331ms (ActiveRecord: 0.0ms)
+
+RestClient::ResourceNotFound (404 Resource Not Found):
+  app/controllers/welcome_controller.rb:23:in `search'
+
+
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (115.3ms)
+source=rack-timeout id=f4ab5ee398a1c7e9e3c1ac28608e9f7c timeout=40000ms service=648ms state=completed
+source=rack-timeout id=89c76de466bd938e2d75ba6bc6538ae0 timeout=40000ms state=ready
+source=rack-timeout id=89c76de466bd938e2d75ba6bc6538ae0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/search?utf8=%E2%9C%93&q=aldkjaldjaldjljldajdl" for 192.168.1.6 at 2016-04-30 10:39:31 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#search as JS
+  Parameters: {"utf8"=>"✓", "q"=>"aldkjaldjaldjljldajdl"}
+Completed 500 Internal Server Error in 336ms (ActiveRecord: 0.0ms)
+
+RestClient::ResourceNotFound (404 Resource Not Found):
+  app/controllers/welcome_controller.rb:23:in `search'
+
+
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.5ms)
+source=rack-timeout id=89c76de466bd938e2d75ba6bc6538ae0 timeout=40000ms service=649ms state=completed
+source=rack-timeout id=9ff77460e0e4258c41bcaf8dbd859dab timeout=40000ms state=ready
+source=rack-timeout id=9ff77460e0e4258c41bcaf8dbd859dab timeout=40000ms service=0ms state=active
+
+
+Started GET "/search?utf8=%E2%9C%93&q=akakakakak" for 192.168.1.6 at 2016-04-30 10:39:38 -0400
+Cannot render console from 192.168.1.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#search as JS
+  Parameters: {"utf8"=>"✓", "q"=>"akakakakak"}
+Completed 200 OK in 364ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=9ff77460e0e4258c41bcaf8dbd859dab timeout=40000ms service=370ms state=completed
+source=rack-timeout id=1ae01e75c32f1b075822952882c17e4b timeout=40000ms state=ready
+source=rack-timeout id=1ae01e75c32f1b075822952882c17e4b timeout=40000ms service=19ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:05:54 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+source=rack-timeout id=1ae01e75c32f1b075822952882c17e4b timeout=40000ms service=1021ms state=active
+  Rendered welcome/index.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 925ms (Views: 886.1ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=1ae01e75c32f1b075822952882c17e4b timeout=40000ms service=1950ms state=completed
+source=rack-timeout id=cda29de995a2c827e45a55126f412fc7 timeout=40000ms state=ready
+source=rack-timeout id=cda29de995a2c827e45a55126f412fc7 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:05:56 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=cda29de995a2c827e45a55126f412fc7 timeout=40000ms service=8ms state=completed
+source=rack-timeout id=dd7a82b2adb4093c4436bf55208367ff timeout=40000ms state=ready
+source=rack-timeout id=dd7a82b2adb4093c4436bf55208367ff timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:05:56 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=dd7a82b2adb4093c4436bf55208367ff timeout=40000ms service=14ms state=completed
+source=rack-timeout id=0e46fb0d5e381de3953d1527cae181e4 timeout=40000ms state=ready
+source=rack-timeout id=0e46fb0d5e381de3953d1527cae181e4 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-3579e6c12f3d8dc6d328a3ddab70cb7d1b6f7cf65b54124c794c7515e905dbaf.css?body=1" for 192.168.1.9 at 2016-04-30 11:05:56 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=0e46fb0d5e381de3953d1527cae181e4 timeout=40000ms service=34ms state=completed
+source=rack-timeout id=f62161b5547eb13994ab31d85a74170b timeout=40000ms state=ready
+source=rack-timeout id=f62161b5547eb13994ab31d85a74170b timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:05:56 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=f62161b5547eb13994ab31d85a74170b timeout=40000ms service=26ms state=completed
+source=rack-timeout id=47ccbe1d5366671e8439d76d36052ade timeout=40000ms state=ready
+source=rack-timeout id=47ccbe1d5366671e8439d76d36052ade timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:05:56 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=47ccbe1d5366671e8439d76d36052ade timeout=40000ms service=10ms state=completed
+source=rack-timeout id=e066c28a4105ff0dfd453598d5589daa timeout=40000ms state=ready
+source=rack-timeout id=e066c28a4105ff0dfd453598d5589daa timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/CircularStd-Book.ttf" for 192.168.1.9 at 2016-04-30 11:05:56 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=e066c28a4105ff0dfd453598d5589daa timeout=40000ms service=30ms state=completed
