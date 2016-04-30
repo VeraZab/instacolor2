@@ -22293,3 +22293,640 @@ source=rack-timeout id=e066c28a4105ff0dfd453598d5589daa timeout=40000ms service=
 Started GET "/assets/CircularStd-Book.ttf" for 192.168.1.9 at 2016-04-30 11:05:56 -0400
 Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 source=rack-timeout id=e066c28a4105ff0dfd453598d5589daa timeout=40000ms service=30ms state=completed
+source=rack-timeout id=129570fac4ba3e3498aca4844d97da0f timeout=40000ms state=ready
+source=rack-timeout id=129570fac4ba3e3498aca4844d97da0f timeout=40000ms service=0ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:11:45 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+source=rack-timeout id=129570fac4ba3e3498aca4844d97da0f timeout=40000ms service=1005ms state=active
+Completed 200 OK in 730ms (Views: 677.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=129570fac4ba3e3498aca4844d97da0f timeout=40000ms service=1546ms state=completed
+source=rack-timeout id=c456d36546e418e2de6c07ffd08fa6b9 timeout=40000ms state=ready
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:11:47 -0400
+source=rack-timeout id=c456d36546e418e2de6c07ffd08fa6b9 timeout=40000ms service=2ms state=active
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=c456d36546e418e2de6c07ffd08fa6b9 timeout=40000ms service=9ms state=completed
+source=rack-timeout id=cc6f21081d9d8ec1879bb1e9c089ba89 timeout=40000ms state=ready
+source=rack-timeout id=cc6f21081d9d8ec1879bb1e9c089ba89 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:11:47 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=cc6f21081d9d8ec1879bb1e9c089ba89 timeout=40000ms service=7ms state=completed
+source=rack-timeout id=8690eb66b32d5258d4309a268145c4c9 timeout=40000ms state=ready
+source=rack-timeout id=8690eb66b32d5258d4309a268145c4c9 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-4d5adb468065b374121a8d8cb0f7168af60b1256e938be60adb409ba97b27994.css?body=1" for 192.168.1.9 at 2016-04-30 11:11:47 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=8690eb66b32d5258d4309a268145c4c9 timeout=40000ms service=8ms state=completed
+source=rack-timeout id=98f1406b019e273a968ca31c4e3f3ad1 timeout=40000ms state=ready
+source=rack-timeout id=98f1406b019e273a968ca31c4e3f3ad1 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:11:47 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=98f1406b019e273a968ca31c4e3f3ad1 timeout=40000ms service=7ms state=completed
+source=rack-timeout id=38cae2e8731ffc9e6883409b4bf378a4 timeout=40000ms state=ready
+source=rack-timeout id=38cae2e8731ffc9e6883409b4bf378a4 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:11:47 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=38cae2e8731ffc9e6883409b4bf378a4 timeout=40000ms service=14ms state=completed
+source=rack-timeout id=0f2260686d1a9c721f65735275a95571 timeout=40000ms state=ready
+source=rack-timeout id=0f2260686d1a9c721f65735275a95571 timeout=40000ms service=0ms state=active
+
+
+Started GET "/fonts/CircularStd-Book.ttf" for 192.168.1.9 at 2016-04-30 11:11:47 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/CircularStd-Book.ttf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  rack-timeout (0.3.2) lib/rack/timeout/core.rb:125:in `block in call'
+  rack-timeout (0.3.2) lib/rack/timeout/support/timeout.rb:19:in `call'
+  rack-timeout (0.3.2) lib/rack/timeout/support/timeout.rb:19:in `timeout'
+  rack-timeout (0.3.2) lib/rack/timeout/core.rb:124:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (30.1ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (245.7ms)
+source=rack-timeout id=0f2260686d1a9c721f65735275a95571 timeout=40000ms service=580ms state=completed
+source=rack-timeout id=877af4b6ccc3ffa8887b65b372d33144 timeout=40000ms state=ready
+source=rack-timeout id=877af4b6ccc3ffa8887b65b372d33144 timeout=40000ms service=1ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:12:40 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 366ms (Views: 349.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=877af4b6ccc3ffa8887b65b372d33144 timeout=40000ms service=574ms state=completed
+source=rack-timeout id=ecb55c670e47dd40e9ba01d9b93bf22e timeout=40000ms state=ready
+source=rack-timeout id=ecb55c670e47dd40e9ba01d9b93bf22e timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-4d5adb468065b374121a8d8cb0f7168af60b1256e938be60adb409ba97b27994.css?body=1" for 192.168.1.9 at 2016-04-30 11:12:41 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=ecb55c670e47dd40e9ba01d9b93bf22e timeout=40000ms service=55ms state=completed
+source=rack-timeout id=7b17e5106472fe838291f5a2aa2bf026 timeout=40000ms state=ready
+source=rack-timeout id=7b17e5106472fe838291f5a2aa2bf026 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:12:41 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=7b17e5106472fe838291f5a2aa2bf026 timeout=40000ms service=8ms state=completed
+source=rack-timeout id=379914164de9ebcf671ce2e9b64e5271 timeout=40000ms state=ready
+source=rack-timeout id=379914164de9ebcf671ce2e9b64e5271 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:12:41 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=379914164de9ebcf671ce2e9b64e5271 timeout=40000ms service=9ms state=completed
+source=rack-timeout id=0c5c7b53fbcb2fda552485a0c42ab165 timeout=40000ms state=ready
+source=rack-timeout id=0c5c7b53fbcb2fda552485a0c42ab165 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:12:41 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=0c5c7b53fbcb2fda552485a0c42ab165 timeout=40000ms service=9ms state=completed
+source=rack-timeout id=64235e258ce42259c40f35f8ab5acfc0 timeout=40000ms state=ready
+source=rack-timeout id=64235e258ce42259c40f35f8ab5acfc0 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:12:41 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=64235e258ce42259c40f35f8ab5acfc0 timeout=40000ms service=12ms state=completed
+source=rack-timeout id=281b57cc7d45a3e55e8785c4243685a1 timeout=40000ms state=ready
+source=rack-timeout id=281b57cc7d45a3e55e8785c4243685a1 timeout=40000ms service=0ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:14:03 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+source=rack-timeout id=281b57cc7d45a3e55e8785c4243685a1 timeout=40000ms service=1006ms state=active
+Completed 200 OK in 462ms (Views: 426.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=281b57cc7d45a3e55e8785c4243685a1 timeout=40000ms service=1331ms state=completed
+source=rack-timeout id=6d3cd4c6a3489a7c18d7b50c90fae7f7 timeout=40000ms state=ready
+source=rack-timeout id=6d3cd4c6a3489a7c18d7b50c90fae7f7 timeout=40000ms service=38ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:14:05 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=6d3cd4c6a3489a7c18d7b50c90fae7f7 timeout=40000ms service=47ms state=completed
+source=rack-timeout id=90256ede887be2e24b64a6b121e31487 timeout=40000ms state=ready
+source=rack-timeout id=90256ede887be2e24b64a6b121e31487 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:14:05 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=90256ede887be2e24b64a6b121e31487 timeout=40000ms service=10ms state=completed
+source=rack-timeout id=a7bb0dbf53d28b9877539488f591169d timeout=40000ms state=ready
+source=rack-timeout id=a7bb0dbf53d28b9877539488f591169d timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-e68dd64e247630b3b72cb359f5b9643b5841d9dd749617d1988b0f16e8ffd651.css?body=1" for 192.168.1.9 at 2016-04-30 11:14:05 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=a7bb0dbf53d28b9877539488f591169d timeout=40000ms service=12ms state=completed
+source=rack-timeout id=a93b5597e4667c0d9c66190a05b2e25f timeout=40000ms state=ready
+source=rack-timeout id=a93b5597e4667c0d9c66190a05b2e25f timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:14:05 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=a93b5597e4667c0d9c66190a05b2e25f timeout=40000ms service=10ms state=completed
+source=rack-timeout id=bd599ea96548f693f531f777a230a341 timeout=40000ms state=ready
+source=rack-timeout id=bd599ea96548f693f531f777a230a341 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:14:05 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=bd599ea96548f693f531f777a230a341 timeout=40000ms service=8ms state=completed
+source=rack-timeout id=5709fbfa5be9cbf4404345fb7e647fc1 timeout=40000ms state=ready
+source=rack-timeout id=5709fbfa5be9cbf4404345fb7e647fc1 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/fonts/CircularStd-Book.ttf" for 192.168.1.9 at 2016-04-30 11:14:05 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/CircularStd-Book.ttf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  rack-timeout (0.3.2) lib/rack/timeout/core.rb:125:in `block in call'
+  rack-timeout (0.3.2) lib/rack/timeout/support/timeout.rb:19:in `call'
+  rack-timeout (0.3.2) lib/rack/timeout/support/timeout.rb:19:in `timeout'
+  rack-timeout (0.3.2) lib/rack/timeout/core.rb:124:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (28.5ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (216.2ms)
+source=rack-timeout id=5709fbfa5be9cbf4404345fb7e647fc1 timeout=40000ms service=491ms state=completed
+source=rack-timeout id=70883058a3da0c3cf36770c666bb197a timeout=40000ms state=ready
+source=rack-timeout id=70883058a3da0c3cf36770c666bb197a timeout=40000ms service=0ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:15:47 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+source=rack-timeout id=70883058a3da0c3cf36770c666bb197a timeout=40000ms service=1001ms state=active
+Completed 200 OK in 549ms (Views: 513.9ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=70883058a3da0c3cf36770c666bb197a timeout=40000ms service=1385ms state=completed
+source=rack-timeout id=a1e2e9aa504ffd2bbcd6a2dda03042fc timeout=40000ms state=ready
+source=rack-timeout id=a1e2e9aa504ffd2bbcd6a2dda03042fc timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:15:49 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=a1e2e9aa504ffd2bbcd6a2dda03042fc timeout=40000ms service=10ms state=completed
+source=rack-timeout id=328d6548919484e9c514d8bce0690a72 timeout=40000ms state=ready
+source=rack-timeout id=328d6548919484e9c514d8bce0690a72 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:15:49 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=328d6548919484e9c514d8bce0690a72 timeout=40000ms service=9ms state=completed
+source=rack-timeout id=5b4aa44bf471c116ec5f719b2d873759 timeout=40000ms state=ready
+source=rack-timeout id=5b4aa44bf471c116ec5f719b2d873759 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:15:49 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=5b4aa44bf471c116ec5f719b2d873759 timeout=40000ms service=9ms state=completed
+source=rack-timeout id=305040e1963cbc64e09ab99326c917ce timeout=40000ms state=ready
+source=rack-timeout id=305040e1963cbc64e09ab99326c917ce timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-e68dd64e247630b3b72cb359f5b9643b5841d9dd749617d1988b0f16e8ffd651.css?body=1" for 192.168.1.9 at 2016-04-30 11:15:49 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=305040e1963cbc64e09ab99326c917ce timeout=40000ms service=12ms state=completed
+source=rack-timeout id=ec009f40481280a805e800192b3f0334 timeout=40000ms state=ready
+source=rack-timeout id=ec009f40481280a805e800192b3f0334 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:15:49 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=ec009f40481280a805e800192b3f0334 timeout=40000ms service=7ms state=completed
+source=rack-timeout id=71198d6b37fd0bb60c319ab8af28c37b timeout=40000ms state=ready
+source=rack-timeout id=71198d6b37fd0bb60c319ab8af28c37b timeout=40000ms service=1ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:15:51 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=71198d6b37fd0bb60c319ab8af28c37b timeout=40000ms service=57ms state=completed
+source=rack-timeout id=794f77424abd0814dbdcf87e117cf28c timeout=40000ms state=ready
+source=rack-timeout id=794f77424abd0814dbdcf87e117cf28c timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:15:51 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=794f77424abd0814dbdcf87e117cf28c timeout=40000ms service=10ms state=completed
+source=rack-timeout id=a478fcfba3b3a133b545903f324c7ba5 timeout=40000ms state=ready
+source=rack-timeout id=a478fcfba3b3a133b545903f324c7ba5 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:15:51 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=a478fcfba3b3a133b545903f324c7ba5 timeout=40000ms service=30ms state=completed
+source=rack-timeout id=2d87137463bbb3dd7bee6986545408cb timeout=40000ms state=ready
+source=rack-timeout id=2d87137463bbb3dd7bee6986545408cb timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:15:51 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=2d87137463bbb3dd7bee6986545408cb timeout=40000ms service=8ms state=completed
+source=rack-timeout id=0ff578b5e99cc0b9e1a67b889222a8ca timeout=40000ms state=ready
+source=rack-timeout id=0ff578b5e99cc0b9e1a67b889222a8ca timeout=40000ms service=2ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:15:51 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=0ff578b5e99cc0b9e1a67b889222a8ca timeout=40000ms service=8ms state=completed
+source=rack-timeout id=eb16317c399dc6c5b342515d9d35f917 timeout=40000ms state=ready
+source=rack-timeout id=eb16317c399dc6c5b342515d9d35f917 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/application.self-e68dd64e247630b3b72cb359f5b9643b5841d9dd749617d1988b0f16e8ffd651.css?body=1" for 192.168.1.9 at 2016-04-30 11:15:51 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=eb16317c399dc6c5b342515d9d35f917 timeout=40000ms service=24ms state=completed
+source=rack-timeout id=7cf16b70e42f8f6c73029059b5e255cc timeout=40000ms state=ready
+source=rack-timeout id=7cf16b70e42f8f6c73029059b5e255cc timeout=40000ms service=16ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:16:11 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 100ms (Views: 99.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=7cf16b70e42f8f6c73029059b5e255cc timeout=40000ms service=130ms state=completed
+source=rack-timeout id=61218a6e44088dae8f15fa9be9d7f61d timeout=40000ms state=ready
+source=rack-timeout id=61218a6e44088dae8f15fa9be9d7f61d timeout=40000ms service=2ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:16:11 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=61218a6e44088dae8f15fa9be9d7f61d timeout=40000ms service=18ms state=completed
+source=rack-timeout id=10b23fdbaaf3296a03d8903bd6e315be timeout=40000ms state=ready
+source=rack-timeout id=10b23fdbaaf3296a03d8903bd6e315be timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-e68dd64e247630b3b72cb359f5b9643b5841d9dd749617d1988b0f16e8ffd651.css?body=1" for 192.168.1.9 at 2016-04-30 11:16:11 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=10b23fdbaaf3296a03d8903bd6e315be timeout=40000ms service=10ms state=completed
+source=rack-timeout id=ee5452889f8f576b894f6f1ca75c27d1 timeout=40000ms state=ready
+source=rack-timeout id=ee5452889f8f576b894f6f1ca75c27d1 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:16:11 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=ee5452889f8f576b894f6f1ca75c27d1 timeout=40000ms service=13ms state=completed
+source=rack-timeout id=a3bfdc26ca3f4739839b039f9be83f51 timeout=40000ms state=ready
+source=rack-timeout id=a3bfdc26ca3f4739839b039f9be83f51 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:16:11 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=a3bfdc26ca3f4739839b039f9be83f51 timeout=40000ms service=20ms state=completed
+source=rack-timeout id=e4a82a3d117ea570de8ea50feec2db2c timeout=40000ms state=ready
+source=rack-timeout id=e4a82a3d117ea570de8ea50feec2db2c timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:16:11 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=e4a82a3d117ea570de8ea50feec2db2c timeout=40000ms service=13ms state=completed
+source=rack-timeout id=62566f32bbfcfc1c8e7eeaaab99ab74c timeout=40000ms state=ready
+source=rack-timeout id=62566f32bbfcfc1c8e7eeaaab99ab74c timeout=40000ms service=0ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:16:19 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 65ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=62566f32bbfcfc1c8e7eeaaab99ab74c timeout=40000ms service=75ms state=completed
+source=rack-timeout id=f4b9b0bfa3eafa1302084c88687dce9b timeout=40000ms state=ready
+source=rack-timeout id=f4b9b0bfa3eafa1302084c88687dce9b timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/application.self-e68dd64e247630b3b72cb359f5b9643b5841d9dd749617d1988b0f16e8ffd651.css?body=1" for 192.168.1.9 at 2016-04-30 11:16:19 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=f4b9b0bfa3eafa1302084c88687dce9b timeout=40000ms service=11ms state=completed
+source=rack-timeout id=5c865adf92f06a862e63a97acaa8972b timeout=40000ms state=ready
+source=rack-timeout id=5c865adf92f06a862e63a97acaa8972b timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:16:19 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=5c865adf92f06a862e63a97acaa8972b timeout=40000ms service=19ms state=completed
+source=rack-timeout id=ab3d7c4f0c0a27bdbfb06e9d731b2ff2 timeout=40000ms state=ready
+source=rack-timeout id=ab3d7c4f0c0a27bdbfb06e9d731b2ff2 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:16:19 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=ab3d7c4f0c0a27bdbfb06e9d731b2ff2 timeout=40000ms service=14ms state=completed
+source=rack-timeout id=f8ce55265351d7cf19a7c2e37ec50341 timeout=40000ms state=ready
+source=rack-timeout id=f8ce55265351d7cf19a7c2e37ec50341 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:16:19 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=f8ce55265351d7cf19a7c2e37ec50341 timeout=40000ms service=12ms state=completed
+source=rack-timeout id=1aa6ee964269f45b2baa168c939a8895 timeout=40000ms state=ready
+source=rack-timeout id=1aa6ee964269f45b2baa168c939a8895 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:16:19 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=1aa6ee964269f45b2baa168c939a8895 timeout=40000ms service=10ms state=completed
+source=rack-timeout id=100bc2ae7ffd3b6ca5d0aeead511ee11 timeout=40000ms state=ready
+source=rack-timeout id=100bc2ae7ffd3b6ca5d0aeead511ee11 timeout=40000ms service=14ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:19:22 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 117ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=100bc2ae7ffd3b6ca5d0aeead511ee11 timeout=40000ms service=138ms state=completed
+source=rack-timeout id=75851218190d4e3068d0f58e9aa64d14 timeout=40000ms state=ready
+source=rack-timeout id=75851218190d4e3068d0f58e9aa64d14 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/application.self-f62305af3f8bb42703d552da6be525ed2120762a2258cac79a2d2ca576daec94.css?body=1" for 192.168.1.9 at 2016-04-30 11:19:22 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=75851218190d4e3068d0f58e9aa64d14 timeout=40000ms service=16ms state=completed
+source=rack-timeout id=c5fc4ff43ebee4fdde5dfa085285b841 timeout=40000ms state=ready
+source=rack-timeout id=c5fc4ff43ebee4fdde5dfa085285b841 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:19:22 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=c5fc4ff43ebee4fdde5dfa085285b841 timeout=40000ms service=9ms state=completed
+source=rack-timeout id=ca07fb5a82228fcca5c6edd57efd0e6f timeout=40000ms state=ready
+source=rack-timeout id=ca07fb5a82228fcca5c6edd57efd0e6f timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:19:22 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=ca07fb5a82228fcca5c6edd57efd0e6f timeout=40000ms service=9ms state=completed
+source=rack-timeout id=5a6c3fa98623ed97b51ed0ea1c9265db timeout=40000ms state=ready
+source=rack-timeout id=5a6c3fa98623ed97b51ed0ea1c9265db timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:19:22 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=5a6c3fa98623ed97b51ed0ea1c9265db timeout=40000ms service=8ms state=completed
+source=rack-timeout id=7cef6c63e94c0d04935172e4a0908f6c timeout=40000ms state=ready
+source=rack-timeout id=7cef6c63e94c0d04935172e4a0908f6c timeout=40000ms service=2ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:19:22 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=7cef6c63e94c0d04935172e4a0908f6c timeout=40000ms service=8ms state=completed
+source=rack-timeout id=be112e88b94e20b924259142bec2da18 timeout=40000ms state=ready
+source=rack-timeout id=be112e88b94e20b924259142bec2da18 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/CircularStd-Book.ttf" for 192.168.1.9 at 2016-04-30 11:19:22 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/CircularStd-Book.ttf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  rack-timeout (0.3.2) lib/rack/timeout/core.rb:125:in `block in call'
+  rack-timeout (0.3.2) lib/rack/timeout/support/timeout.rb:19:in `call'
+  rack-timeout (0.3.2) lib/rack/timeout/support/timeout.rb:19:in `timeout'
+  rack-timeout (0.3.2) lib/rack/timeout/core.rb:124:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.4ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (242.7ms)
+source=rack-timeout id=be112e88b94e20b924259142bec2da18 timeout=40000ms service=535ms state=completed
+source=rack-timeout id=c962c8d251c27e59a8032b928cb6e2ec timeout=40000ms state=ready
+source=rack-timeout id=c962c8d251c27e59a8032b928cb6e2ec timeout=40000ms service=0ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:24:20 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.3ms)
+source=rack-timeout id=c962c8d251c27e59a8032b928cb6e2ec timeout=40000ms service=1002ms state=active
+Completed 200 OK in 528ms (Views: 492.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=c962c8d251c27e59a8032b928cb6e2ec timeout=40000ms service=1396ms state=completed
+source=rack-timeout id=6dcb85153379e1a88a4aae8fd68210a7 timeout=40000ms state=ready
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:24:21 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=6dcb85153379e1a88a4aae8fd68210a7 timeout=40000ms service=7ms state=completed
+source=rack-timeout id=004d96595af7abe473e6d32392762245 timeout=40000ms state=ready
+source=rack-timeout id=004d96595af7abe473e6d32392762245 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/application.self-f2c7c45e929b54f2c94159cefce2ed578ee27d9e6d857f81eeadfbc0c54c4e8c.css?body=1" for 192.168.1.9 at 2016-04-30 11:24:21 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=004d96595af7abe473e6d32392762245 timeout=40000ms service=8ms state=completed
+source=rack-timeout id=38d28b7a0d69c3d8cacbf1b016e77915 timeout=40000ms state=ready
+source=rack-timeout id=38d28b7a0d69c3d8cacbf1b016e77915 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:24:21 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=38d28b7a0d69c3d8cacbf1b016e77915 timeout=40000ms service=10ms state=completed
+source=rack-timeout id=ecc47a85bd5f5cbbe24a32d414df8055 timeout=40000ms state=ready
+source=rack-timeout id=ecc47a85bd5f5cbbe24a32d414df8055 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:24:21 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=ecc47a85bd5f5cbbe24a32d414df8055 timeout=40000ms service=10ms state=completed
+source=rack-timeout id=6303a58c3ebf5fbabd0a5b33f9eb9ad7 timeout=40000ms state=ready
+source=rack-timeout id=6303a58c3ebf5fbabd0a5b33f9eb9ad7 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:24:21 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=6303a58c3ebf5fbabd0a5b33f9eb9ad7 timeout=40000ms service=20ms state=completed
+source=rack-timeout id=0230908cd63418a6813e3802bf8f596a timeout=40000ms state=ready
+source=rack-timeout id=0230908cd63418a6813e3802bf8f596a timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/CircularStd-Book.ttf" for 192.168.1.9 at 2016-04-30 11:24:21 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/CircularStd-Book.ttf"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  rack-timeout (0.3.2) lib/rack/timeout/core.rb:125:in `block in call'
+  rack-timeout (0.3.2) lib/rack/timeout/support/timeout.rb:19:in `call'
+  rack-timeout (0.3.2) lib/rack/timeout/support/timeout.rb:19:in `timeout'
+  rack-timeout (0.3.2) lib/rack/timeout/core.rb:124:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.15.3) lib/puma/server.rb:541:in `handle_request'
+  puma (2.15.3) lib/puma/server.rb:388:in `process_client'
+  puma (2.15.3) lib/puma/server.rb:270:in `block in run'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.15.3) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (44.1ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/verazabeida/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (283.7ms)
+source=rack-timeout id=0230908cd63418a6813e3802bf8f596a timeout=40000ms service=589ms state=completed
+source=rack-timeout id=38e416a6f0b1d90796071a55a2d289d2 timeout=40000ms state=ready
+source=rack-timeout id=38e416a6f0b1d90796071a55a2d289d2 timeout=40000ms service=1ms state=active
+
+
+Started GET "/" for 192.168.1.9 at 2016-04-30 11:30:15 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+source=rack-timeout id=38e416a6f0b1d90796071a55a2d289d2 timeout=40000ms service=1002ms state=active
+Completed 200 OK in 492ms (Views: 455.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=38e416a6f0b1d90796071a55a2d289d2 timeout=40000ms service=1327ms state=completed
+source=rack-timeout id=d156fbbd858e9d925d28e2538ea873ea timeout=40000ms state=ready
+source=rack-timeout id=d156fbbd858e9d925d28e2538ea873ea timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-05e5ad09fb7ea6de26580948b08cd3a75fb6fb073973b64f30c3e7346c068aef.css?body=1" for 192.168.1.9 at 2016-04-30 11:30:16 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=d156fbbd858e9d925d28e2538ea873ea timeout=40000ms service=57ms state=completed
+source=rack-timeout id=39d5d45283709b1e1d855432c4a7b96c timeout=40000ms state=ready
+source=rack-timeout id=39d5d45283709b1e1d855432c4a7b96c timeout=40000ms service=3ms state=active
+
+
+Started GET "/assets/style.self-0501ea87aa9a98d138914d7f512c7c4a560c4657368835c5c94929fb3d8d42ea.css?body=1" for 192.168.1.9 at 2016-04-30 11:30:16 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=39d5d45283709b1e1d855432c4a7b96c timeout=40000ms service=13ms state=completed
+source=rack-timeout id=d802b6d5a45b6c655955d4df428d3717 timeout=40000ms state=ready
+source=rack-timeout id=d802b6d5a45b6c655955d4df428d3717 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for 192.168.1.9 at 2016-04-30 11:30:16 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=d802b6d5a45b6c655955d4df428d3717 timeout=40000ms service=8ms state=completed
+source=rack-timeout id=6a633a710f8d69af7ba137c7a893df4a timeout=40000ms state=ready
+source=rack-timeout id=6a633a710f8d69af7ba137c7a893df4a timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/index.self-2accb9310ad9a6c8a44c9c792c9cc75e38a24928c4b4bbb5d9a08c28ca7db689.js?body=1" for 192.168.1.9 at 2016-04-30 11:30:16 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=6a633a710f8d69af7ba137c7a893df4a timeout=40000ms service=20ms state=completed
+source=rack-timeout id=b7bad998655aa8f53941b92561439afd timeout=40000ms state=ready
+source=rack-timeout id=b7bad998655aa8f53941b92561439afd timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.1.9 at 2016-04-30 11:30:16 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=b7bad998655aa8f53941b92561439afd timeout=40000ms service=10ms state=completed
+source=rack-timeout id=2fe79429295b1e83b00ca0b7fbfbc326 timeout=40000ms state=ready
+source=rack-timeout id=2fe79429295b1e83b00ca0b7fbfbc326 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/CircularStd-Book.ttf" for 192.168.1.9 at 2016-04-30 11:30:16 -0400
+Cannot render console from 192.168.1.9! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+source=rack-timeout id=2fe79429295b1e83b00ca0b7fbfbc326 timeout=40000ms service=23ms state=completed

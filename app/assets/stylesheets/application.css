@@ -62,21 +62,9 @@ table {
 }
 
 @font-face {
-    font-family: 'Neu';
-    src: url('neubaugrotesk-fet-webfont.eot');
-    src: url('neubaugrotesk-fet-webfont.eot?#iefix') format('embedded-opentype'),
-         url('neubaugrotesk-fet-webfont.woff2') format('woff2'),
-         url('neubaugrotesk-fet-webfont.woff') format('woff'),
-         url('neubaugrotesk-fet-webfont.ttf') format('truetype'),
-         url('neubaugrotesk-fet-webfont.svg#neubaugroteskbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Circular';
-    src: url('CircularStd-Book.ttf') format('truetype');
+    src: url(/assets/CircularStd-Book.ttf) format('truetype');
     font-weight: normal;
-    font-style: normal;
+  	font-style: normal;
 }
 
