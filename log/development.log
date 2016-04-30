@@ -1,0 +1,2554 @@
+source=rack-timeout id=e3e222525179ab2dd96485b1fc9f58a5 timeout=40000ms state=ready
+source=rack-timeout id=e3e222525179ab2dd96485b1fc9f58a5 timeout=40000ms service=0ms state=active
+
+
+Started GET "/" for ::1 at 2016-04-29 20:57:42 -0400
+source=rack-timeout id=e3e222525179ab2dd96485b1fc9f58a5 timeout=40000ms service=1005ms state=active
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 533ms (Views: 492.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=e3e222525179ab2dd96485b1fc9f58a5 timeout=40000ms service=1885ms state=completed
+source=rack-timeout id=73bd74f21a0dd7ff55803f52d2ec7ce2 timeout=40000ms state=ready
+source=rack-timeout id=73bd74f21a0dd7ff55803f52d2ec7ce2 timeout=40000ms service=1ms state=active
+
+
+Started GET "/assets/application.self-088295b4d98604cd6fc71ad9136c99ea6b5d7a2f78cd3a377550110b538cdd47.css?body=1" for ::1 at 2016-04-29 20:57:44 -0400
+source=rack-timeout id=73bd74f21a0dd7ff55803f52d2ec7ce2 timeout=40000ms service=26ms state=completed
+source=rack-timeout id=8422265deede3f83fa1b94f9c8fd74ec timeout=40000ms state=ready
+source=rack-timeout id=8422265deede3f83fa1b94f9c8fd74ec timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/color-thief.self-8a81e32f66475de1ed732e0bb9411b09269ef880d1fb144f8b20b99f1ff4e2bc.js?body=1" for ::1 at 2016-04-29 20:57:44 -0400
+source=rack-timeout id=8422265deede3f83fa1b94f9c8fd74ec timeout=40000ms service=6ms state=completed
+source=rack-timeout id=3e31061ffa49eeb2e41d4d953546b871 timeout=40000ms state=ready
+source=rack-timeout id=3e31061ffa49eeb2e41d4d953546b871 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/style.self-1cea3e9ec1370fd7047d68007c1eb33b9031fcedd723115d4226b538fe35ff3f.css?body=1" for ::1 at 2016-04-29 20:57:44 -0400
+source=rack-timeout id=3e31061ffa49eeb2e41d4d953546b871 timeout=40000ms service=6ms state=completed
+source=rack-timeout id=5f15210f4e1796f3ab894241df31923f timeout=40000ms state=ready
+source=rack-timeout id=5f15210f4e1796f3ab894241df31923f timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/index.self-a40be0c397a7e8bd847c349978603fa4edfc7242039490a49c90b870ac9d14b4.js?body=1" for ::1 at 2016-04-29 20:57:44 -0400
+source=rack-timeout id=5f15210f4e1796f3ab894241df31923f timeout=40000ms service=7ms state=completed
+source=rack-timeout id=6d5e9325f6d83d83d334429ac2f28ff2 timeout=40000ms state=ready
+source=rack-timeout id=6d5e9325f6d83d83d334429ac2f28ff2 timeout=40000ms service=0ms state=active
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-04-29 20:57:44 -0400
+source=rack-timeout id=6d5e9325f6d83d83d334429ac2f28ff2 timeout=40000ms service=13ms state=completed
+source=rack-timeout id=f81c7de173ca75e9952426783d596229 timeout=40000ms state=ready
+source=rack-timeout id=f81c7de173ca75e9952426783d596229 timeout=40000ms service=0ms state=active
+
+
+Started GET "/" for ::1 at 2016-04-29 20:58:54 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 74ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f81c7de173ca75e9952426783d596229 timeout=40000ms service=85ms state=completed
+source=rack-timeout id=746d5ae9c5e4ad595d78f675ea065f89 timeout=40000ms state=ready
+source=rack-timeout id=746d5ae9c5e4ad595d78f675ea065f89 timeout=40000ms service=0ms state=active
+
+
+Started GET "/search?utf8=%E2%9C%93&q=verazab" for ::1 at 2016-04-29 20:59:08 -0400
+Processing by WelcomeController#search as JS
+  Parameters: {"utf8"=>"✓", "q"=>"verazab"}
+Completed 200 OK in 638ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=746d5ae9c5e4ad595d78f675ea065f89 timeout=40000ms service=644ms state=completed
+source=rack-timeout id=d957d135f01f33aaa40985d6b733f237 timeout=40000ms state=ready
+source=rack-timeout id=d957d135f01f33aaa40985d6b733f237 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12783984_1017962604964514_172725946_n.jpg%3Fig_cache_key%3DMTIwNDY2NTUzNDcwMjYxNjEzNA%253D%253D.2" for ::1 at 2016-04-29 20:59:08 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12783984_1017962604964514_172725946_n.jpg?ig_cache_key=MTIwNDY2NTUzNDcwMjYxNjEzNA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (22.1ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 189ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=d957d135f01f33aaa40985d6b733f237 timeout=40000ms service=216ms state=completed
+source=rack-timeout id=55db910bd8de152c08eecf12dc06fdb0 timeout=40000ms state=ready
+source=rack-timeout id=55db910bd8de152c08eecf12dc06fdb0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F11356729_714516318652189_1395589551_n.jpg%3Fig_cache_key%3DMTA0NjM5MzkyMjk4NDI4MDAyMw%253D%253D.2" for ::1 at 2016-04-29 20:59:09 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/11356729_714516318652189_1395589551_n.jpg?ig_cache_key=MTA0NjM5MzkyMjk4NDI4MDAyMw%3D%3D.2"}
+  Rendered text template (0.1ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 164ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=55db910bd8de152c08eecf12dc06fdb0 timeout=40000ms service=180ms state=completed
+source=rack-timeout id=1a8339d2f72ca27dd91fdfe06217ec83 timeout=40000ms state=ready
+source=rack-timeout id=1a8339d2f72ca27dd91fdfe06217ec83 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F1389025_615954215129169_1011758740_n.jpg%3Fig_cache_key%3DNTk1NDQzMzU5NjYzNDU1OTg0.2" for ::1 at 2016-04-29 20:59:09 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/1389025_615954215129169_1011758740_n.jpg?ig_cache_key=NTk1NDQzMzU5NjYzNDU1OTg0.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 164ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=1a8339d2f72ca27dd91fdfe06217ec83 timeout=40000ms service=175ms state=completed
+source=rack-timeout id=f37a5e8954eb25c749dba74a74392f91 timeout=40000ms state=ready
+source=rack-timeout id=f37a5e8954eb25c749dba74a74392f91 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11424596_1037363426274703_78899999_n.jpg%3Fig_cache_key%3DNTU0NDU0MDc2NjI2NzYzMzMw.2" for ::1 at 2016-04-29 20:59:09 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11424596_1037363426274703_78899999_n.jpg?ig_cache_key=NTU0NDU0MDc2NjI2NzYzMzMw.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 241ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f37a5e8954eb25c749dba74a74392f91 timeout=40000ms service=262ms state=completed
+source=rack-timeout id=99a8d309388e5676e2471490b65e1684 timeout=40000ms state=ready
+source=rack-timeout id=99a8d309388e5676e2471490b65e1684 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F1173036_209378399246299_1340352897_n.jpg%3Fig_cache_key%3DNjAxMjE0NDgyNTQ4MTk1MDA1.2" for ::1 at 2016-04-29 20:59:09 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/1173036_209378399246299_1340352897_n.jpg?ig_cache_key=NjAxMjE0NDgyNTQ4MTk1MDA1.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 192ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=99a8d309388e5676e2471490b65e1684 timeout=40000ms service=209ms state=completed
+source=rack-timeout id=3c34ef30bb1dfb0d5c2b09fbf6e77279 timeout=40000ms state=ready
+source=rack-timeout id=3c34ef30bb1dfb0d5c2b09fbf6e77279 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F928380_743765902303712_1408036519_n.jpg%3Fig_cache_key%3DNTk2MzQxNjMxMjg2NDQzNDIy.2" for ::1 at 2016-04-29 20:59:09 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/928380_743765902303712_1408036519_n.jpg?ig_cache_key=NTk2MzQxNjMxMjg2NDQzNDIy.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 176ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=3c34ef30bb1dfb0d5c2b09fbf6e77279 timeout=40000ms service=191ms state=completed
+source=rack-timeout id=209eed039ed188ed96ade295f77fbb32 timeout=40000ms state=ready
+source=rack-timeout id=209eed039ed188ed96ade295f77fbb32 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11236089_1439893479640199_1517373856_n.jpg%3Fig_cache_key%3DMzQ0MTk3ODQxNzM1NTgxMDUx.2" for ::1 at 2016-04-29 20:59:10 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11236089_1439893479640199_1517373856_n.jpg?ig_cache_key=MzQ0MTk3ODQxNzM1NTgxMDUx.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 240ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=209eed039ed188ed96ade295f77fbb32 timeout=40000ms service=248ms state=completed
+source=rack-timeout id=2c09c9734bf16cbc1c8baf7eee006b2c timeout=40000ms state=ready
+source=rack-timeout id=2c09c9734bf16cbc1c8baf7eee006b2c timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11287462_366015486930523_1073154552_n.jpg%3Fig_cache_key%3DNTU0NDQ4NDIzNTM1NDQzMzMz.2" for ::1 at 2016-04-29 20:59:10 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11287462_366015486930523_1073154552_n.jpg?ig_cache_key=NTU0NDQ4NDIzNTM1NDQzMzMz.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 195ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=2c09c9734bf16cbc1c8baf7eee006b2c timeout=40000ms service=206ms state=completed
+source=rack-timeout id=2d8e771325d150efb153fb405167dcc8 timeout=40000ms state=ready
+source=rack-timeout id=2d8e771325d150efb153fb405167dcc8 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11265827_1644716685759344_427828236_n.jpg%3Fig_cache_key%3DMzQ2NTU5Nzk1MDk1NjAxMDk1.2" for ::1 at 2016-04-29 20:59:10 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11265827_1644716685759344_427828236_n.jpg?ig_cache_key=MzQ2NTU5Nzk1MDk1NjAxMDk1.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 185ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=2d8e771325d150efb153fb405167dcc8 timeout=40000ms service=193ms state=completed
+source=rack-timeout id=70bf8edd95e744f85ffe87a78148c600 timeout=40000ms state=ready
+source=rack-timeout id=70bf8edd95e744f85ffe87a78148c600 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11379201_448264955332753_316122639_n.jpg%3Fig_cache_key%3DNDc4NDA0OTAzMjY4MTg3NDIy.2" for ::1 at 2016-04-29 20:59:10 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11379201_448264955332753_316122639_n.jpg?ig_cache_key=NDc4NDA0OTAzMjY4MTg3NDIy.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 207ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=70bf8edd95e744f85ffe87a78148c600 timeout=40000ms service=214ms state=completed
+source=rack-timeout id=878f72892b35544842fdbed032bcd35a timeout=40000ms state=ready
+source=rack-timeout id=878f72892b35544842fdbed032bcd35a timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11375818_982226021789087_1535971252_n.jpg%3Fig_cache_key%3DNDg4MzEzMjEzMTE5Mjk4OTA4.2" for ::1 at 2016-04-29 20:59:11 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11375818_982226021789087_1535971252_n.jpg?ig_cache_key=NDg4MzEzMjEzMTE5Mjk4OTA4.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 204ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=878f72892b35544842fdbed032bcd35a timeout=40000ms service=216ms state=completed
+source=rack-timeout id=c713432d7a8645d8a2b8742644ea5994 timeout=40000ms state=ready
+source=rack-timeout id=c713432d7a8645d8a2b8742644ea5994 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11280469_1612514515662279_2082826305_n.jpg%3Fig_cache_key%3DNDA4NTUwMDA4MjA2MDY1MDgw.2" for ::1 at 2016-04-29 20:59:11 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11280469_1612514515662279_2082826305_n.jpg?ig_cache_key=NDA4NTUwMDA4MjA2MDY1MDgw.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 474ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=c713432d7a8645d8a2b8742644ea5994 timeout=40000ms service=487ms state=completed
+source=rack-timeout id=276e6875f740e5eb4cf035a4d5f15eb2 timeout=40000ms state=ready
+source=rack-timeout id=276e6875f740e5eb4cf035a4d5f15eb2 timeout=40000ms service=0ms state=active
+
+
+Started GET "/search?utf8=%E2%9C%93&q=orysia_zabeida" for ::1 at 2016-04-29 20:59:24 -0400
+Processing by WelcomeController#search as JS
+  Parameters: {"utf8"=>"✓", "q"=>"orysia_zabeida"}
+source=rack-timeout id=276e6875f740e5eb4cf035a4d5f15eb2 timeout=40000ms service=1002ms state=active
+source=rack-timeout id=276e6875f740e5eb4cf035a4d5f15eb2 timeout=40000ms service=2001ms state=active
+Completed 200 OK in 2561ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=276e6875f740e5eb4cf035a4d5f15eb2 timeout=40000ms service=2569ms state=completed
+source=rack-timeout id=1e0b8a29eb5388155d0be2a0506648e6 timeout=40000ms state=ready
+source=rack-timeout id=1e0b8a29eb5388155d0be2a0506648e6 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs320x320%2Fe35%2F12424421_515768898624385_1908285830_n.jpg%3Fig_cache_key%3DMTIyNjQ5OTc1MDY0NDY1NjY3OA%253D%253D.2" for ::1 at 2016-04-29 20:59:27 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/12424421_515768898624385_1908285830_n.jpg?ig_cache_key=MTIyNjQ5OTc1MDY0NDY1NjY3OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 632ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=1e0b8a29eb5388155d0be2a0506648e6 timeout=40000ms service=636ms state=completed
+source=rack-timeout id=dfad410b1aa44b6e87e7bb7f4fe46e6a timeout=40000ms state=ready
+source=rack-timeout id=dfad410b1aa44b6e87e7bb7f4fe46e6a timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12960153_229267404101881_1688345331_n.jpg%3Fig_cache_key%3DMTIyOTI1OTAyNDUyNTQwNDE4Ng%253D%253D.2" for ::1 at 2016-04-29 20:59:27 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12960153_229267404101881_1688345331_n.jpg?ig_cache_key=MTIyOTI1OTAyNDUyNTQwNDE4Ng%3D%3D.2"}
+  Rendered text template (0.1ms)
+Sent data  (0.9ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 192ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=dfad410b1aa44b6e87e7bb7f4fe46e6a timeout=40000ms service=205ms state=completed
+source=rack-timeout id=654a086c6ada37f4a89234bb154d3534 timeout=40000ms state=ready
+source=rack-timeout id=654a086c6ada37f4a89234bb154d3534 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12976641_1028942660500852_1152505638_n.jpg%3Fig_cache_key%3DMTIyNjA3NjU1NTY4OTA0NDI4OA%253D%253D.2" for ::1 at 2016-04-29 20:59:27 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12976641_1028942660500852_1152505638_n.jpg?ig_cache_key=MTIyNjA3NjU1NTY4OTA0NDI4OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 204ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=654a086c6ada37f4a89234bb154d3534 timeout=40000ms service=214ms state=completed
+source=rack-timeout id=842f429ed0568271eebc08f7ee241ce7 timeout=40000ms state=ready
+source=rack-timeout id=842f429ed0568271eebc08f7ee241ce7 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12918444_1737803979771882_788699469_n.jpg%3Fig_cache_key%3DMTIyMTk5NzM3OTkwNjQxNTAzNg%253D%253D.2" for ::1 at 2016-04-29 20:59:28 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12918444_1737803979771882_788699469_n.jpg?ig_cache_key=MTIyMTk5NzM3OTkwNjQxNTAzNg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 224ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=842f429ed0568271eebc08f7ee241ce7 timeout=40000ms service=229ms state=completed
+source=rack-timeout id=da7dfdffd122a2ca188b600135a2cf68 timeout=40000ms state=ready
+source=rack-timeout id=da7dfdffd122a2ca188b600135a2cf68 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12912554_1763036710598158_166711404_n.jpg%3Fig_cache_key%3DMTIyNDcxMzQ5OTIxNDA2MzkyOA%253D%253D.2" for ::1 at 2016-04-29 20:59:28 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12912554_1763036710598158_166711404_n.jpg?ig_cache_key=MTIyNDcxMzQ5OTIxNDA2MzkyOA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 117ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=da7dfdffd122a2ca188b600135a2cf68 timeout=40000ms service=122ms state=completed
+source=rack-timeout id=d5e343e0591112b0040d9115203eb57b timeout=40000ms state=ready
+source=rack-timeout id=d5e343e0591112b0040d9115203eb57b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12917814_1674279039501536_1171157527_n.jpg%3Fig_cache_key%3DMTIxOTgwMzczNDk5MDEwNDY1NQ%253D%253D.2" for ::1 at 2016-04-29 20:59:28 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12917814_1674279039501536_1171157527_n.jpg?ig_cache_key=MTIxOTgwMzczNDk5MDEwNDY1NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 177ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=d5e343e0591112b0040d9115203eb57b timeout=40000ms service=190ms state=completed
+source=rack-timeout id=3f6ff0b21312d819dc6cbebd0fc6937a timeout=40000ms state=ready
+source=rack-timeout id=3f6ff0b21312d819dc6cbebd0fc6937a timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F1922075_617276111745002_467045649_n.jpg%3Fig_cache_key%3DMTE2MjAyNDI5MDMwOTYxNDQ5Mw%253D%253D.2" for ::1 at 2016-04-29 20:59:28 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/1922075_617276111745002_467045649_n.jpg?ig_cache_key=MTE2MjAyNDI5MDMwOTYxNDQ5Mw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 140ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=3f6ff0b21312d819dc6cbebd0fc6937a timeout=40000ms service=154ms state=completed
+source=rack-timeout id=54eeb0922c5300b5046d4e148f988128 timeout=40000ms state=ready
+source=rack-timeout id=54eeb0922c5300b5046d4e148f988128 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs320x320%2Fe35%2F12353834_1715168475386078_1695211518_n.jpg%3Fig_cache_key%3DMTEzMzQ1ODQ1MDM4MzYxMjA3MQ%253D%253D.2" for ::1 at 2016-04-29 20:59:28 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/12353834_1715168475386078_1695211518_n.jpg?ig_cache_key=MTEzMzQ1ODQ1MDM4MzYxMjA3MQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 131ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=54eeb0922c5300b5046d4e148f988128 timeout=40000ms service=141ms state=completed
+source=rack-timeout id=bf6bfb8ca0282a368525a4de6aac21f0 timeout=40000ms state=ready
+source=rack-timeout id=bf6bfb8ca0282a368525a4de6aac21f0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12256905_173765922975682_50877929_n.jpg%3Fig_cache_key%3DMTEyOTA0MzE3NzkzMzA4OTQ2Mg%253D%253D.2" for ::1 at 2016-04-29 20:59:29 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12256905_173765922975682_50877929_n.jpg?ig_cache_key=MTEyOTA0MzE3NzkzMzA4OTQ2Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 178ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=bf6bfb8ca0282a368525a4de6aac21f0 timeout=40000ms service=184ms state=completed
+source=rack-timeout id=468741baafc2ce600fa94874b45088f0 timeout=40000ms state=ready
+source=rack-timeout id=468741baafc2ce600fa94874b45088f0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs480x480%2Fe35%2F12558419_566119933544191_608796002_n.jpg%3Fig_cache_key%3DMTE3NzIxMTUzNDM4MTEzMjEzNQ%253D%253D.2" for ::1 at 2016-04-29 20:59:29 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/12558419_566119933544191_608796002_n.jpg?ig_cache_key=MTE3NzIxMTUzNDM4MTEzMjEzNQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 124ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=468741baafc2ce600fa94874b45088f0 timeout=40000ms service=137ms state=completed
+source=rack-timeout id=ab78639e1c53c2c32abafc90369c4346 timeout=40000ms state=ready
+source=rack-timeout id=ab78639e1c53c2c32abafc90369c4346 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12345740_155793438117707_758064280_n.jpg%3Fig_cache_key%3DMTE0Mzc0MzU5ODc2MTA2MTA4Nw%253D%253D.2" for ::1 at 2016-04-29 20:59:29 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12345740_155793438117707_758064280_n.jpg?ig_cache_key=MTE0Mzc0MzU5ODc2MTA2MTA4Nw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 172ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ab78639e1c53c2c32abafc90369c4346 timeout=40000ms service=181ms state=completed
+source=rack-timeout id=514ccff3c3ef863113393ec3b0ebfd38 timeout=40000ms state=ready
+source=rack-timeout id=514ccff3c3ef863113393ec3b0ebfd38 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12819102_254578771544334_1764037355_n.jpg%3Fig_cache_key%3DMTIwNTI1NjcyODc0OTc3OTM3Nw%253D%253D.2" for ::1 at 2016-04-29 20:59:29 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12819102_254578771544334_1764037355_n.jpg?ig_cache_key=MTIwNTI1NjcyODc0OTc3OTM3Nw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 224ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=514ccff3c3ef863113393ec3b0ebfd38 timeout=40000ms service=233ms state=completed
+source=rack-timeout id=80f4b1a18944b6589c121046ca8d3f34 timeout=40000ms state=ready
+source=rack-timeout id=80f4b1a18944b6589c121046ca8d3f34 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12256865_1649121898676729_18448227_n.jpg%3Fig_cache_key%3DMTEyNTAzNTEwNTM1MDgyMjMzNA%253D%253D.2" for ::1 at 2016-04-29 20:59:29 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12256865_1649121898676729_18448227_n.jpg?ig_cache_key=MTEyNTAzNTEwNTM1MDgyMjMzNA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 156ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=80f4b1a18944b6589c121046ca8d3f34 timeout=40000ms service=164ms state=completed
+source=rack-timeout id=5bcb415fa36ea64d563fd7fa95622b5d timeout=40000ms state=ready
+source=rack-timeout id=5bcb415fa36ea64d563fd7fa95622b5d timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F11934791_1745840842328095_2052154722_n.jpg%3Fig_cache_key%3DMTIxMTk2MjI0OTQ2MDU1ODQyMQ%253D%253D.2" for ::1 at 2016-04-29 20:59:29 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/11934791_1745840842328095_2052154722_n.jpg?ig_cache_key=MTIxMTk2MjI0OTQ2MDU1ODQyMQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 236ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=5bcb415fa36ea64d563fd7fa95622b5d timeout=40000ms service=257ms state=completed
+source=rack-timeout id=494445b544d5e660dace52f0458f588b timeout=40000ms state=ready
+source=rack-timeout id=494445b544d5e660dace52f0458f588b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12299032_166094560412380_1985967665_n.jpg%3Fig_cache_key%3DMTEyNzEzNzEyNzI2NDkyMTg2Nw%253D%253D.2" for ::1 at 2016-04-29 20:59:30 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12299032_166094560412380_1985967665_n.jpg?ig_cache_key=MTEyNzEzNzEyNzI2NDkyMTg2Nw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 275ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=494445b544d5e660dace52f0458f588b timeout=40000ms service=288ms state=completed
+source=rack-timeout id=3b6d5cfbb8a24a70f2fe99673c9d3e40 timeout=40000ms state=ready
+source=rack-timeout id=3b6d5cfbb8a24a70f2fe99673c9d3e40 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12141828_482383058610799_16309733_n.jpg%3Fig_cache_key%3DMTEwNzQxMjQ4NzA3MjM2MTMyMg%253D%253D.2" for ::1 at 2016-04-29 20:59:30 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12141828_482383058610799_16309733_n.jpg?ig_cache_key=MTEwNzQxMjQ4NzA3MjM2MTMyMg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 187ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=3b6d5cfbb8a24a70f2fe99673c9d3e40 timeout=40000ms service=202ms state=completed
+source=rack-timeout id=ec618e290ac0b47a6f8b41e04762d4f6 timeout=40000ms state=ready
+source=rack-timeout id=ec618e290ac0b47a6f8b41e04762d4f6 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12269941_1017567551627391_2008224656_n.jpg%3Fig_cache_key%3DMTEyOTA0MTc3NzQxMzA0MDc2OA%253D%253D.2" for ::1 at 2016-04-29 20:59:30 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12269941_1017567551627391_2008224656_n.jpg?ig_cache_key=MTEyOTA0MTc3NzQxMzA0MDc2OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 135ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ec618e290ac0b47a6f8b41e04762d4f6 timeout=40000ms service=144ms state=completed
+source=rack-timeout id=9d5a33158785a8089b8f59cd77c1b357 timeout=40000ms state=ready
+source=rack-timeout id=9d5a33158785a8089b8f59cd77c1b357 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12353811_1646488115602647_2100943438_n.jpg%3Fig_cache_key%3DMTE1MDE0Njg5MTI4MDI2MzcxMA%253D%253D.2" for ::1 at 2016-04-29 20:59:30 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12353811_1646488115602647_2100943438_n.jpg?ig_cache_key=MTE1MDE0Njg5MTI4MDI2MzcxMA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 137ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=9d5a33158785a8089b8f59cd77c1b357 timeout=40000ms service=154ms state=completed
+source=rack-timeout id=ae60bcbf4c6a9a5499e1e8deb19d162b timeout=40000ms state=ready
+source=rack-timeout id=ae60bcbf4c6a9a5499e1e8deb19d162b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F10852618_423523794503881_537740341_n.jpg%3Fig_cache_key%3DMTExNjQzOTE3ODcxNzQwNzI3OA%253D%253D.2" for ::1 at 2016-04-29 20:59:30 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/10852618_423523794503881_537740341_n.jpg?ig_cache_key=MTExNjQzOTE3ODcxNzQwNzI3OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 303ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ae60bcbf4c6a9a5499e1e8deb19d162b timeout=40000ms service=312ms state=completed
+source=rack-timeout id=fb0afc4954cbcd7ec2af3dcf8dd5345b timeout=40000ms state=ready
+source=rack-timeout id=fb0afc4954cbcd7ec2af3dcf8dd5345b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12353467_909861479100241_543316872_n.jpg%3Fig_cache_key%3DMTE1MDE0NTMyMDc5MDIzOTcxMA%253D%253D.2" for ::1 at 2016-04-29 20:59:31 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12353467_909861479100241_543316872_n.jpg?ig_cache_key=MTE1MDE0NTMyMDc5MDIzOTcxMA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 141ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=fb0afc4954cbcd7ec2af3dcf8dd5345b timeout=40000ms service=148ms state=completed
+source=rack-timeout id=bb50910ebe19ff57bcf1213e6735fca3 timeout=40000ms state=ready
+source=rack-timeout id=bb50910ebe19ff57bcf1213e6735fca3 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12599083_863892860374993_120337665_n.jpg%3Fig_cache_key%3DMTE4MDAwNjE2NTQ3Mjg0ODM1Mw%253D%253D.2" for ::1 at 2016-04-29 20:59:31 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12599083_863892860374993_120337665_n.jpg?ig_cache_key=MTE4MDAwNjE2NTQ3Mjg0ODM1Mw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 225ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=bb50910ebe19ff57bcf1213e6735fca3 timeout=40000ms service=230ms state=completed
+source=rack-timeout id=5498bd888746cb5e00f1518018a534e2 timeout=40000ms state=ready
+source=rack-timeout id=5498bd888746cb5e00f1518018a534e2 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F11934717_1740571136161951_52389883_n.jpg%3Fig_cache_key%3DMTEwOTc1MjQ2NTYwMTMwOTEwMg%253D%253D.2" for ::1 at 2016-04-29 20:59:31 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/11934717_1740571136161951_52389883_n.jpg?ig_cache_key=MTEwOTc1MjQ2NTYwMTMwOTEwMg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 200ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=5498bd888746cb5e00f1518018a534e2 timeout=40000ms service=210ms state=completed
+source=rack-timeout id=51d5b78a3d174eeb50a8a4cb4317327c timeout=40000ms state=ready
+source=rack-timeout id=51d5b78a3d174eeb50a8a4cb4317327c timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12145381_677389442397437_355187766_n.jpg%3Fig_cache_key%3DMTA5ODY4MDQwMzYwODcwOTgxMQ%253D%253D.2" for ::1 at 2016-04-29 20:59:31 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12145381_677389442397437_355187766_n.jpg?ig_cache_key=MTA5ODY4MDQwMzYwODcwOTgxMQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 168ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=51d5b78a3d174eeb50a8a4cb4317327c timeout=40000ms service=174ms state=completed
+source=rack-timeout id=4c7198782d5e17a2cb146efc6860049d timeout=40000ms state=ready
+source=rack-timeout id=4c7198782d5e17a2cb146efc6860049d timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12424550_1700474833543597_462811555_n.jpg%3Fig_cache_key%3DMTE2NTUxNjMxNzc0NzgxNzMxNg%253D%253D.2" for ::1 at 2016-04-29 20:59:32 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12424550_1700474833543597_462811555_n.jpg?ig_cache_key=MTE2NTUxNjMxNzc0NzgxNzMxNg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 305ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=4c7198782d5e17a2cb146efc6860049d timeout=40000ms service=314ms state=completed
+source=rack-timeout id=a018cd915cb8ad5b1b7ae43b71d46905 timeout=40000ms state=ready
+source=rack-timeout id=a018cd915cb8ad5b1b7ae43b71d46905 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F10986239_1663928153864654_50382116_n.jpg%3Fig_cache_key%3DMTExOTIxMTI5NTA4NzI0MTk3MA%253D%253D.2" for ::1 at 2016-04-29 20:59:32 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/10986239_1663928153864654_50382116_n.jpg?ig_cache_key=MTExOTIxMTI5NTA4NzI0MTk3MA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 180ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=a018cd915cb8ad5b1b7ae43b71d46905 timeout=40000ms service=189ms state=completed
+source=rack-timeout id=f04668b6063282d7a86e86e9605c7036 timeout=40000ms state=ready
+source=rack-timeout id=f04668b6063282d7a86e86e9605c7036 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12547393_1566690523656243_1602102461_n.jpg%3Fig_cache_key%3DMTE3MjEwNjk5ODgyNjExNzUzNw%253D%253D.2" for ::1 at 2016-04-29 20:59:32 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12547393_1566690523656243_1602102461_n.jpg?ig_cache_key=MTE3MjEwNjk5ODgyNjExNzUzNw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 205ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f04668b6063282d7a86e86e9605c7036 timeout=40000ms service=222ms state=completed
+source=rack-timeout id=a4417d82c7c02764aeb8efcd02d9b310 timeout=40000ms state=ready
+source=rack-timeout id=a4417d82c7c02764aeb8efcd02d9b310 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12716880_1396202467347787_198033674_n.jpg%3Fig_cache_key%3DMTE4NDM0ODM4Mzc3NjA1NzcxMA%253D%253D.2" for ::1 at 2016-04-29 20:59:32 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12716880_1396202467347787_198033674_n.jpg?ig_cache_key=MTE4NDM0ODM4Mzc3NjA1NzcxMA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 238ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=a4417d82c7c02764aeb8efcd02d9b310 timeout=40000ms service=253ms state=completed
+source=rack-timeout id=c7e458b1f196e012a1bd91e692e1fe7a timeout=40000ms state=ready
+source=rack-timeout id=c7e458b1f196e012a1bd91e692e1fe7a timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12328455_968183976597556_1508867530_n.jpg%3Fig_cache_key%3DMTIwMTA0Mzg2MTc1ODUxOTUzOQ%253D%253D.2" for ::1 at 2016-04-29 20:59:33 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12328455_968183976597556_1508867530_n.jpg?ig_cache_key=MTIwMTA0Mzg2MTc1ODUxOTUzOQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 178ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=c7e458b1f196e012a1bd91e692e1fe7a timeout=40000ms service=187ms state=completed
+source=rack-timeout id=9d51f34b1443a489ef98ae09117e5bee timeout=40000ms state=ready
+source=rack-timeout id=9d51f34b1443a489ef98ae09117e5bee timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12728691_474927462708819_1742688220_n.jpg%3Fig_cache_key%3DMTE5MTcwOTA5OTk4NjIzMzk0Mg%253D%253D.2" for ::1 at 2016-04-29 20:59:33 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12728691_474927462708819_1742688220_n.jpg?ig_cache_key=MTE5MTcwOTA5OTk4NjIzMzk0Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 718ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=9d51f34b1443a489ef98ae09117e5bee timeout=40000ms service=724ms state=completed
+source=rack-timeout id=fb1c0f31119b0e15efa624d953a9c3ef timeout=40000ms state=ready
+source=rack-timeout id=fb1c0f31119b0e15efa624d953a9c3ef timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12912720_1688620484760135_1727066871_n.jpg%3Fig_cache_key%3DMTIxNDYxMDAyMTU5NDY3MTQxMw%253D%253D.2" for ::1 at 2016-04-29 20:59:33 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12912720_1688620484760135_1727066871_n.jpg?ig_cache_key=MTIxNDYxMDAyMTU5NDY3MTQxMw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 142ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=fb1c0f31119b0e15efa624d953a9c3ef timeout=40000ms service=146ms state=completed
+source=rack-timeout id=9d5327107b4bb9f07ef624014e8adf59 timeout=40000ms state=ready
+source=rack-timeout id=9d5327107b4bb9f07ef624014e8adf59 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12346006_140466572985718_578549269_n.jpg%3Fig_cache_key%3DMTEzNTI0MDA2OTMyMjg3NzAzOQ%253D%253D.2" for ::1 at 2016-04-29 20:59:34 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12346006_140466572985718_578549269_n.jpg?ig_cache_key=MTEzNTI0MDA2OTMyMjg3NzAzOQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 270ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=9d5327107b4bb9f07ef624014e8adf59 timeout=40000ms service=274ms state=completed
+source=rack-timeout id=4cd2ad012643c8c9ff7625daf6ff3def timeout=40000ms state=ready
+source=rack-timeout id=4cd2ad012643c8c9ff7625daf6ff3def timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12353437_559636917524815_1900773135_n.jpg%3Fig_cache_key%3DMTE0ODcwNTk1NTQyMTU5NjI4OA%253D%253D.2" for ::1 at 2016-04-29 20:59:34 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12353437_559636917524815_1900773135_n.jpg?ig_cache_key=MTE0ODcwNTk1NTQyMTU5NjI4OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 156ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=4cd2ad012643c8c9ff7625daf6ff3def timeout=40000ms service=164ms state=completed
+source=rack-timeout id=c890184b4edaf835ab2d6b1876df6555 timeout=40000ms state=ready
+source=rack-timeout id=c890184b4edaf835ab2d6b1876df6555 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12276764_525039790996776_100078184_n.jpg%3Fig_cache_key%3DMTEyNTAzNjc3NTEyODQxMDU4NQ%253D%253D.2" for ::1 at 2016-04-29 20:59:34 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12276764_525039790996776_100078184_n.jpg?ig_cache_key=MTEyNTAzNjc3NTEyODQxMDU4NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 404ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=c890184b4edaf835ab2d6b1876df6555 timeout=40000ms service=414ms state=completed
+source=rack-timeout id=df88b5ae057eb2c4d6a0ebfdd6ddf061 timeout=40000ms state=ready
+source=rack-timeout id=df88b5ae057eb2c4d6a0ebfdd6ddf061 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs480x480%2Fe35%2F12599099_1542265499417355_1424882725_n.jpg%3Fig_cache_key%3DMTE2NjM3MTQ1MzcxNDAxNzE5NA%253D%253D.2" for ::1 at 2016-04-29 20:59:34 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/12599099_1542265499417355_1424882725_n.jpg?ig_cache_key=MTE2NjM3MTQ1MzcxNDAxNzE5NA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (1.2ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 212ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=df88b5ae057eb2c4d6a0ebfdd6ddf061 timeout=40000ms service=225ms state=completed
+source=rack-timeout id=15c5624931888aebaa72cbab099b69ec timeout=40000ms state=ready
+source=rack-timeout id=15c5624931888aebaa72cbab099b69ec timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12317713_1695601040677494_581818839_n.jpg%3Fig_cache_key%3DMTEyNzg1OTk3NTA4NDI4ODYyNQ%253D%253D.2" for ::1 at 2016-04-29 20:59:35 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12317713_1695601040677494_581818839_n.jpg?ig_cache_key=MTEyNzg1OTk3NTA4NDI4ODYyNQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 126ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=15c5624931888aebaa72cbab099b69ec timeout=40000ms service=133ms state=completed
+source=rack-timeout id=e1187fb5935bcda401efc4e3a8aaf23f timeout=40000ms state=ready
+source=rack-timeout id=e1187fb5935bcda401efc4e3a8aaf23f timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12145462_1498480740445666_1951809390_n.jpg%3Fig_cache_key%3DMTA5ODA3MzYwODk3NjU3NTM1Mg%253D%253D.2" for ::1 at 2016-04-29 20:59:35 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12145462_1498480740445666_1951809390_n.jpg?ig_cache_key=MTA5ODA3MzYwODk3NjU3NTM1Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 196ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=e1187fb5935bcda401efc4e3a8aaf23f timeout=40000ms service=206ms state=completed
+source=rack-timeout id=2e7d64cbdcd8beaaafc89da1ecf61260 timeout=40000ms state=ready
+source=rack-timeout id=2e7d64cbdcd8beaaafc89da1ecf61260 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12277376_1713949478824585_1010881142_n.jpg%3Fig_cache_key%3DMTEzNTIwMTg1MjQ4NTc3MzYzNQ%253D%253D.2" for ::1 at 2016-04-29 20:59:35 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12277376_1713949478824585_1010881142_n.jpg?ig_cache_key=MTEzNTIwMTg1MjQ4NTc3MzYzNQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 181ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=2e7d64cbdcd8beaaafc89da1ecf61260 timeout=40000ms service=190ms state=completed
+source=rack-timeout id=0e4d09059bcefad3a34a30e338f9e4df timeout=40000ms state=ready
+source=rack-timeout id=0e4d09059bcefad3a34a30e338f9e4df timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12093341_1608627879402499_510099923_n.jpg%3Fig_cache_key%3DMTEwNzQxOTg3MjQzNjM5ODE1MA%253D%253D.2" for ::1 at 2016-04-29 20:59:35 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12093341_1608627879402499_510099923_n.jpg?ig_cache_key=MTEwNzQxOTg3MjQzNjM5ODE1MA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 204ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=0e4d09059bcefad3a34a30e338f9e4df timeout=40000ms service=212ms state=completed
+source=rack-timeout id=0f21053019e9c3d7d5453469a2e581f9 timeout=40000ms state=ready
+source=rack-timeout id=0f21053019e9c3d7d5453469a2e581f9 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12145452_782372721871439_486226189_n.jpg%3Fig_cache_key%3DMTEwMTAxNDY3MjU5OTM5NDg2Mg%253D%253D.2" for ::1 at 2016-04-29 20:59:35 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12145452_782372721871439_486226189_n.jpg?ig_cache_key=MTEwMTAxNDY3MjU5OTM5NDg2Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 170ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=0f21053019e9c3d7d5453469a2e581f9 timeout=40000ms service=178ms state=completed
+source=rack-timeout id=16c6ebdd6768780afdfb679d48f73330 timeout=40000ms state=ready
+source=rack-timeout id=16c6ebdd6768780afdfb679d48f73330 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12139652_193980580936007_1745451372_n.jpg%3Fig_cache_key%3DMTEwODA2Mjc0NTk4NTAwMjM4Mg%253D%253D.2" for ::1 at 2016-04-29 20:59:36 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12139652_193980580936007_1745451372_n.jpg?ig_cache_key=MTEwODA2Mjc0NTk4NTAwMjM4Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 167ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=16c6ebdd6768780afdfb679d48f73330 timeout=40000ms service=176ms state=completed
+source=rack-timeout id=f3fccec4c6608ad1c7e012297fa87fc4 timeout=40000ms state=ready
+source=rack-timeout id=f3fccec4c6608ad1c7e012297fa87fc4 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12783201_197072463995340_1431203215_n.jpg%3Fig_cache_key%3DMTIwNTI1NTczMjc2MTk2Mjg2Nw%253D%253D.2" for ::1 at 2016-04-29 20:59:36 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12783201_197072463995340_1431203215_n.jpg?ig_cache_key=MTIwNTI1NTczMjc2MTk2Mjg2Nw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 238ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f3fccec4c6608ad1c7e012297fa87fc4 timeout=40000ms service=247ms state=completed
+source=rack-timeout id=a529b30e75da347016bc0cc013e7ca92 timeout=40000ms state=ready
+source=rack-timeout id=a529b30e75da347016bc0cc013e7ca92 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs480x480%2Fe35%2F12816785_462264397296529_1676747384_n.jpg%3Fig_cache_key%3DMTIxNTMwOTUzMzkzMzk3MTYyMg%253D%253D.2" for ::1 at 2016-04-29 20:59:36 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/12816785_462264397296529_1676747384_n.jpg?ig_cache_key=MTIxNTMwOTUzMzkzMzk3MTYyMg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 143ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=a529b30e75da347016bc0cc013e7ca92 timeout=40000ms service=152ms state=completed
+source=rack-timeout id=0ce46d7e616e7df4f5238294d8df2e58 timeout=40000ms state=ready
+source=rack-timeout id=0ce46d7e616e7df4f5238294d8df2e58 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12784033_910724729026302_894472768_n.jpg%3Fig_cache_key%3DMTIwNTI1NzY3MTI3Njk5NzA3Ng%253D%253D.2" for ::1 at 2016-04-29 20:59:36 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12784033_910724729026302_894472768_n.jpg?ig_cache_key=MTIwNTI1NzY3MTI3Njk5NzA3Ng%3D%3D.2"}
+  Rendered text template (0.1ms)
+Sent data  (1.2ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 666ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=0ce46d7e616e7df4f5238294d8df2e58 timeout=40000ms service=675ms state=completed
+source=rack-timeout id=ab7868dca35e7c09a6e73e5e64fce3a1 timeout=40000ms state=ready
+source=rack-timeout id=ab7868dca35e7c09a6e73e5e64fce3a1 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12783401_1701851823431875_980424562_n.jpg%3Fig_cache_key%3DMTE5MTcwOTMwMzIxNzAzOTk2NA%253D%253D.2" for ::1 at 2016-04-29 20:59:37 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12783401_1701851823431875_980424562_n.jpg?ig_cache_key=MTE5MTcwOTMwMzIxNzAzOTk2NA%3D%3D.2"}
+  Rendered text template (0.1ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 603ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ab7868dca35e7c09a6e73e5e64fce3a1 timeout=40000ms service=612ms state=completed
+source=rack-timeout id=41476ad8f9662c8a874987b79c0d419c timeout=40000ms state=ready
+source=rack-timeout id=41476ad8f9662c8a874987b79c0d419c timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12356442_1661722544080769_2055079982_n.jpg%3Fig_cache_key%3DMTEzNzY4NjM2NDYxNjYzMjYxMQ%253D%253D.2" for ::1 at 2016-04-29 20:59:37 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12356442_1661722544080769_2055079982_n.jpg?ig_cache_key=MTEzNzY4NjM2NDYxNjYzMjYxMQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 255ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=41476ad8f9662c8a874987b79c0d419c timeout=40000ms service=263ms state=completed
+source=rack-timeout id=2d3e606749e33670fea5baee8dd5e977 timeout=40000ms state=ready
+source=rack-timeout id=2d3e606749e33670fea5baee8dd5e977 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12523591_135253516852217_188119919_n.jpg%3Fig_cache_key%3DMTE2MjAyNTc5NDI3Nzk3NzAyMw%253D%253D.2" for ::1 at 2016-04-29 20:59:38 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12523591_135253516852217_188119919_n.jpg?ig_cache_key=MTE2MjAyNTc5NDI3Nzk3NzAyMw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 159ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=2d3e606749e33670fea5baee8dd5e977 timeout=40000ms service=174ms state=completed
+source=rack-timeout id=b7c265ab4796e5d3cab96eed8daaba0d timeout=40000ms state=ready
+source=rack-timeout id=b7c265ab4796e5d3cab96eed8daaba0d timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12905127_218744268493023_1231859506_n.jpg%3Fig_cache_key%3DMTIxOTY0NjkzOTgwMTgyMzYzOQ%253D%253D.2" for ::1 at 2016-04-29 20:59:38 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12905127_218744268493023_1231859506_n.jpg?ig_cache_key=MTIxOTY0NjkzOTgwMTgyMzYzOQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 207ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=b7c265ab4796e5d3cab96eed8daaba0d timeout=40000ms service=217ms state=completed
+source=rack-timeout id=c7fb99b78f06fa9815bf340182a196f3 timeout=40000ms state=ready
+source=rack-timeout id=c7fb99b78f06fa9815bf340182a196f3 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12104965_948615411872877_116127247_n.jpg%3Fig_cache_key%3DMTEwODM4MDk5Mzc0MTg5MjMwOQ%253D%253D.2" for ::1 at 2016-04-29 20:59:38 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12104965_948615411872877_116127247_n.jpg?ig_cache_key=MTEwODM4MDk5Mzc0MTg5MjMwOQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 252ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=c7fb99b78f06fa9815bf340182a196f3 timeout=40000ms service=261ms state=completed
+source=rack-timeout id=25085028bad2646eca058767a3513bc8 timeout=40000ms state=ready
+source=rack-timeout id=25085028bad2646eca058767a3513bc8 timeout=40000ms service=0ms state=active
+
+
+Started GET "/search?utf8=%E2%9C%93&q=kimkardashian" for ::1 at 2016-04-29 21:00:37 -0400
+Processing by WelcomeController#search as JS
+  Parameters: {"utf8"=>"✓", "q"=>"kimkardashian"}
+source=rack-timeout id=25085028bad2646eca058767a3513bc8 timeout=40000ms service=1004ms state=active
+source=rack-timeout id=25085028bad2646eca058767a3513bc8 timeout=40000ms service=2005ms state=active
+Completed 200 OK in 2804ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=25085028bad2646eca058767a3513bc8 timeout=40000ms service=2811ms state=completed
+source=rack-timeout id=461eb2f96f990a4f047cf02a813a7083 timeout=40000ms state=ready
+source=rack-timeout id=461eb2f96f990a4f047cf02a813a7083 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fe15%2F13113920_238754696480889_154262926_n.jpg%3Fig_cache_key%3DMTIzOTQxNzQzMDMxMjgyNDUyMQ%253D%253D.2.l" for ::1 at 2016-04-29 21:00:40 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/13113920_238754696480889_154262926_n.jpg?ig_cache_key=MTIzOTQxNzQzMDMxMjgyNDUyMQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 532ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=461eb2f96f990a4f047cf02a813a7083 timeout=40000ms service=546ms state=completed
+source=rack-timeout id=b043ff811968626be175af216b0fcad9 timeout=40000ms state=ready
+source=rack-timeout id=b043ff811968626be175af216b0fcad9 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13102311_635148509968871_368307740_n.jpg%3Fig_cache_key%3DMTIzODkyMzU4NTMyNjIzMTA0MA%253D%253D.2" for ::1 at 2016-04-29 21:00:40 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13102311_635148509968871_368307740_n.jpg?ig_cache_key=MTIzODkyMzU4NTMyNjIzMTA0MA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 173ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=b043ff811968626be175af216b0fcad9 timeout=40000ms service=200ms state=completed
+source=rack-timeout id=648d925a688123dcb25c6a2a6722e7a3 timeout=40000ms state=ready
+source=rack-timeout id=648d925a688123dcb25c6a2a6722e7a3 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13099082_1004678962941737_1453775010_n.jpg%3Fig_cache_key%3DMTIzODc2NDIzMTcxMzE3MzA3OA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:40 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13099082_1004678962941737_1453775010_n.jpg?ig_cache_key=MTIzODc2NDIzMTcxMzE3MzA3OA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 116ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=648d925a688123dcb25c6a2a6722e7a3 timeout=40000ms service=126ms state=completed
+source=rack-timeout id=139a2c78b4693753e25c1e3702a9320f timeout=40000ms state=ready
+source=rack-timeout id=139a2c78b4693753e25c1e3702a9320f timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12934948_1686074181641753_1572251398_n.jpg%3Fig_cache_key%3DMTIzODc1NTk4NjQxNjE1MTkxMw%253D%253D.2.l" for ::1 at 2016-04-29 21:00:41 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12934948_1686074181641753_1572251398_n.jpg?ig_cache_key=MTIzODc1NTk4NjQxNjE1MTkxMw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 142ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=139a2c78b4693753e25c1e3702a9320f timeout=40000ms service=152ms state=completed
+source=rack-timeout id=9b4c9b520d3bfe27913746ec36125ca0 timeout=40000ms state=ready
+source=rack-timeout id=9b4c9b520d3bfe27913746ec36125ca0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fe15%2F12965085_1559033754396337_1998470491_n.jpg%3Fig_cache_key%3DMTIzNzc5MTY2NjgzNjQxODE0NQ%253D%253D.2.l" for ::1 at 2016-04-29 21:00:41 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/12965085_1559033754396337_1998470491_n.jpg?ig_cache_key=MTIzNzc5MTY2NjgzNjQxODE0NQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 98ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=9b4c9b520d3bfe27913746ec36125ca0 timeout=40000ms service=122ms state=completed
+source=rack-timeout id=3e88a34a31653743d5cd3234b83edf0f timeout=40000ms state=ready
+source=rack-timeout id=3e88a34a31653743d5cd3234b83edf0f timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13108640_529273853912366_442521282_n.jpg%3Fig_cache_key%3DMTIzNzcwNjY3ODA0MDM0MjIwNg%253D%253D.2.l" for ::1 at 2016-04-29 21:00:41 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13108640_529273853912366_442521282_n.jpg?ig_cache_key=MTIzNzcwNjY3ODA0MDM0MjIwNg%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 112ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=3e88a34a31653743d5cd3234b83edf0f timeout=40000ms service=127ms state=completed
+source=rack-timeout id=f0e70293afa02f6f2f478c11ad30de53 timeout=40000ms state=ready
+source=rack-timeout id=f0e70293afa02f6f2f478c11ad30de53 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12965898_1012926285443624_376937543_n.jpg%3Fig_cache_key%3DMTIzNTIwNTcxNjQxMTIzMTMxOA%253D%253D.2" for ::1 at 2016-04-29 21:00:41 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12965898_1012926285443624_376937543_n.jpg?ig_cache_key=MTIzNTIwNTcxNjQxMTIzMTMxOA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 97ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f0e70293afa02f6f2f478c11ad30de53 timeout=40000ms service=105ms state=completed
+source=rack-timeout id=5032885603c955d3f38b78bf857c0d9d timeout=40000ms state=ready
+source=rack-timeout id=5032885603c955d3f38b78bf857c0d9d timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12964999_263734273962763_1128160757_n.jpg%3Fig_cache_key%3DMTIzMDYyMjQ3NTQ0ODU2MDk1NA%253D%253D.2" for ::1 at 2016-04-29 21:00:41 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12964999_263734273962763_1128160757_n.jpg?ig_cache_key=MTIzMDYyMjQ3NTQ0ODU2MDk1NA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 113ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=5032885603c955d3f38b78bf857c0d9d timeout=40000ms service=128ms state=completed
+source=rack-timeout id=e90d62af5ea5bfd896ca09ead5c0b098 timeout=40000ms state=ready
+source=rack-timeout id=e90d62af5ea5bfd896ca09ead5c0b098 timeout=40000ms service=13ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13108873_799747826836962_428762549_n.jpg%3Fig_cache_key%3DMTIzNjU1NjIyNzY0NzQ1MDQ5OQ%253D%253D.2" for ::1 at 2016-04-29 21:00:41 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13108873_799747826836962_428762549_n.jpg?ig_cache_key=MTIzNjU1NjIyNzY0NzQ1MDQ5OQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 112ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=e90d62af5ea5bfd896ca09ead5c0b098 timeout=40000ms service=150ms state=completed
+source=rack-timeout id=3e435a6db4f37334521bddd48ef213e4 timeout=40000ms state=ready
+source=rack-timeout id=3e435a6db4f37334521bddd48ef213e4 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12976506_593165570839910_1660140547_n.jpg%3Fig_cache_key%3DMTIzNTI1NzExOTc0NTg0NjY2NQ%253D%253D.2" for ::1 at 2016-04-29 21:00:41 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12976506_593165570839910_1660140547_n.jpg?ig_cache_key=MTIzNTI1NzExOTc0NTg0NjY2NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 138ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=3e435a6db4f37334521bddd48ef213e4 timeout=40000ms service=148ms state=completed
+source=rack-timeout id=ce4f4dfc07a7f999440c414914d85bbb timeout=40000ms state=ready
+source=rack-timeout id=ce4f4dfc07a7f999440c414914d85bbb timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13099118_1074182589304532_284482894_n.jpg%3Fig_cache_key%3DMTIzNTIzNDc4MzM5MDkzNjkyNA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:42 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13099118_1074182589304532_284482894_n.jpg?ig_cache_key=MTIzNTIzNDc4MzM5MDkzNjkyNA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 123ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ce4f4dfc07a7f999440c414914d85bbb timeout=40000ms service=130ms state=completed
+source=rack-timeout id=7651ae982f5d3afeae18b32a4b5e427d timeout=40000ms state=ready
+source=rack-timeout id=7651ae982f5d3afeae18b32a4b5e427d timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13117816_627883830700941_627033661_n.jpg%3Fig_cache_key%3DMTIzNzI3ODgyNjMxNjc3MDk1Nw%253D%253D.2.l" for ::1 at 2016-04-29 21:00:42 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13117816_627883830700941_627033661_n.jpg?ig_cache_key=MTIzNzI3ODgyNjMxNjc3MDk1Nw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 117ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=7651ae982f5d3afeae18b32a4b5e427d timeout=40000ms service=125ms state=completed
+source=rack-timeout id=814e9741fd313a2a5de88af78bab7802 timeout=40000ms state=ready
+source=rack-timeout id=814e9741fd313a2a5de88af78bab7802 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs480x480%2Fe35%2F12950356_193665117686526_1798766468_n.jpg%3Fig_cache_key%3DMTIyNjE4MjU2MTYwNDY0NDU3NA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:42 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/12950356_193665117686526_1798766468_n.jpg?ig_cache_key=MTIyNjE4MjU2MTYwNDY0NDU3NA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 212ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=814e9741fd313a2a5de88af78bab7802 timeout=40000ms service=224ms state=completed
+source=rack-timeout id=b2de7638df576251b8d734d8633d7126 timeout=40000ms state=ready
+source=rack-timeout id=b2de7638df576251b8d734d8633d7126 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12976269_862755467185717_1439210059_n.jpg%3Fig_cache_key%3DMTIzNTI0MjMwMzk4NzcyMzI2NA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:42 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12976269_862755467185717_1439210059_n.jpg?ig_cache_key=MTIzNTI0MjMwMzk4NzcyMzI2NA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 96ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=b2de7638df576251b8d734d8633d7126 timeout=40000ms service=108ms state=completed
+source=rack-timeout id=470dcb768b81fc211809ec88b768262c timeout=40000ms state=ready
+source=rack-timeout id=470dcb768b81fc211809ec88b768262c timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12912439_1145661818818343_2094785019_n.jpg%3Fig_cache_key%3DMTIzMjQ4MDYzMDYwNDM3NzU0OA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:42 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12912439_1145661818818343_2094785019_n.jpg?ig_cache_key=MTIzMjQ4MDYzMDYwNDM3NzU0OA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 121ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=470dcb768b81fc211809ec88b768262c timeout=40000ms service=136ms state=completed
+source=rack-timeout id=dfc080de81da6f554fe0db0bd5cb6ba0 timeout=40000ms state=ready
+source=rack-timeout id=dfc080de81da6f554fe0db0bd5cb6ba0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs320x320%2Fe35%2F12976675_1892673560959202_867483864_n.jpg%3Fig_cache_key%3DMTIzMTE2ODUyNjY4NTM4NDE3NA%253D%253D.2" for ::1 at 2016-04-29 21:00:42 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/12976675_1892673560959202_867483864_n.jpg?ig_cache_key=MTIzMTE2ODUyNjY4NTM4NDE3NA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 94ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=dfc080de81da6f554fe0db0bd5cb6ba0 timeout=40000ms service=104ms state=completed
+source=rack-timeout id=77f061d4e7ca201be45ef30d72c120b2 timeout=40000ms state=ready
+source=rack-timeout id=77f061d4e7ca201be45ef30d72c120b2 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12930903_1034334903327562_612948160_n.jpg%3Fig_cache_key%3DMTIzNDQ5MzE0NjYwNzk4ODI5NQ%253D%253D.2.l" for ::1 at 2016-04-29 21:00:42 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12930903_1034334903327562_612948160_n.jpg?ig_cache_key=MTIzNDQ5MzE0NjYwNzk4ODI5NQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 129ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=77f061d4e7ca201be45ef30d72c120b2 timeout=40000ms service=137ms state=completed
+source=rack-timeout id=0b622a723babce0248e40667ad4c84ce timeout=40000ms state=ready
+source=rack-timeout id=0b622a723babce0248e40667ad4c84ce timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12935089_1174235182607300_561588489_n.jpg%3Fig_cache_key%3DMTIzNTIxODQwODgxOTczMTg2Ng%253D%253D.2.l" for ::1 at 2016-04-29 21:00:43 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12935089_1174235182607300_561588489_n.jpg?ig_cache_key=MTIzNTIxODQwODgxOTczMTg2Ng%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 98ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=0b622a723babce0248e40667ad4c84ce timeout=40000ms service=106ms state=completed
+source=rack-timeout id=8c155f75b5e06e5501c8f4ffdcea120d timeout=40000ms state=ready
+source=rack-timeout id=8c155f75b5e06e5501c8f4ffdcea120d timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12965280_929864913803408_123149965_n.jpg%3Fig_cache_key%3DMTIzNDUyNTcxMDY3MjUzOTAwOA%253D%253D.2" for ::1 at 2016-04-29 21:00:43 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12965280_929864913803408_123149965_n.jpg?ig_cache_key=MTIzNDUyNTcxMDY3MjUzOTAwOA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 112ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=8c155f75b5e06e5501c8f4ffdcea120d timeout=40000ms service=120ms state=completed
+source=rack-timeout id=b8e4150ed43b710a1f35777f6a56459b timeout=40000ms state=ready
+source=rack-timeout id=b8e4150ed43b710a1f35777f6a56459b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12935091_1606775139646376_825507526_n.jpg%3Fig_cache_key%3DMTIzNTEzNzY4NDczMzI0MjU2Ng%253D%253D.2.l" for ::1 at 2016-04-29 21:00:43 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12935091_1606775139646376_825507526_n.jpg?ig_cache_key=MTIzNTEzNzY4NDczMzI0MjU2Ng%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 145ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=b8e4150ed43b710a1f35777f6a56459b timeout=40000ms service=152ms state=completed
+source=rack-timeout id=5458805fa8e52994e99a6e0a34bbf07e timeout=40000ms state=ready
+source=rack-timeout id=5458805fa8e52994e99a6e0a34bbf07e timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12940045_224147491291581_1692851621_n.jpg%3Fig_cache_key%3DMTIzMTk3OTA1OTYyNTkyOTc4Ng%253D%253D.2.l" for ::1 at 2016-04-29 21:00:43 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12940045_224147491291581_1692851621_n.jpg?ig_cache_key=MTIzMTk3OTA1OTYyNTkyOTc4Ng%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 187ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=5458805fa8e52994e99a6e0a34bbf07e timeout=40000ms service=195ms state=completed
+source=rack-timeout id=43652972e5618c708b139ae80f527b78 timeout=40000ms state=ready
+source=rack-timeout id=43652972e5618c708b139ae80f527b78 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12960201_1555109418116272_1721331658_n.jpg%3Fig_cache_key%3DMTIzNTI0Mzc1NjQ1ODQyMTI4MQ%253D%253D.2" for ::1 at 2016-04-29 21:00:43 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12960201_1555109418116272_1721331658_n.jpg?ig_cache_key=MTIzNTI0Mzc1NjQ1ODQyMTI4MQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 117ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=43652972e5618c708b139ae80f527b78 timeout=40000ms service=129ms state=completed
+source=rack-timeout id=a0c9d44838b64671f5ccfaf661c7b53d timeout=40000ms state=ready
+source=rack-timeout id=a0c9d44838b64671f5ccfaf661c7b53d timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12912687_226286197733665_1759760432_n.jpg%3Fig_cache_key%3DMTIyMzk3OTAxODM5MDk0MTYyMg%253D%253D.2.l" for ::1 at 2016-04-29 21:00:43 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12912687_226286197733665_1759760432_n.jpg?ig_cache_key=MTIyMzk3OTAxODM5MDk0MTYyMg%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 148ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=a0c9d44838b64671f5ccfaf661c7b53d timeout=40000ms service=157ms state=completed
+source=rack-timeout id=38f4cabb5b1dc300d8447a9cc856c63b timeout=40000ms state=ready
+source=rack-timeout id=38f4cabb5b1dc300d8447a9cc856c63b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12959959_1150712688405831_392780093_n.jpg%3Fig_cache_key%3DMTIzNTIzODk1MTI5NTk4NzYyMA%253D%253D.2" for ::1 at 2016-04-29 21:00:43 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12959959_1150712688405831_392780093_n.jpg?ig_cache_key=MTIzNTIzODk1MTI5NTk4NzYyMA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 116ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=38f4cabb5b1dc300d8447a9cc856c63b timeout=40000ms service=125ms state=completed
+source=rack-timeout id=3603d5aa4be57db2f0fe55692e99accc timeout=40000ms state=ready
+source=rack-timeout id=3603d5aa4be57db2f0fe55692e99accc timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12965892_949272398503943_1303865521_n.jpg%3Fig_cache_key%3DMTIzNDUyODc4MTYxNjA5ODc2Mw%253D%253D.2.l" for ::1 at 2016-04-29 21:00:43 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12965892_949272398503943_1303865521_n.jpg?ig_cache_key=MTIzNDUyODc4MTYxNjA5ODc2Mw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 119ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=3603d5aa4be57db2f0fe55692e99accc timeout=40000ms service=132ms state=completed
+source=rack-timeout id=194b764bafcd7b519183261ac235f41e timeout=40000ms state=ready
+source=rack-timeout id=194b764bafcd7b519183261ac235f41e timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12960074_1712538052355227_361636514_n.jpg%3Fig_cache_key%3DMTIzNTI1MjU1NzcwMjA0OTA1OQ%253D%253D.2.l" for ::1 at 2016-04-29 21:00:44 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12960074_1712538052355227_361636514_n.jpg?ig_cache_key=MTIzNTI1MjU1NzcwMjA0OTA1OQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 117ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=194b764bafcd7b519183261ac235f41e timeout=40000ms service=126ms state=completed
+source=rack-timeout id=b36c15372b87433f2ba4572e78dac658 timeout=40000ms state=ready
+source=rack-timeout id=b36c15372b87433f2ba4572e78dac658 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12599473_826574464119976_492766263_n.jpg%3Fig_cache_key%3DMTIyNjMwNjA2ODc1Nzk0OTY5Mg%253D%253D.2.l" for ::1 at 2016-04-29 21:00:44 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12599473_826574464119976_492766263_n.jpg?ig_cache_key=MTIyNjMwNjA2ODc1Nzk0OTY5Mg%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 238ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=b36c15372b87433f2ba4572e78dac658 timeout=40000ms service=246ms state=completed
+source=rack-timeout id=859d2ab224f5a23c6b0fb66941c018a0 timeout=40000ms state=ready
+source=rack-timeout id=859d2ab224f5a23c6b0fb66941c018a0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12965019_1694668797464145_1375294573_n.jpg%3Fig_cache_key%3DMTIzNTE5OTAxOTY2ODAyNTI1OA%253D%253D.2" for ::1 at 2016-04-29 21:00:44 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12965019_1694668797464145_1375294573_n.jpg?ig_cache_key=MTIzNTE5OTAxOTY2ODAyNTI1OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 132ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=859d2ab224f5a23c6b0fb66941c018a0 timeout=40000ms service=140ms state=completed
+source=rack-timeout id=94a3ff686bb8ec9e19931c09a2785fae timeout=40000ms state=ready
+source=rack-timeout id=94a3ff686bb8ec9e19931c09a2785fae timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12519404_791800820950632_226568564_n.jpg%3Fig_cache_key%3DMTIzMTk1NjUxNjgyNzM3NzAzOQ%253D%253D.2.l" for ::1 at 2016-04-29 21:00:44 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12519404_791800820950632_226568564_n.jpg?ig_cache_key=MTIzMTk1NjUxNjgyNzM3NzAzOQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 237ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=94a3ff686bb8ec9e19931c09a2785fae timeout=40000ms service=242ms state=completed
+source=rack-timeout id=5e2632bef449bff82de7f3d43bfc33a4 timeout=40000ms state=ready
+source=rack-timeout id=5e2632bef449bff82de7f3d43bfc33a4 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12930796_835296226582544_983417166_n.jpg%3Fig_cache_key%3DMTIzMjA2NDE2MzYzMTE0ODgxNA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:44 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12930796_835296226582544_983417166_n.jpg?ig_cache_key=MTIzMjA2NDE2MzYzMTE0ODgxNA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 110ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=5e2632bef449bff82de7f3d43bfc33a4 timeout=40000ms service=115ms state=completed
+source=rack-timeout id=584f8a2ca4a283b47bc7ab82c265f8f2 timeout=40000ms state=ready
+source=rack-timeout id=584f8a2ca4a283b47bc7ab82c265f8f2 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12976531_1576531705971830_1948888143_n.jpg%3Fig_cache_key%3DMTIzMDYxNDEyNDQwNDc0ODI4Mw%253D%253D.2.l" for ::1 at 2016-04-29 21:00:44 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12976531_1576531705971830_1948888143_n.jpg?ig_cache_key=MTIzMDYxNDEyNDQwNDc0ODI4Mw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 151ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=584f8a2ca4a283b47bc7ab82c265f8f2 timeout=40000ms service=159ms state=completed
+source=rack-timeout id=401104a950cf9834201d20ea49f75a4f timeout=40000ms state=ready
+source=rack-timeout id=401104a950cf9834201d20ea49f75a4f timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12501568_867071776748567_859827507_n.jpg%3Fig_cache_key%3DMTIyNzc2NzQyODQxMDg0NjcyNA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:45 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12501568_867071776748567_859827507_n.jpg?ig_cache_key=MTIyNzc2NzQyODQxMDg0NjcyNA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 117ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=401104a950cf9834201d20ea49f75a4f timeout=40000ms service=126ms state=completed
+source=rack-timeout id=59e05b2b2ca514fc531316a97c04a9ef timeout=40000ms state=ready
+source=rack-timeout id=59e05b2b2ca514fc531316a97c04a9ef timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13092245_1745500295663787_493619027_n.jpg%3Fig_cache_key%3DMTIzNTk4MDI2NTEzNDMwNTAwNA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:45 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13092245_1745500295663787_493619027_n.jpg?ig_cache_key=MTIzNTk4MDI2NTEzNDMwNTAwNA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 125ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=59e05b2b2ca514fc531316a97c04a9ef timeout=40000ms service=134ms state=completed
+source=rack-timeout id=e0c8e0bc2f1506636c82fb8eb18ce5df timeout=40000ms state=ready
+source=rack-timeout id=e0c8e0bc2f1506636c82fb8eb18ce5df timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12940777_1541545882807783_313754573_n.jpg%3Fig_cache_key%3DMTIyNDU2MjAzODE3Mjg4ODk4MA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:45 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12940777_1541545882807783_313754573_n.jpg?ig_cache_key=MTIyNDU2MjAzODE3Mjg4ODk4MA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 142ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=e0c8e0bc2f1506636c82fb8eb18ce5df timeout=40000ms service=153ms state=completed
+source=rack-timeout id=fbdf4f09880feb040a8c413c04cd2d6e timeout=40000ms state=ready
+source=rack-timeout id=fbdf4f09880feb040a8c413c04cd2d6e timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12599187_1009973725723689_1726521875_n.jpg%3Fig_cache_key%3DMTIzNTE2NTU0MDQxNDczMDIzOQ%253D%253D.2" for ::1 at 2016-04-29 21:00:45 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12599187_1009973725723689_1726521875_n.jpg?ig_cache_key=MTIzNTE2NTU0MDQxNDczMDIzOQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 100ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=fbdf4f09880feb040a8c413c04cd2d6e timeout=40000ms service=112ms state=completed
+source=rack-timeout id=624beb210c83d03ee05f6692c6544fd9 timeout=40000ms state=ready
+source=rack-timeout id=624beb210c83d03ee05f6692c6544fd9 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12965122_843504949128346_1592160347_n.jpg%3Fig_cache_key%3DMTIzNTA4MTAyNjU2NDg2MTYwMg%253D%253D.2" for ::1 at 2016-04-29 21:00:45 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12965122_843504949128346_1592160347_n.jpg?ig_cache_key=MTIzNTA4MTAyNjU2NDg2MTYwMg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 114ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=624beb210c83d03ee05f6692c6544fd9 timeout=40000ms service=122ms state=completed
+source=rack-timeout id=4f6bca45854767870acda34a0b058d1f timeout=40000ms state=ready
+source=rack-timeout id=4f6bca45854767870acda34a0b058d1f timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12976492_203078586744151_1586815168_n.jpg%3Fig_cache_key%3DMTIzNTE3NjM4MDI3NDY1MDQyNQ%253D%253D.2.l" for ::1 at 2016-04-29 21:00:45 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12976492_203078586744151_1586815168_n.jpg?ig_cache_key=MTIzNTE3NjM4MDI3NDY1MDQyNQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 121ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=4f6bca45854767870acda34a0b058d1f timeout=40000ms service=136ms state=completed
+source=rack-timeout id=6ce64724ba713eab903f0bffc0977599 timeout=40000ms state=ready
+source=rack-timeout id=6ce64724ba713eab903f0bffc0977599 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12950248_967088193398962_205769668_n.jpg%3Fig_cache_key%3DMTIzNTE3NDY5OTk2OTM1OTEwOA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:45 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12950248_967088193398962_205769668_n.jpg?ig_cache_key=MTIzNTE3NDY5OTk2OTM1OTEwOA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 120ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=6ce64724ba713eab903f0bffc0977599 timeout=40000ms service=135ms state=completed
+source=rack-timeout id=69be2f7261ad7a16f5012c1b67d78a72 timeout=40000ms state=ready
+source=rack-timeout id=69be2f7261ad7a16f5012c1b67d78a72 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13102419_1775409026038576_1208098073_n.jpg%3Fig_cache_key%3DMTIzNzQzNDAxNzkxMzU4MDc3Nw%253D%253D.2.l" for ::1 at 2016-04-29 21:00:46 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13102419_1775409026038576_1208098073_n.jpg?ig_cache_key=MTIzNzQzNDAxNzkxMzU4MDc3Nw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 119ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=69be2f7261ad7a16f5012c1b67d78a72 timeout=40000ms service=148ms state=completed
+source=rack-timeout id=b5531dd8b95cc53c1b733c35a86ca621 timeout=40000ms state=ready
+source=rack-timeout id=b5531dd8b95cc53c1b733c35a86ca621 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12940100_1055446567872670_1531686851_n.jpg%3Fig_cache_key%3DMTIyNjE4Mzc3NDE5NDcwODIxOA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:46 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12940100_1055446567872670_1531686851_n.jpg?ig_cache_key=MTIyNjE4Mzc3NDE5NDcwODIxOA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 290ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=b5531dd8b95cc53c1b733c35a86ca621 timeout=40000ms service=299ms state=completed
+source=rack-timeout id=7f14898fec8c41cb90dff19a8387e1ce timeout=40000ms state=ready
+source=rack-timeout id=7f14898fec8c41cb90dff19a8387e1ce timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13092271_1853562758204734_1292696211_n.jpg%3Fig_cache_key%3DMTIzNTE3NzY0NTQ2MTI4NjIyMw%253D%253D.2.l" for ::1 at 2016-04-29 21:00:46 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13092271_1853562758204734_1292696211_n.jpg?ig_cache_key=MTIzNTE3NzY0NTQ2MTI4NjIyMw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 118ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=7f14898fec8c41cb90dff19a8387e1ce timeout=40000ms service=131ms state=completed
+source=rack-timeout id=408f5b527b560517083814cd3eeb331c timeout=40000ms state=ready
+source=rack-timeout id=408f5b527b560517083814cd3eeb331c timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12976556_960105470754670_1708663542_n.jpg%3Fig_cache_key%3DMTIzMzc3OTM0MzE2NzY2NDExMQ%253D%253D.2.l" for ::1 at 2016-04-29 21:00:46 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12976556_960105470754670_1708663542_n.jpg?ig_cache_key=MTIzMzc3OTM0MzE2NzY2NDExMQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 113ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=408f5b527b560517083814cd3eeb331c timeout=40000ms service=121ms state=completed
+source=rack-timeout id=3b12b8376b8dde35e659148a50f35d62 timeout=40000ms state=ready
+source=rack-timeout id=3b12b8376b8dde35e659148a50f35d62 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12479417_1573649802926406_842884025_n.jpg%3Fig_cache_key%3DMTIyNDE2NjI0OTYzODQ3MzUwNA%253D%253D.2" for ::1 at 2016-04-29 21:00:46 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12479417_1573649802926406_842884025_n.jpg?ig_cache_key=MTIyNDE2NjI0OTYzODQ3MzUwNA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 150ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=3b12b8376b8dde35e659148a50f35d62 timeout=40000ms service=158ms state=completed
+source=rack-timeout id=f6afced0718c917b9022c96bf90db208 timeout=40000ms state=ready
+source=rack-timeout id=f6afced0718c917b9022c96bf90db208 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12930917_1739015296374573_1411041157_n.jpg%3Fig_cache_key%3DMTIyNTYwMzgyNjA0NDE4NTc4Mg%253D%253D.2" for ::1 at 2016-04-29 21:00:46 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12930917_1739015296374573_1411041157_n.jpg?ig_cache_key=MTIyNTYwMzgyNjA0NDE4NTc4Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 116ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f6afced0718c917b9022c96bf90db208 timeout=40000ms service=125ms state=completed
+source=rack-timeout id=2c8cadb023e6fa16281b65a760804889 timeout=40000ms state=ready
+source=rack-timeout id=2c8cadb023e6fa16281b65a760804889 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12446205_254418424905551_511814158_n.jpg%3Fig_cache_key%3DMTIyMzY1MTQ5MzE5NDMxMzAwOQ%253D%253D.2.l" for ::1 at 2016-04-29 21:00:47 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12446205_254418424905551_511814158_n.jpg?ig_cache_key=MTIyMzY1MTQ5MzE5NDMxMzAwOQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 288ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=2c8cadb023e6fa16281b65a760804889 timeout=40000ms service=296ms state=completed
+source=rack-timeout id=1e1eb3d93c4ff451df0daf0f757d04c8 timeout=40000ms state=ready
+source=rack-timeout id=1e1eb3d93c4ff451df0daf0f757d04c8 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12950296_1715369978708584_1069741258_n.jpg%3Fig_cache_key%3DMTIyNjMyMDcxNDUwNDE1NDc3Mw%253D%253D.2.l" for ::1 at 2016-04-29 21:00:47 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12950296_1715369978708584_1069741258_n.jpg?ig_cache_key=MTIyNjMyMDcxNDUwNDE1NDc3Mw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 158ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=1e1eb3d93c4ff451df0daf0f757d04c8 timeout=40000ms service=167ms state=completed
+source=rack-timeout id=afa715bb8cfec25ae1f32bafecd297de timeout=40000ms state=ready
+source=rack-timeout id=afa715bb8cfec25ae1f32bafecd297de timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12917843_1767276716839424_147310392_n.jpg%3Fig_cache_key%3DMTIyODYwNDUwOTY3NjcxMTExMg%253D%253D.2" for ::1 at 2016-04-29 21:00:47 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12917843_1767276716839424_147310392_n.jpg?ig_cache_key=MTIyODYwNDUwOTY3NjcxMTExMg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 122ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=afa715bb8cfec25ae1f32bafecd297de timeout=40000ms service=131ms state=completed
+source=rack-timeout id=f09500525e0ea8b1cdbd61906ac3a040 timeout=40000ms state=ready
+source=rack-timeout id=f09500525e0ea8b1cdbd61906ac3a040 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12976385_522035791333215_63386249_n.jpg%3Fig_cache_key%3DMTIzNTE4MDI1ODE0MzU3OTUzNA%253D%253D.2.l" for ::1 at 2016-04-29 21:00:47 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12976385_522035791333215_63386249_n.jpg?ig_cache_key=MTIzNTE4MDI1ODE0MzU3OTUzNA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 113ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f09500525e0ea8b1cdbd61906ac3a040 timeout=40000ms service=121ms state=completed
+source=rack-timeout id=feb743959e7a5091d804d6c9e57bf5a7 timeout=40000ms state=ready
+source=rack-timeout id=feb743959e7a5091d804d6c9e57bf5a7 timeout=40000ms service=0ms state=active
+
+
+Started GET "/search?utf8=%E2%9C%93&q=oprah" for ::1 at 2016-04-29 21:01:09 -0400
+Processing by WelcomeController#search as JS
+  Parameters: {"utf8"=>"✓", "q"=>"oprah"}
+source=rack-timeout id=feb743959e7a5091d804d6c9e57bf5a7 timeout=40000ms service=1005ms state=active
+source=rack-timeout id=feb743959e7a5091d804d6c9e57bf5a7 timeout=40000ms service=2004ms state=active
+source=rack-timeout id=feb743959e7a5091d804d6c9e57bf5a7 timeout=40000ms service=3004ms state=active
+Completed 200 OK in 3001ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=feb743959e7a5091d804d6c9e57bf5a7 timeout=40000ms service=3007ms state=completed
+source=rack-timeout id=87992e2ac886aaa4463a4e98c1eca911 timeout=40000ms state=ready
+source=rack-timeout id=87992e2ac886aaa4463a4e98c1eca911 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12940954_601032363404763_1527772287_n.jpg%3Fig_cache_key%3DMTIzMzM5NTY5MDI0ODk0MTE4MQ%253D%253D.2" for ::1 at 2016-04-29 21:01:12 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12940954_601032363404763_1527772287_n.jpg?ig_cache_key=MTIzMzM5NTY5MDI0ODk0MTE4MQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 560ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=87992e2ac886aaa4463a4e98c1eca911 timeout=40000ms service=574ms state=completed
+source=rack-timeout id=3df4db1d1acecf0f482f812c388b7049 timeout=40000ms state=ready
+source=rack-timeout id=3df4db1d1acecf0f482f812c388b7049 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12934876_461363754073558_1398105058_n.jpg%3Fig_cache_key%3DMTIzMzM0MTY4MTAxMDAyNzU0Mg%253D%253D.2" for ::1 at 2016-04-29 21:01:13 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12934876_461363754073558_1398105058_n.jpg?ig_cache_key=MTIzMzM0MTY4MTAxMDAyNzU0Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 125ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=3df4db1d1acecf0f482f812c388b7049 timeout=40000ms service=140ms state=completed
+source=rack-timeout id=a13e95ad3ebbb5e1231d604e2a74fd66 timeout=40000ms state=ready
+source=rack-timeout id=a13e95ad3ebbb5e1231d604e2a74fd66 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12950314_162815877446740_1085594591_n.jpg%3Fig_cache_key%3DMTIzMzMyNjU5NjA2MTQ3NDM1OA%253D%253D.2" for ::1 at 2016-04-29 21:01:13 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12950314_162815877446740_1085594591_n.jpg?ig_cache_key=MTIzMzMyNjU5NjA2MTQ3NDM1OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 127ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=a13e95ad3ebbb5e1231d604e2a74fd66 timeout=40000ms service=136ms state=completed
+source=rack-timeout id=4c88b01d548ba27debda16c5bf0db8bd timeout=40000ms state=ready
+source=rack-timeout id=4c88b01d548ba27debda16c5bf0db8bd timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12918438_1172386102793957_1069702224_n.jpg%3Fig_cache_key%3DMTIzMzAwMzgxNjk4ODI1NzQyMw%253D%253D.2" for ::1 at 2016-04-29 21:01:13 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12918438_1172386102793957_1069702224_n.jpg?ig_cache_key=MTIzMzAwMzgxNjk4ODI1NzQyMw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 135ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=4c88b01d548ba27debda16c5bf0db8bd timeout=40000ms service=146ms state=completed
+source=rack-timeout id=a4c36d8b2acc846bcba311884ac83515 timeout=40000ms state=ready
+source=rack-timeout id=a4c36d8b2acc846bcba311884ac83515 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12905001_512951428892202_1596447540_n.jpg%3Fig_cache_key%3DMTIyNjg1MjUwNTk5NzYxODY0OQ%253D%253D.2" for ::1 at 2016-04-29 21:01:13 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12905001_512951428892202_1596447540_n.jpg?ig_cache_key=MTIyNjg1MjUwNTk5NzYxODY0OQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 186ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=a4c36d8b2acc846bcba311884ac83515 timeout=40000ms service=197ms state=completed
+source=rack-timeout id=fa3bae9d625cd444c2950d8bd0fdce2f timeout=40000ms state=ready
+source=rack-timeout id=fa3bae9d625cd444c2950d8bd0fdce2f timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12383641_153800815015671_1656395783_n.jpg%3Fig_cache_key%3DMTIyNjIxNDg0MzA1ODA0MDM3NQ%253D%253D.2" for ::1 at 2016-04-29 21:01:14 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12383641_153800815015671_1656395783_n.jpg?ig_cache_key=MTIyNjIxNDg0MzA1ODA0MDM3NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 212ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=fa3bae9d625cd444c2950d8bd0fdce2f timeout=40000ms service=219ms state=completed
+source=rack-timeout id=c3d5cfe4f3c00bc26d29bc30a406bd5a timeout=40000ms state=ready
+source=rack-timeout id=c3d5cfe4f3c00bc26d29bc30a406bd5a timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12317504_1648857688726554_545951379_n.jpg%3Fig_cache_key%3DMTEyNzc0OTE4NzM0MjUxMTMxOQ%253D%253D.2" for ::1 at 2016-04-29 21:01:14 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12317504_1648857688726554_545951379_n.jpg?ig_cache_key=MTEyNzc0OTE4NzM0MjUxMTMxOQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 212ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=c3d5cfe4f3c00bc26d29bc30a406bd5a timeout=40000ms service=221ms state=completed
+source=rack-timeout id=251e023a07a3a3b7a914aa333f71b60b timeout=40000ms state=ready
+source=rack-timeout id=251e023a07a3a3b7a914aa333f71b60b timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12950341_209519312759757_1880905674_n.jpg%3Fig_cache_key%3DMTIyMTgxNDQ5Mzg4MjQyOTM3Mg%253D%253D.2" for ::1 at 2016-04-29 21:01:14 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12950341_209519312759757_1880905674_n.jpg?ig_cache_key=MTIyMTgxNDQ5Mzg4MjQyOTM3Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 174ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=251e023a07a3a3b7a914aa333f71b60b timeout=40000ms service=189ms state=completed
+source=rack-timeout id=ca7ec21d106b1f8053b80c61dee2cbbe timeout=40000ms state=ready
+source=rack-timeout id=ca7ec21d106b1f8053b80c61dee2cbbe timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12142553_869959303125500_1377882477_n.jpg%3Fig_cache_key%3DMTA5ODUxNDY5MTQ0NzY2NDQzNQ%253D%253D.2" for ::1 at 2016-04-29 21:01:14 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12142553_869959303125500_1377882477_n.jpg?ig_cache_key=MTA5ODUxNDY5MTQ0NzY2NDQzNQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 152ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ca7ec21d106b1f8053b80c61dee2cbbe timeout=40000ms service=169ms state=completed
+source=rack-timeout id=d0d705be313d38cea80f2c54219654a3 timeout=40000ms state=ready
+source=rack-timeout id=d0d705be313d38cea80f2c54219654a3 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12362272_1626335007626995_1178970517_n.jpg%3Fig_cache_key%3DMTE1MTg4MjQ5MjE5NTE4ODM4OQ%253D%253D.2" for ::1 at 2016-04-29 21:01:14 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12362272_1626335007626995_1178970517_n.jpg?ig_cache_key=MTE1MTg4MjQ5MjE5NTE4ODM4OQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 136ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=d0d705be313d38cea80f2c54219654a3 timeout=40000ms service=150ms state=completed
+source=rack-timeout id=414a7b8e718fadcf014a191175d296c4 timeout=40000ms state=ready
+source=rack-timeout id=414a7b8e718fadcf014a191175d296c4 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12144166_1107528149277897_413372292_n.jpg%3Fig_cache_key%3DMTIxNDc1NzExNzI4NzI3OTg5MQ%253D%253D.2" for ::1 at 2016-04-29 21:01:15 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12144166_1107528149277897_413372292_n.jpg?ig_cache_key=MTIxNDc1NzExNzI4NzI3OTg5MQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 145ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=414a7b8e718fadcf014a191175d296c4 timeout=40000ms service=154ms state=completed
+source=rack-timeout id=191f9c91270cbd96a4ec16a390ced7df timeout=40000ms state=ready
+source=rack-timeout id=191f9c91270cbd96a4ec16a390ced7df timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12144061_1027278617302523_407760266_n.jpg%3Fig_cache_key%3DMTA5NjcyNjQ1MTQ4MDc2ODQzOA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:15 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12144061_1027278617302523_407760266_n.jpg?ig_cache_key=MTA5NjcyNjQ1MTQ4MDc2ODQzOA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 231ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=191f9c91270cbd96a4ec16a390ced7df timeout=40000ms service=240ms state=completed
+source=rack-timeout id=1e6b02ec5cab07d63df5ec853ccf812f timeout=40000ms state=ready
+source=rack-timeout id=1e6b02ec5cab07d63df5ec853ccf812f timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12424682_497006017152266_559022921_n.jpg%3Fig_cache_key%3DMTE3NDA5MTQ0NjkwODE2OTM0NA%253D%253D.2" for ::1 at 2016-04-29 21:01:15 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12424682_497006017152266_559022921_n.jpg?ig_cache_key=MTE3NDA5MTQ0NjkwODE2OTM0NA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 146ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=1e6b02ec5cab07d63df5ec853ccf812f timeout=40000ms service=159ms state=completed
+source=rack-timeout id=f9f9649fed3f7a7bf103561a76c4c882 timeout=40000ms state=ready
+source=rack-timeout id=f9f9649fed3f7a7bf103561a76c4c882 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12751214_1965243297034289_1025888244_n.jpg%3Fig_cache_key%3DMTE4ODAyNjM4NzYwMTYzMzIyMg%253D%253D.2" for ::1 at 2016-04-29 21:01:15 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12751214_1965243297034289_1025888244_n.jpg?ig_cache_key=MTE4ODAyNjM4NzYwMTYzMzIyMg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 136ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f9f9649fed3f7a7bf103561a76c4c882 timeout=40000ms service=172ms state=completed
+source=rack-timeout id=8e4bb7bf500a8eaa636fd16b392d51e7 timeout=40000ms state=ready
+source=rack-timeout id=8e4bb7bf500a8eaa636fd16b392d51e7 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12784045_548069218707547_1046497370_n.jpg%3Fig_cache_key%3DMTIwNTA5NDY0MDQwMDI4MDU3Nw%253D%253D.2" for ::1 at 2016-04-29 21:01:15 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12784045_548069218707547_1046497370_n.jpg?ig_cache_key=MTIwNTA5NDY0MDQwMDI4MDU3Nw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 187ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=8e4bb7bf500a8eaa636fd16b392d51e7 timeout=40000ms service=201ms state=completed
+source=rack-timeout id=b9a093b3a65cff99d6e637bf1d420349 timeout=40000ms state=ready
+source=rack-timeout id=b9a093b3a65cff99d6e637bf1d420349 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12407582_1646091005652140_66593977_n.jpg%3Fig_cache_key%3DMTE1NDY0ODY0NTY5OTE4NTk4Ng%253D%253D.2" for ::1 at 2016-04-29 21:01:16 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12407582_1646091005652140_66593977_n.jpg?ig_cache_key=MTE1NDY0ODY0NTY5OTE4NTk4Ng%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 169ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=b9a093b3a65cff99d6e637bf1d420349 timeout=40000ms service=184ms state=completed
+source=rack-timeout id=70f61492aac3c33b899e04a450ada8cd timeout=40000ms state=ready
+source=rack-timeout id=70f61492aac3c33b899e04a450ada8cd timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12556026_1709936349219659_1072312796_n.jpg%3Fig_cache_key%3DMTE3MTMxNTM0Mzc1MTcyMDY4OA%253D%253D.2" for ::1 at 2016-04-29 21:01:16 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12556026_1709936349219659_1072312796_n.jpg?ig_cache_key=MTE3MTMxNTM0Mzc1MTcyMDY4OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 189ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=70f61492aac3c33b899e04a450ada8cd timeout=40000ms service=205ms state=completed
+source=rack-timeout id=5c411e3182419f52f6a10f797d6d942a timeout=40000ms state=ready
+source=rack-timeout id=5c411e3182419f52f6a10f797d6d942a timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12299029_981618428567805_1758498215_n.jpg%3Fig_cache_key%3DMTEyNzA3MjQ0NDUyMDY3MzAzMA%253D%253D.2" for ::1 at 2016-04-29 21:01:16 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12299029_981618428567805_1758498215_n.jpg?ig_cache_key=MTEyNzA3MjQ0NDUyMDY3MzAzMA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 146ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=5c411e3182419f52f6a10f797d6d942a timeout=40000ms service=156ms state=completed
+source=rack-timeout id=53428753611f50661d8768cc1522a89b timeout=40000ms state=ready
+source=rack-timeout id=53428753611f50661d8768cc1522a89b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12132877_989425807786552_648836689_n.jpg%3Fig_cache_key%3DMTEwMjI0OTU4MjM4MzQxMDYwNQ%253D%253D.2.l" for ::1 at 2016-04-29 21:01:16 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12132877_989425807786552_648836689_n.jpg?ig_cache_key=MTEwMjI0OTU4MjM4MzQxMDYwNQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 275ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=53428753611f50661d8768cc1522a89b timeout=40000ms service=289ms state=completed
+source=rack-timeout id=658a841312abbb9689a97fa0a7f0c6a8 timeout=40000ms state=ready
+source=rack-timeout id=658a841312abbb9689a97fa0a7f0c6a8 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12751380_1674950769430256_1003125064_n.jpg%3Fig_cache_key%3DMTIwNDY1MjU0NDc2MTYwNTgyOA%253D%253D.2" for ::1 at 2016-04-29 21:01:16 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12751380_1674950769430256_1003125064_n.jpg?ig_cache_key=MTIwNDY1MjU0NDc2MTYwNTgyOA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 149ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=658a841312abbb9689a97fa0a7f0c6a8 timeout=40000ms service=159ms state=completed
+source=rack-timeout id=c21c9459f90d0a04dd3fe00ea51e0534 timeout=40000ms state=ready
+source=rack-timeout id=c21c9459f90d0a04dd3fe00ea51e0534 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F918251_171307409892786_590633330_n.jpg%3Fig_cache_key%3DMTE1Mzc2MDE1MDk5ODgyMjM4Mw%253D%253D.2.l" for ::1 at 2016-04-29 21:01:17 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/918251_171307409892786_590633330_n.jpg?ig_cache_key=MTE1Mzc2MDE1MDk5ODgyMjM4Mw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 292ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=c21c9459f90d0a04dd3fe00ea51e0534 timeout=40000ms service=299ms state=completed
+source=rack-timeout id=fea20cd6dc731c5123c1066d220a44c7 timeout=40000ms state=ready
+source=rack-timeout id=fea20cd6dc731c5123c1066d220a44c7 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F11313595_1056388041090682_1527730522_n.jpg%3Fig_cache_key%3DMTEyNzA3NTI3ODM2MDIyNzY5MA%253D%253D.2" for ::1 at 2016-04-29 21:01:17 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/11313595_1056388041090682_1527730522_n.jpg?ig_cache_key=MTEyNzA3NTI3ODM2MDIyNzY5MA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 150ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=fea20cd6dc731c5123c1066d220a44c7 timeout=40000ms service=156ms state=completed
+source=rack-timeout id=f2b41c6ee2790277771a84d2e06b509b timeout=40000ms state=ready
+source=rack-timeout id=f2b41c6ee2790277771a84d2e06b509b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12224487_421588351367365_652726183_n.jpg%3Fig_cache_key%3DMTEyODY4NDY1NjUxMTIzMzk1MA%253D%253D.2" for ::1 at 2016-04-29 21:01:17 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12224487_421588351367365_652726183_n.jpg?ig_cache_key=MTEyODY4NDY1NjUxMTIzMzk1MA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 139ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f2b41c6ee2790277771a84d2e06b509b timeout=40000ms service=148ms state=completed
+source=rack-timeout id=7d9f0c7debb7e82ccfceba7cc75954bf timeout=40000ms state=ready
+source=rack-timeout id=7d9f0c7debb7e82ccfceba7cc75954bf timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12627941_1636946633236054_372340265_n.jpg%3Fig_cache_key%3DMTE3NTYzMzg5NDA4Mzk5Njg4OA%253D%253D.2" for ::1 at 2016-04-29 21:01:17 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12627941_1636946633236054_372340265_n.jpg?ig_cache_key=MTE3NTYzMzg5NDA4Mzk5Njg4OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 114ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=7d9f0c7debb7e82ccfceba7cc75954bf timeout=40000ms service=124ms state=completed
+source=rack-timeout id=44f2ca848287ac6eccfc0c4bdc2228a8 timeout=40000ms state=ready
+source=rack-timeout id=44f2ca848287ac6eccfc0c4bdc2228a8 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12080410_116785545345818_349294126_n.jpg%3Fig_cache_key%3DMTA5NjU3ODQzODM5MzMxMDU1Nw%253D%253D.2" for ::1 at 2016-04-29 21:01:17 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12080410_116785545345818_349294126_n.jpg?ig_cache_key=MTA5NjU3ODQzODM5MzMxMDU1Nw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 136ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=44f2ca848287ac6eccfc0c4bdc2228a8 timeout=40000ms service=144ms state=completed
+source=rack-timeout id=328ee2d9687a5dafd5597df100d997f2 timeout=40000ms state=ready
+source=rack-timeout id=328ee2d9687a5dafd5597df100d997f2 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12543295_145590165824962_1282451516_n.jpg%3Fig_cache_key%3DMTE4MjA4OTYzNTM3NjQ3NTk1MA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:17 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12543295_145590165824962_1282451516_n.jpg?ig_cache_key=MTE4MjA4OTYzNTM3NjQ3NTk1MA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 182ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=328ee2d9687a5dafd5597df100d997f2 timeout=40000ms service=187ms state=completed
+source=rack-timeout id=d5e7e1896f3c5b86a2ac5e37aed81098 timeout=40000ms state=ready
+source=rack-timeout id=d5e7e1896f3c5b86a2ac5e37aed81098 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F916030_857207577710724_1748846926_n.jpg%3Fig_cache_key%3DMTE1Mzc1NDQ0MDA4NDgyNzQxOQ%253D%253D.2" for ::1 at 2016-04-29 21:01:18 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/916030_857207577710724_1748846926_n.jpg?ig_cache_key=MTE1Mzc1NDQ0MDA4NDgyNzQxOQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 188ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=d5e7e1896f3c5b86a2ac5e37aed81098 timeout=40000ms service=194ms state=completed
+source=rack-timeout id=fb1787e70c5adab5bd835053c12322ac timeout=40000ms state=ready
+source=rack-timeout id=fb1787e70c5adab5bd835053c12322ac timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12728620_1609517399270797_1220946102_n.jpg%3Fig_cache_key%3DMTE4NTA4Njg0NjU2OTg4NDcwNw%253D%253D.2" for ::1 at 2016-04-29 21:01:18 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12728620_1609517399270797_1220946102_n.jpg?ig_cache_key=MTE4NTA4Njg0NjU2OTg4NDcwNw%3D%3D.2"}
+  Rendered text template (0.3ms)
+Sent data  (0.9ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 138ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=fb1787e70c5adab5bd835053c12322ac timeout=40000ms service=153ms state=completed
+source=rack-timeout id=9e54477ae3c2a6eff8d29dbabcdd9470 timeout=40000ms state=ready
+source=rack-timeout id=9e54477ae3c2a6eff8d29dbabcdd9470 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12905143_1745776498971358_175558847_n.jpg%3Fig_cache_key%3DMTIyNTQzNDU4ODc4MTI5MzQ1MA%253D%253D.2" for ::1 at 2016-04-29 21:01:18 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12905143_1745776498971358_175558847_n.jpg?ig_cache_key=MTIyNTQzNDU4ODc4MTI5MzQ1MA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 132ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=9e54477ae3c2a6eff8d29dbabcdd9470 timeout=40000ms service=139ms state=completed
+source=rack-timeout id=847ed706444602f0ec39fcc0d256a026 timeout=40000ms state=ready
+source=rack-timeout id=847ed706444602f0ec39fcc0d256a026 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12331368_1538851586428930_1395817089_n.jpg%3Fig_cache_key%3DMTE0NzUwMjYxMTQ5MTUzMjE5Ng%253D%253D.2" for ::1 at 2016-04-29 21:01:18 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12331368_1538851586428930_1395817089_n.jpg?ig_cache_key=MTE0NzUwMjYxMTQ5MTUzMjE5Ng%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 134ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=847ed706444602f0ec39fcc0d256a026 timeout=40000ms service=144ms state=completed
+source=rack-timeout id=70f804ce39a0205c91f1388ab66ebc14 timeout=40000ms state=ready
+source=rack-timeout id=70f804ce39a0205c91f1388ab66ebc14 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12424563_957255467696531_591175809_n.jpg%3Fig_cache_key%3DMTE3MzY1MTMyMzAxMTgwNDg1Mg%253D%253D.2" for ::1 at 2016-04-29 21:01:18 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12424563_957255467696531_591175809_n.jpg?ig_cache_key=MTE3MzY1MTMyMzAxMTgwNDg1Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 165ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=70f804ce39a0205c91f1388ab66ebc14 timeout=40000ms service=181ms state=completed
+source=rack-timeout id=6cb1aabfe3986e2f62a80b0ea869d01d timeout=40000ms state=ready
+source=rack-timeout id=6cb1aabfe3986e2f62a80b0ea869d01d timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12407318_1057165970970602_455389890_n.jpg%3Fig_cache_key%3DMTE1NTI0ODk4NDg1Mjg2OTAzOA%253D%253D.2" for ::1 at 2016-04-29 21:01:18 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12407318_1057165970970602_455389890_n.jpg?ig_cache_key=MTE1NTI0ODk4NDg1Mjg2OTAzOA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 166ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=6cb1aabfe3986e2f62a80b0ea869d01d timeout=40000ms service=176ms state=completed
+source=rack-timeout id=e950805544d9b052b952aed219cde272 timeout=40000ms state=ready
+source=rack-timeout id=e950805544d9b052b952aed219cde272 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12132882_965805003512624_1658077894_n.jpg%3Fig_cache_key%3DMTA5ODkxMzI2OTQxMjM0MjkxMg%253D%253D.2" for ::1 at 2016-04-29 21:01:19 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12132882_965805003512624_1658077894_n.jpg?ig_cache_key=MTA5ODkxMzI2OTQxMjM0MjkxMg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 156ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=e950805544d9b052b952aed219cde272 timeout=40000ms service=168ms state=completed
+source=rack-timeout id=aafe2371cf1d72e5a4eb6e091069bc0d timeout=40000ms state=ready
+source=rack-timeout id=aafe2371cf1d72e5a4eb6e091069bc0d timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F1922383_1032993386732874_386902352_n.jpg%3Fig_cache_key%3DMTExMjg0MjU2MzMzMTEwODQ5Mg%253D%253D.2" for ::1 at 2016-04-29 21:01:19 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/1922383_1032993386732874_386902352_n.jpg?ig_cache_key=MTExMjg0MjU2MzMzMTEwODQ5Mg%3D%3D.2"}
+  Rendered text template (0.1ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 145ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=aafe2371cf1d72e5a4eb6e091069bc0d timeout=40000ms service=154ms state=completed
+source=rack-timeout id=a57cded2901bdd29b19436200b762110 timeout=40000ms state=ready
+source=rack-timeout id=a57cded2901bdd29b19436200b762110 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12135157_1918650805025977_1092340594_n.jpg%3Fig_cache_key%3DMTA5ODg4NzY4NjEyOTI2NjEyNg%253D%253D.2" for ::1 at 2016-04-29 21:01:19 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12135157_1918650805025977_1092340594_n.jpg?ig_cache_key=MTA5ODg4NzY4NjEyOTI2NjEyNg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 157ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=a57cded2901bdd29b19436200b762110 timeout=40000ms service=168ms state=completed
+source=rack-timeout id=aa2fe8acff2441bb19c6dde066031c9f timeout=40000ms state=ready
+source=rack-timeout id=aa2fe8acff2441bb19c6dde066031c9f timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F11258258_235694520098799_2126978477_n.jpg%3Fig_cache_key%3DMTE4MTU4ODQ0NDkwNTI4Njg2NA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:19 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/11258258_235694520098799_2126978477_n.jpg?ig_cache_key=MTE4MTU4ODQ0NDkwNTI4Njg2NA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (1.3ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 524ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=aa2fe8acff2441bb19c6dde066031c9f timeout=40000ms service=533ms state=completed
+source=rack-timeout id=f88e75bfa52a63f70d000ece3ad557d2 timeout=40000ms state=ready
+source=rack-timeout id=f88e75bfa52a63f70d000ece3ad557d2 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12826274_1698261310415770_1594944103_n.jpg%3Fig_cache_key%3DMTIwMjQ1MDMwNjAyNjc3Nzg1NQ%253D%253D.2" for ::1 at 2016-04-29 21:01:20 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12826274_1698261310415770_1594944103_n.jpg?ig_cache_key=MTIwMjQ1MDMwNjAyNjc3Nzg1NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 191ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f88e75bfa52a63f70d000ece3ad557d2 timeout=40000ms service=206ms state=completed
+source=rack-timeout id=87f6f957feb1ee8a10ea7909384b3810 timeout=40000ms state=ready
+source=rack-timeout id=87f6f957feb1ee8a10ea7909384b3810 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12677496_484284978449005_1904538462_n.jpg%3Fig_cache_key%3DMTE5MDcwODkyMDU4Mzc5MzY2NQ%253D%253D.2" for ::1 at 2016-04-29 21:01:20 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12677496_484284978449005_1904538462_n.jpg?ig_cache_key=MTE5MDcwODkyMDU4Mzc5MzY2NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 132ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=87f6f957feb1ee8a10ea7909384b3810 timeout=40000ms service=138ms state=completed
+source=rack-timeout id=f239205b46fd9af572189f8030977814 timeout=40000ms state=ready
+source=rack-timeout id=f239205b46fd9af572189f8030977814 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12424843_920112894770926_334231131_n.jpg%3Fig_cache_key%3DMTE2OTg3MzA0MzcyMDg0Mjg2NQ%253D%253D.2" for ::1 at 2016-04-29 21:01:20 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12424843_920112894770926_334231131_n.jpg?ig_cache_key=MTE2OTg3MzA0MzcyMDg0Mjg2NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 150ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f239205b46fd9af572189f8030977814 timeout=40000ms service=167ms state=completed
+source=rack-timeout id=177e4d192f3e103fe2a27f63bbaf3eee timeout=40000ms state=ready
+source=rack-timeout id=177e4d192f3e103fe2a27f63bbaf3eee timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12747847_1060318557365286_1767652557_n.jpg%3Fig_cache_key%3DMTE5MjE3NzQ4NjY5Njg4NjA1OQ%253D%253D.2" for ::1 at 2016-04-29 21:01:20 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12747847_1060318557365286_1767652557_n.jpg?ig_cache_key=MTE5MjE3NzQ4NjY5Njg4NjA1OQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 167ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=177e4d192f3e103fe2a27f63bbaf3eee timeout=40000ms service=177ms state=completed
+source=rack-timeout id=0274ccf333c61a9b5adeedad84a60ad0 timeout=40000ms state=ready
+source=rack-timeout id=0274ccf333c61a9b5adeedad84a60ad0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12816771_1788112431417083_889085300_n.jpg%3Fig_cache_key%3DMTIwMjM4Mzg4MzA1NzMxMTI2Mw%253D%253D.2" for ::1 at 2016-04-29 21:01:20 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12816771_1788112431417083_889085300_n.jpg?ig_cache_key=MTIwMjM4Mzg4MzA1NzMxMTI2Mw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 166ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=0274ccf333c61a9b5adeedad84a60ad0 timeout=40000ms service=171ms state=completed
+source=rack-timeout id=d7d5ecd72563b018cdde1161db27a349 timeout=40000ms state=ready
+source=rack-timeout id=d7d5ecd72563b018cdde1161db27a349 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12545467_1682754668673066_1089521745_n.jpg%3Fig_cache_key%3DMTE3NDIwODg2NzAwMjI5ODMyMA%253D%253D.2" for ::1 at 2016-04-29 21:01:21 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12545467_1682754668673066_1089521745_n.jpg?ig_cache_key=MTE3NDIwODg2NzAwMjI5ODMyMA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 169ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=d7d5ecd72563b018cdde1161db27a349 timeout=40000ms service=180ms state=completed
+source=rack-timeout id=97b196d48aa322e406d6b8faceb54fa4 timeout=40000ms state=ready
+source=rack-timeout id=97b196d48aa322e406d6b8faceb54fa4 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12552205_1713334388946048_1687457195_n.jpg%3Fig_cache_key%3DMTE3MzI3NDExOTc0ODc5MjA2Nw%253D%253D.2" for ::1 at 2016-04-29 21:01:21 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12552205_1713334388946048_1687457195_n.jpg?ig_cache_key=MTE3MzI3NDExOTc0ODc5MjA2Nw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 166ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=97b196d48aa322e406d6b8faceb54fa4 timeout=40000ms service=173ms state=completed
+source=rack-timeout id=8c73acc13af7c8ef89f4b84838fb897e timeout=40000ms state=ready
+source=rack-timeout id=8c73acc13af7c8ef89f4b84838fb897e timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12747701_1353732811364364_728068467_n.jpg%3Fig_cache_key%3DMTE4NTE0NDIzMDc0NzEyMzQ5NQ%253D%253D.2" for ::1 at 2016-04-29 21:01:21 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12747701_1353732811364364_728068467_n.jpg?ig_cache_key=MTE4NTE0NDIzMDc0NzEyMzQ5NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 153ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=8c73acc13af7c8ef89f4b84838fb897e timeout=40000ms service=162ms state=completed
+source=rack-timeout id=81f899b0086fa2f90de0359cc78cf92b timeout=40000ms state=ready
+source=rack-timeout id=81f899b0086fa2f90de0359cc78cf92b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12106099_1663150797230921_1046821460_n.jpg%3Fig_cache_key%3DMTA5Njc5OTI3MDcwNTExNDU5Mg%253D%253D.2.l" for ::1 at 2016-04-29 21:01:21 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12106099_1663150797230921_1046821460_n.jpg?ig_cache_key=MTA5Njc5OTI3MDcwNTExNDU5Mg%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 239ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=81f899b0086fa2f90de0359cc78cf92b timeout=40000ms service=247ms state=completed
+source=rack-timeout id=c1bd6ccd9007b8343a5684f4934e175a timeout=40000ms state=ready
+source=rack-timeout id=c1bd6ccd9007b8343a5684f4934e175a timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F1941039_1505436383090873_1171405132_n.jpg%3Fig_cache_key%3DMTE1MDkxMjc1Nzg0NDQ4NzI5NQ%253D%253D.2" for ::1 at 2016-04-29 21:01:21 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/1941039_1505436383090873_1171405132_n.jpg?ig_cache_key=MTE1MDkxMjc1Nzg0NDQ4NzI5NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 150ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=c1bd6ccd9007b8343a5684f4934e175a timeout=40000ms service=165ms state=completed
+source=rack-timeout id=4393474ba37e94fd5c9951914efc8cd0 timeout=40000ms state=ready
+source=rack-timeout id=4393474ba37e94fd5c9951914efc8cd0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12547671_621582424649137_620576550_n.jpg%3Fig_cache_key%3DMTE3MzQ3NDU3ODE0NTAyOTYxMw%253D%253D.2.l" for ::1 at 2016-04-29 21:01:21 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12547671_621582424649137_620576550_n.jpg?ig_cache_key=MTE3MzQ3NDU3ODE0NTAyOTYxMw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 277ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=4393474ba37e94fd5c9951914efc8cd0 timeout=40000ms service=286ms state=completed
+source=rack-timeout id=17f82901dfc8a5749ed2bc98dd01c620 timeout=40000ms state=ready
+source=rack-timeout id=17f82901dfc8a5749ed2bc98dd01c620 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12599533_1701044543504022_1535681022_n.jpg%3Fig_cache_key%3DMTIxNzc3NTY4OTc0MzgwNTgxMw%253D%253D.2" for ::1 at 2016-04-29 21:01:22 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12599533_1701044543504022_1535681022_n.jpg?ig_cache_key=MTIxNzc3NTY4OTc0MzgwNTgxMw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 166ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=17f82901dfc8a5749ed2bc98dd01c620 timeout=40000ms service=181ms state=completed
+source=rack-timeout id=0237a076a059260f53fe65f160a31dbe timeout=40000ms state=ready
+source=rack-timeout id=0237a076a059260f53fe65f160a31dbe timeout=40000ms service=0ms state=active
+
+
+Started GET "/search?utf8=%E2%9C%93&q=oprah_flowers" for ::1 at 2016-04-29 21:01:46 -0400
+Processing by WelcomeController#search as JS
+  Parameters: {"utf8"=>"✓", "q"=>"oprah_flowers"}
+source=rack-timeout id=0237a076a059260f53fe65f160a31dbe timeout=40000ms service=1005ms state=active
+source=rack-timeout id=0237a076a059260f53fe65f160a31dbe timeout=40000ms service=2001ms state=active
+Completed 200 OK in 2540ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=0237a076a059260f53fe65f160a31dbe timeout=40000ms service=2550ms state=completed
+source=rack-timeout id=ad05bebdeac3b6080e3279c6c4434c93 timeout=40000ms state=ready
+source=rack-timeout id=ad05bebdeac3b6080e3279c6c4434c93 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12107649_1035060803235809_1758333183_n.jpg%3Fig_cache_key%3DMTIzNjg3MjYxODE2MzQxMzczOA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:49 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12107649_1035060803235809_1758333183_n.jpg?ig_cache_key=MTIzNjg3MjYxODE2MzQxMzczOA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 658ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ad05bebdeac3b6080e3279c6c4434c93 timeout=40000ms service=664ms state=completed
+source=rack-timeout id=ff157972f50291b3151549733beb0623 timeout=40000ms state=ready
+source=rack-timeout id=ff157972f50291b3151549733beb0623 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fe15%2F12912384_858635627580126_1723477767_n.jpg%3Fig_cache_key%3DMTIyNjg5ODY2NDkyMTM0MjczMw%253D%253D.2" for ::1 at 2016-04-29 21:01:50 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/e15/12912384_858635627580126_1723477767_n.jpg?ig_cache_key=MTIyNjg5ODY2NDkyMTM0MjczMw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 112ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ff157972f50291b3151549733beb0623 timeout=40000ms service=126ms state=completed
+source=rack-timeout id=9b369165ea9b5ac309b87c199d35640e timeout=40000ms state=ready
+source=rack-timeout id=9b369165ea9b5ac309b87c199d35640e timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12905274_187029578356379_344836522_n.jpg%3Fig_cache_key%3DMTIyOTE0NjM0NTIyMzg1NjU4Mg%253D%253D.2.l" for ::1 at 2016-04-29 21:01:50 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12905274_187029578356379_344836522_n.jpg?ig_cache_key=MTIyOTE0NjM0NTIyMzg1NjU4Mg%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 330ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=9b369165ea9b5ac309b87c199d35640e timeout=40000ms service=340ms state=completed
+source=rack-timeout id=19c1806d6641889c8e16b51485c4a2e1 timeout=40000ms state=ready
+source=rack-timeout id=19c1806d6641889c8e16b51485c4a2e1 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12940034_1717121351875986_1796667528_n.jpg%3Fig_cache_key%3DMTIzMTkyMzE4MDE2MDUyNDc5OA%253D%253D.2" for ::1 at 2016-04-29 21:01:50 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12940034_1717121351875986_1796667528_n.jpg?ig_cache_key=MTIzMTkyMzE4MDE2MDUyNDc5OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 134ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=19c1806d6641889c8e16b51485c4a2e1 timeout=40000ms service=196ms state=completed
+source=rack-timeout id=8dd7e3a89f731e58862cd9cb9861d77c timeout=40000ms state=ready
+source=rack-timeout id=8dd7e3a89f731e58862cd9cb9861d77c timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13099014_584199161740283_1004325245_n.jpg%3Fig_cache_key%3DMTIzNTY0NDU1OTk4NDc5NjQ4MA%253D%253D.2" for ::1 at 2016-04-29 21:01:50 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13099014_584199161740283_1004325245_n.jpg?ig_cache_key=MTIzNTY0NDU1OTk4NDc5NjQ4MA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 120ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=8dd7e3a89f731e58862cd9cb9861d77c timeout=40000ms service=130ms state=completed
+source=rack-timeout id=1c0f343c84385d35ee96be1847576d8f timeout=40000ms state=ready
+source=rack-timeout id=1c0f343c84385d35ee96be1847576d8f timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F13108988_1592943271034100_743488842_n.jpg%3Fig_cache_key%3DMTIzNzg0NzUzNTgwMTQ0MzA2OQ%253D%253D.2" for ::1 at 2016-04-29 21:01:50 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13108988_1592943271034100_743488842_n.jpg?ig_cache_key=MTIzNzg0NzUzNTgwMTQ0MzA2OQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 179ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=1c0f343c84385d35ee96be1847576d8f timeout=40000ms service=200ms state=completed
+source=rack-timeout id=d6d94614b9f3becb33f168d3e321b099 timeout=40000ms state=ready
+source=rack-timeout id=d6d94614b9f3becb33f168d3e321b099 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12750182_1276699022346555_639683338_n.jpg%3Fig_cache_key%3DMTE5MDQ3NjYzNzMxNDU4ODc3NQ%253D%253D.2.l" for ::1 at 2016-04-29 21:01:51 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12750182_1276699022346555_639683338_n.jpg?ig_cache_key=MTE5MDQ3NjYzNzMxNDU4ODc3NQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 270ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=d6d94614b9f3becb33f168d3e321b099 timeout=40000ms service=285ms state=completed
+source=rack-timeout id=e69883ab19e6d5bd661025bd218d1c8a timeout=40000ms state=ready
+source=rack-timeout id=e69883ab19e6d5bd661025bd218d1c8a timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12519269_439319072927781_1876941859_n.jpg%3Fig_cache_key%3DMTE3NTM3MTQxOTI1ODI5ODczMg%253D%253D.2" for ::1 at 2016-04-29 21:01:51 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12519269_439319072927781_1876941859_n.jpg?ig_cache_key=MTE3NTM3MTQxOTI1ODI5ODczMg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 290ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=e69883ab19e6d5bd661025bd218d1c8a timeout=40000ms service=298ms state=completed
+source=rack-timeout id=e4a60efd9fea3974fd404d44417f18e6 timeout=40000ms state=ready
+source=rack-timeout id=e4a60efd9fea3974fd404d44417f18e6 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12523766_1553777791607952_777432721_n.jpg%3Fig_cache_key%3DMTE3MDA3MzIzMjg5NzMxOTYxOA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:51 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12523766_1553777791607952_777432721_n.jpg?ig_cache_key=MTE3MDA3MzIzMjg5NzMxOTYxOA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (1.1ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 299ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=e4a60efd9fea3974fd404d44417f18e6 timeout=40000ms service=309ms state=completed
+source=rack-timeout id=beb93975ce89e34ed431ab039aabffa3 timeout=40000ms state=ready
+source=rack-timeout id=beb93975ce89e34ed431ab039aabffa3 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12729409_1565402557111686_884087410_n.jpg%3Fig_cache_key%3DMTE5MzM5ODYxNDYwNjA2MTU5OQ%253D%253D.2" for ::1 at 2016-04-29 21:01:52 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12729409_1565402557111686_884087410_n.jpg?ig_cache_key=MTE5MzM5ODYxNDYwNjA2MTU5OQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 265ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=beb93975ce89e34ed431ab039aabffa3 timeout=40000ms service=275ms state=completed
+source=rack-timeout id=891e0ea2af16932308e06d2adc80643c timeout=40000ms state=ready
+source=rack-timeout id=891e0ea2af16932308e06d2adc80643c timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs480x480%2Fe35%2F12534106_1701905873414426_1894326954_n.jpg%3Fig_cache_key%3DMTE3MzcwNTkyODA5Nzc2ODM1NQ%253D%253D.2" for ::1 at 2016-04-29 21:01:52 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/12534106_1701905873414426_1894326954_n.jpg?ig_cache_key=MTE3MzcwNTkyODA5Nzc2ODM1NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 197ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=891e0ea2af16932308e06d2adc80643c timeout=40000ms service=206ms state=completed
+source=rack-timeout id=17c5c9841c7978a9cf455d88f0d6d4f5 timeout=40000ms state=ready
+source=rack-timeout id=17c5c9841c7978a9cf455d88f0d6d4f5 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12142599_219623255045365_1281843318_n.jpg%3Fig_cache_key%3DMTE3MzE3MDc1Mjg5MjU0MzA5NQ%253D%253D.2" for ::1 at 2016-04-29 21:01:52 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12142599_219623255045365_1281843318_n.jpg?ig_cache_key=MTE3MzE3MDc1Mjg5MjU0MzA5NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 291ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=17c5c9841c7978a9cf455d88f0d6d4f5 timeout=40000ms service=302ms state=completed
+source=rack-timeout id=c24baa4723cacea31bbaa1b481a5b402 timeout=40000ms state=ready
+source=rack-timeout id=c24baa4723cacea31bbaa1b481a5b402 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12717042_591285867689457_39351952_n.jpg%3Fig_cache_key%3DMTE4MjAzMDEwMTUyMTk5ODIzNw%253D%253D.2" for ::1 at 2016-04-29 21:01:52 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12717042_591285867689457_39351952_n.jpg?ig_cache_key=MTE4MjAzMDEwMTUyMTk5ODIzNw%3D%3D.2"}
+  Rendered text template (0.1ms)
+Sent data  (1.1ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 259ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=c24baa4723cacea31bbaa1b481a5b402 timeout=40000ms service=274ms state=completed
+source=rack-timeout id=dfa074dd53da78564cc4a3c2c7cb9f67 timeout=40000ms state=ready
+source=rack-timeout id=dfa074dd53da78564cc4a3c2c7cb9f67 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12716890_242214916111389_67501742_n.jpg%3Fig_cache_key%3DMTE5NDEzMzg2NzgwMDkyODY0NQ%253D%253D.2.l" for ::1 at 2016-04-29 21:01:53 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12716890_242214916111389_67501742_n.jpg?ig_cache_key=MTE5NDEzMzg2NzgwMDkyODY0NQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 365ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=dfa074dd53da78564cc4a3c2c7cb9f67 timeout=40000ms service=380ms state=completed
+source=rack-timeout id=851d56b2f6855c0e49de0fc4f2a81bec timeout=40000ms state=ready
+source=rack-timeout id=851d56b2f6855c0e49de0fc4f2a81bec timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12907159_216222535405037_1336734076_n.jpg%3Fig_cache_key%3DMTIxNzUyMzc3NTEzNTM5MTg0NQ%253D%253D.2" for ::1 at 2016-04-29 21:01:53 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12907159_216222535405037_1336734076_n.jpg?ig_cache_key=MTIxNzUyMzc3NTEzNTM5MTg0NQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 127ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=851d56b2f6855c0e49de0fc4f2a81bec timeout=40000ms service=142ms state=completed
+source=rack-timeout id=432c6e3db841c0a86401bf88a9d76d77 timeout=40000ms state=ready
+source=rack-timeout id=432c6e3db841c0a86401bf88a9d76d77 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12383253_1600668026924486_1585235614_n.jpg%3Fig_cache_key%3DMTIxMjk5MDUyMTk3MTY4MDAxOA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:53 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12383253_1600668026924486_1585235614_n.jpg?ig_cache_key=MTIxMjk5MDUyMTk3MTY4MDAxOA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 263ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=432c6e3db841c0a86401bf88a9d76d77 timeout=40000ms service=272ms state=completed
+source=rack-timeout id=47d861a6addf3ef6cf331eaefc2ee185 timeout=40000ms state=ready
+source=rack-timeout id=47d861a6addf3ef6cf331eaefc2ee185 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12783271_1030573266984899_236109683_n.jpg%3Fig_cache_key%3DMTE5MzI4MjA2MjUyMzE0NjI0NA%253D%253D.2" for ::1 at 2016-04-29 21:01:53 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12783271_1030573266984899_236109683_n.jpg?ig_cache_key=MTE5MzI4MjA2MjUyMzE0NjI0NA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 286ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=47d861a6addf3ef6cf331eaefc2ee185 timeout=40000ms service=300ms state=completed
+source=rack-timeout id=8b094ce33c81458caa34ec39c196aa51 timeout=40000ms state=ready
+source=rack-timeout id=8b094ce33c81458caa34ec39c196aa51 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12558887_216911138655172_1956266538_n.jpg%3Fig_cache_key%3DMTE3OTc1MzAyNjM3MTAzNTI0NA%253D%253D.2" for ::1 at 2016-04-29 21:01:54 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12558887_216911138655172_1956266538_n.jpg?ig_cache_key=MTE3OTc1MzAyNjM3MTAzNTI0NA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 299ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=8b094ce33c81458caa34ec39c196aa51 timeout=40000ms service=308ms state=completed
+source=rack-timeout id=1ae51ee908f7730f2a57b5711400aa4b timeout=40000ms state=ready
+source=rack-timeout id=1ae51ee908f7730f2a57b5711400aa4b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12543296_959780904112037_1426722756_n.jpg%3Fig_cache_key%3DMTE3NDA0MjQ1NDY4MTgyMTkwMw%253D%253D.2.l" for ::1 at 2016-04-29 21:01:54 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12543296_959780904112037_1426722756_n.jpg?ig_cache_key=MTE3NDA0MjQ1NDY4MTgyMTkwMw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 296ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=1ae51ee908f7730f2a57b5711400aa4b timeout=40000ms service=301ms state=completed
+source=rack-timeout id=3744edff64bf053611cbdc4c27454993 timeout=40000ms state=ready
+source=rack-timeout id=3744edff64bf053611cbdc4c27454993 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12965739_1176827002350275_1126879100_n.jpg%3Fig_cache_key%3DMTIyMzA2MDg5OTMwMTUzMjU3NQ%253D%253D.2.l" for ::1 at 2016-04-29 21:01:54 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12965739_1176827002350275_1126879100_n.jpg?ig_cache_key=MTIyMzA2MDg5OTMwMTUzMjU3NQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 244ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=3744edff64bf053611cbdc4c27454993 timeout=40000ms service=259ms state=completed
+source=rack-timeout id=917e2674456eff030c8e47803e863a0c timeout=40000ms state=ready
+source=rack-timeout id=917e2674456eff030c8e47803e863a0c timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12558349_187941228236797_1958458398_n.jpg%3Fig_cache_key%3DMTE4MjcxMTYyMDMyMjMwNDQ1NA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:55 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12558349_187941228236797_1958458398_n.jpg?ig_cache_key=MTE4MjcxMTYyMDMyMjMwNDQ1NA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 276ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=917e2674456eff030c8e47803e863a0c timeout=40000ms service=291ms state=completed
+source=rack-timeout id=9cc4660d91d83d030a79361f8920db96 timeout=40000ms state=ready
+source=rack-timeout id=9cc4660d91d83d030a79361f8920db96 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12826075_174064192978026_2132919787_n.jpg%3Fig_cache_key%3DMTIwOTI3NTMzMjI2MDYzNDk3NA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:55 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12826075_174064192978026_2132919787_n.jpg?ig_cache_key=MTIwOTI3NTMzMjI2MDYzNDk3NA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 363ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=9cc4660d91d83d030a79361f8920db96 timeout=40000ms service=370ms state=completed
+source=rack-timeout id=e818db985d7360744e88b1905e998d37 timeout=40000ms state=ready
+source=rack-timeout id=e818db985d7360744e88b1905e998d37 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12501793_243081546035457_1771457566_n.jpg%3Fig_cache_key%3DMTIxNTM2MzE1MTY5NzY1MDYxNQ%253D%253D.2.l" for ::1 at 2016-04-29 21:01:55 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12501793_243081546035457_1771457566_n.jpg?ig_cache_key=MTIxNTM2MzE1MTY5NzY1MDYxNQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 261ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=e818db985d7360744e88b1905e998d37 timeout=40000ms service=276ms state=completed
+source=rack-timeout id=cfe14d3df4cbb8002f8b03e15a83bcb1 timeout=40000ms state=ready
+source=rack-timeout id=cfe14d3df4cbb8002f8b03e15a83bcb1 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12523686_1550795931913677_1663925523_n.jpg%3Fig_cache_key%3DMTE3NDQ2OTkwMTM4NjYyMTI1Ng%253D%253D.2" for ::1 at 2016-04-29 21:01:55 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12523686_1550795931913677_1663925523_n.jpg?ig_cache_key=MTE3NDQ2OTkwMTM4NjYyMTI1Ng%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 375ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=cfe14d3df4cbb8002f8b03e15a83bcb1 timeout=40000ms service=381ms state=completed
+source=rack-timeout id=44075962489b2e269accda7e2d0feec4 timeout=40000ms state=ready
+source=rack-timeout id=44075962489b2e269accda7e2d0feec4 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12142589_523329234528860_841230878_n.jpg%3Fig_cache_key%3DMTIxMzY4MzY3MzIyMTE0NDk3Ng%253D%253D.2.l" for ::1 at 2016-04-29 21:01:56 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12142589_523329234528860_841230878_n.jpg?ig_cache_key=MTIxMzY4MzY3MzIyMTE0NDk3Ng%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 296ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=44075962489b2e269accda7e2d0feec4 timeout=40000ms service=301ms state=completed
+source=rack-timeout id=18a75bd44f0fa0333d50927bc315f757 timeout=40000ms state=ready
+source=rack-timeout id=18a75bd44f0fa0333d50927bc315f757 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12568835_1525971717703360_322260829_n.jpg%3Fig_cache_key%3DMTE4MzQwMzUwNjEyNTA4NzIyOQ%253D%253D.2" for ::1 at 2016-04-29 21:01:56 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12568835_1525971717703360_322260829_n.jpg?ig_cache_key=MTE4MzQwMzUwNjEyNTA4NzIyOQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 253ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=18a75bd44f0fa0333d50927bc315f757 timeout=40000ms service=258ms state=completed
+source=rack-timeout id=64ae362f38b3f7522639081a461e5228 timeout=40000ms state=ready
+source=rack-timeout id=64ae362f38b3f7522639081a461e5228 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F10453949_206066333094431_1723557913_n.jpg%3Fig_cache_key%3DMTIxMTAyOTQ1MjU2MjczNTU3NA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:56 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/10453949_206066333094431_1723557913_n.jpg?ig_cache_key=MTIxMTAyOTQ1MjU2MjczNTU3NA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 263ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=64ae362f38b3f7522639081a461e5228 timeout=40000ms service=277ms state=completed
+source=rack-timeout id=ba204a882bc322e9ab84e9f629372673 timeout=40000ms state=ready
+source=rack-timeout id=ba204a882bc322e9ab84e9f629372673 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F10601673_1362828983749718_1114518935_n.jpg%3Fig_cache_key%3DMTIwNzA5NDk0ODEzMTM0ODYxNQ%253D%253D.2" for ::1 at 2016-04-29 21:01:57 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/10601673_1362828983749718_1114518935_n.jpg?ig_cache_key=MTIwNzA5NDk0ODEzMTM0ODYxNQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 290ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ba204a882bc322e9ab84e9f629372673 timeout=40000ms service=299ms state=completed
+source=rack-timeout id=a1298c6a6c17213be62965bc0aa8f520 timeout=40000ms state=ready
+source=rack-timeout id=a1298c6a6c17213be62965bc0aa8f520 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12081229_232530170435319_219844740_n.jpg%3Fig_cache_key%3DMTIxNjc4MTkxMTU0OTY0OTkwNQ%253D%253D.2.l" for ::1 at 2016-04-29 21:01:57 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12081229_232530170435319_219844740_n.jpg?ig_cache_key=MTIxNjc4MTkxMTU0OTY0OTkwNQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 505ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=a1298c6a6c17213be62965bc0aa8f520 timeout=40000ms service=519ms state=completed
+source=rack-timeout id=88771fd7eb929c6e22289195dc1ce8e1 timeout=40000ms state=ready
+source=rack-timeout id=88771fd7eb929c6e22289195dc1ce8e1 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12819105_200060687029497_973544358_n.jpg%3Fig_cache_key%3DMTIwNTc1MDY2MjMxNjAwODMxMg%253D%253D.2" for ::1 at 2016-04-29 21:01:58 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12819105_200060687029497_973544358_n.jpg?ig_cache_key=MTIwNTc1MDY2MjMxNjAwODMxMg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 216ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=88771fd7eb929c6e22289195dc1ce8e1 timeout=40000ms service=229ms state=completed
+source=rack-timeout id=bc9a14b64c605f2306ca6c58f0113429 timeout=40000ms state=ready
+source=rack-timeout id=bc9a14b64c605f2306ca6c58f0113429 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12383356_589605234528795_1338811737_n.jpg%3Fig_cache_key%3DMTIxMzc5NDQ5ODkyOTg2MTQ1Mg%253D%253D.2" for ::1 at 2016-04-29 21:01:58 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12383356_589605234528795_1338811737_n.jpg?ig_cache_key=MTIxMzc5NDQ5ODkyOTg2MTQ1Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 325ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=bc9a14b64c605f2306ca6c58f0113429 timeout=40000ms service=341ms state=completed
+source=rack-timeout id=d1f2f2b64a4bd41ca40ff6ce66777038 timeout=40000ms state=ready
+source=rack-timeout id=d1f2f2b64a4bd41ca40ff6ce66777038 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12519664_562381163944045_745563287_n.jpg%3Fig_cache_key%3DMTIxNjA5ODU2NzUzOTIzNzY3NA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:58 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12519664_562381163944045_745563287_n.jpg?ig_cache_key=MTIxNjA5ODU2NzUzOTIzNzY3NA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 303ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=d1f2f2b64a4bd41ca40ff6ce66777038 timeout=40000ms service=312ms state=completed
+source=rack-timeout id=b2a8b1c1345a3c3d3e5689c3812b8319 timeout=40000ms state=ready
+source=rack-timeout id=b2a8b1c1345a3c3d3e5689c3812b8319 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12135181_1156152071071394_946111240_n.jpg%3Fig_cache_key%3DMTIxNTkzMjg1NzUzMzk2NTE3Ng%253D%253D.2.l" for ::1 at 2016-04-29 21:01:58 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12135181_1156152071071394_946111240_n.jpg?ig_cache_key=MTIxNTkzMjg1NzUzMzk2NTE3Ng%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 364ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=b2a8b1c1345a3c3d3e5689c3812b8319 timeout=40000ms service=377ms state=completed
+source=rack-timeout id=060ed81a538cfc999308485f2a21dbb0 timeout=40000ms state=ready
+source=rack-timeout id=060ed81a538cfc999308485f2a21dbb0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12501548_1716329951984871_677402261_n.jpg%3Fig_cache_key%3DMTIxNDMyMTAxMTMyODY1NTk1MA%253D%253D.2.l" for ::1 at 2016-04-29 21:01:59 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12501548_1716329951984871_677402261_n.jpg?ig_cache_key=MTIxNDMyMTAxMTMyODY1NTk1MA%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 282ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=060ed81a538cfc999308485f2a21dbb0 timeout=40000ms service=297ms state=completed
+source=rack-timeout id=7bcc20d1e3ce93b94a56ce9fcccd051e timeout=40000ms state=ready
+source=rack-timeout id=7bcc20d1e3ce93b94a56ce9fcccd051e timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12277632_1743131082576167_919253640_n.jpg%3Fig_cache_key%3DMTIxMzY4MDg2OTE3NzkyNTk4Mw%253D%253D.2.l" for ::1 at 2016-04-29 21:01:59 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12277632_1743131082576167_919253640_n.jpg?ig_cache_key=MTIxMzY4MDg2OTE3NzkyNTk4Mw%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 344ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=7bcc20d1e3ce93b94a56ce9fcccd051e timeout=40000ms service=354ms state=completed
+source=rack-timeout id=ad27e71221ffc544000bf5773729d11c timeout=40000ms state=ready
+source=rack-timeout id=ad27e71221ffc544000bf5773729d11c timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12677688_965853560195982_539325322_n.jpg%3Fig_cache_key%3DMTE4NzQ5MTU4MjcyNDEyMTI4Mg%253D%253D.2.l" for ::1 at 2016-04-29 21:01:59 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12677688_965853560195982_539325322_n.jpg?ig_cache_key=MTE4NzQ5MTU4MjcyNDEyMTI4Mg%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 318ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ad27e71221ffc544000bf5773729d11c timeout=40000ms service=328ms state=completed
+source=rack-timeout id=f659ac7103d4b1ef1821f1e725f5033b timeout=40000ms state=ready
+source=rack-timeout id=f659ac7103d4b1ef1821f1e725f5033b timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12751397_180628292308603_1999167735_n.jpg%3Fig_cache_key%3DMTE5MDUzNDIyNjYxMDA2OTgwNw%253D%253D.2" for ::1 at 2016-04-29 21:02:00 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12751397_180628292308603_1999167735_n.jpg?ig_cache_key=MTE5MDUzNDIyNjYxMDA2OTgwNw%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 385ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=f659ac7103d4b1ef1821f1e725f5033b timeout=40000ms service=395ms state=completed
+source=rack-timeout id=ae3210ad34d28f960c19a81434c1f099 timeout=40000ms state=ready
+source=rack-timeout id=ae3210ad34d28f960c19a81434c1f099 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12748454_1716009205311002_1360137242_n.jpg%3Fig_cache_key%3DMTE4MzI3NTA5NDE1MjY4NDIzNA%253D%253D.2" for ::1 at 2016-04-29 21:02:00 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12748454_1716009205311002_1360137242_n.jpg?ig_cache_key=MTE4MzI3NTA5NDE1MjY4NDIzNA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 266ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=ae3210ad34d28f960c19a81434c1f099 timeout=40000ms service=281ms state=completed
+source=rack-timeout id=4a935541b7e53c1040bbe0be57d969bf timeout=40000ms state=ready
+source=rack-timeout id=4a935541b7e53c1040bbe0be57d969bf timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12729567_1107494725949457_1975479233_n.jpg%3Fig_cache_key%3DMTE5MTEyNzA4MDUyNDk0NzUxMw%253D%253D.2.l" for ::1 at 2016-04-29 21:02:00 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12729567_1107494725949457_1975479233_n.jpg?ig_cache_key=MTE5MTEyNzA4MDUyNDk0NzUxMw%3D%3D.2.l"}
+source=rack-timeout id=4a935541b7e53c1040bbe0be57d969bf timeout=40000ms service=1005ms state=active
+source=rack-timeout id=4a935541b7e53c1040bbe0be57d969bf timeout=40000ms service=2005ms state=active
+source=rack-timeout id=4a935541b7e53c1040bbe0be57d969bf timeout=40000ms service=3004ms state=active
+  Rendered text template (0.0ms)
+Sent data  (1.4ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 3399ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=4a935541b7e53c1040bbe0be57d969bf timeout=40000ms service=3415ms state=completed
+source=rack-timeout id=b54592ed526c7e5f90a32ff981ce0cc4 timeout=40000ms state=ready
+source=rack-timeout id=b54592ed526c7e5f90a32ff981ce0cc4 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12424530_544266719069298_1919607143_n.jpg%3Fig_cache_key%3DMTE3NzU2NDk3NTU2NTc0Mjc4OQ%253D%253D.2" for ::1 at 2016-04-29 21:02:04 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12424530_544266719069298_1919607143_n.jpg?ig_cache_key=MTE3NzU2NDk3NTU2NTc0Mjc4OQ%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 335ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=b54592ed526c7e5f90a32ff981ce0cc4 timeout=40000ms service=346ms state=completed
+source=rack-timeout id=06e894eb514e3b5bb026d00d675b1b81 timeout=40000ms state=ready
+source=rack-timeout id=06e894eb514e3b5bb026d00d675b1b81 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12716635_1545588985752749_628251049_n.jpg%3Fig_cache_key%3DMTE4NTc1MDc3ODI5NzAzMjczNA%253D%253D.2" for ::1 at 2016-04-29 21:02:04 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12716635_1545588985752749_628251049_n.jpg?ig_cache_key=MTE4NTc1MDc3ODI5NzAzMjczNA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 226ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=06e894eb514e3b5bb026d00d675b1b81 timeout=40000ms service=236ms state=completed
+source=rack-timeout id=e05f44cdd12ed2faea8dc07619c13af0 timeout=40000ms state=ready
+source=rack-timeout id=e05f44cdd12ed2faea8dc07619c13af0 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12501841_1715880815337646_1418222_n.jpg%3Fig_cache_key%3DMTIyMjQzNTU1NTkzMDM4MjcwNg%253D%253D.2.l" for ::1 at 2016-04-29 21:02:04 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12501841_1715880815337646_1418222_n.jpg?ig_cache_key=MTIyMjQzNTU1NTkzMDM4MjcwNg%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 238ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=e05f44cdd12ed2faea8dc07619c13af0 timeout=40000ms service=247ms state=completed
+source=rack-timeout id=13bfd8d5b8b5f3e40e530e326e79c107 timeout=40000ms state=ready
+source=rack-timeout id=13bfd8d5b8b5f3e40e530e326e79c107 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12918420_981663931898812_1561896738_n.jpg%3Fig_cache_key%3DMTIyNTE3MDY5MDA2NDg4Mzc1MQ%253D%253D.2.l" for ::1 at 2016-04-29 21:02:05 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12918420_981663931898812_1561896738_n.jpg?ig_cache_key=MTIyNTE3MDY5MDA2NDg4Mzc1MQ%3D%3D.2.l"}
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 362ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=13bfd8d5b8b5f3e40e530e326e79c107 timeout=40000ms service=372ms state=completed
+source=rack-timeout id=eb724ec259321c225ca4113e618dac90 timeout=40000ms state=ready
+source=rack-timeout id=eb724ec259321c225ca4113e618dac90 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12501631_1556098288016426_1612281189_n.jpg%3Fig_cache_key%3DMTIyNDA2OTM2NTM0MDE1MjA4OA%253D%253D.2" for ::1 at 2016-04-29 21:02:05 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12501631_1556098288016426_1612281189_n.jpg?ig_cache_key=MTIyNDA2OTM2NTM0MDE1MjA4OA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 175ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=eb724ec259321c225ca4113e618dac90 timeout=40000ms service=181ms state=completed
+source=rack-timeout id=68ec66eda02f447bba078a9cbc337a39 timeout=40000ms state=ready
+source=rack-timeout id=68ec66eda02f447bba078a9cbc337a39 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F923603_170205560031835_1990930341_n.jpg%3Fig_cache_key%3DMTIwODEwMjIwNzgzNzgwNzE4MA%253D%253D.2" for ::1 at 2016-04-29 21:02:05 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/923603_170205560031835_1990930341_n.jpg?ig_cache_key=MTIwODEwMjIwNzgzNzgwNzE4MA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 305ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=68ec66eda02f447bba078a9cbc337a39 timeout=40000ms service=315ms state=completed
+source=rack-timeout id=9ebb477f0519c01d28134208cc6af31f timeout=40000ms state=ready
+source=rack-timeout id=9ebb477f0519c01d28134208cc6af31f timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12818873_1548816302083903_157076215_n.jpg%3Fig_cache_key%3DMTE5NjI4MDY3NjAyMzM3NzkzOA%253D%253D.2" for ::1 at 2016-04-29 21:02:06 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12818873_1548816302083903_157076215_n.jpg?ig_cache_key=MTE5NjI4MDY3NjAyMzM3NzkzOA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (1.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 270ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=9ebb477f0519c01d28134208cc6af31f timeout=40000ms service=288ms state=completed
+source=rack-timeout id=0b698e20848c1e25942bbed529a8b0e5 timeout=40000ms state=ready
+source=rack-timeout id=0b698e20848c1e25942bbed529a8b0e5 timeout=40000ms service=0ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs320x320%2Fe35%2F12747847_1055532994489385_1345220574_n.jpg%3Fig_cache_key%3DMTE4Mzk2MjQ5MDQwNjAxOTE2Mg%253D%253D.2" for ::1 at 2016-04-29 21:02:06 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/12747847_1055532994489385_1345220574_n.jpg?ig_cache_key=MTE4Mzk2MjQ5MDQwNjAxOTE2Mg%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 193ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=0b698e20848c1e25942bbed529a8b0e5 timeout=40000ms service=204ms state=completed
+source=rack-timeout id=051b49ead0577ed264bb2a39677d15b6 timeout=40000ms state=ready
+source=rack-timeout id=051b49ead0577ed264bb2a39677d15b6 timeout=40000ms service=1ms state=active
+
+
+Started GET "/download?url=https%3A%2F%2Fscontent.cdninstagram.com%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F12822582_1531115507219317_626650771_n.jpg%3Fig_cache_key%3DMTIwNDExNTE0NzEyNDc0NDgxNA%253D%253D.2" for ::1 at 2016-04-29 21:02:06 -0400
+Processing by ImageProxyController#get as HTML
+  Parameters: {"url"=>"https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12822582_1531115507219317_626650771_n.jpg?ig_cache_key=MTIwNDExNTE0NzEyNDc0NDgxNA%3D%3D.2"}
+  Rendered text template (0.0ms)
+Sent data  (1.6ms)
+HERE'S THE IMAGECTimage/jpeg
+Completed 200 OK in 311ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+source=rack-timeout id=051b49ead0577ed264bb2a39677d15b6 timeout=40000ms service=319ms state=completed
