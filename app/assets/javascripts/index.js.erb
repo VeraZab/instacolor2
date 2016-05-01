@@ -1,4 +1,4 @@
- function sendDataRequest(){
+function sendDataRequest(){
  	var string = document.getElementById('formstyle').value;
  	var param;
  	if(string.charAt(0)==="@"){
@@ -37,7 +37,7 @@
 	 	}else if(window.innerWidth>=509&&window.innerWidth<=900){
 	 		dimPar = '22%';
 	 	}else if (window.innerWidth>900){
-	 		dimPar = '15%';
+	 		dimPar = '16%';
 	 	}
 	 }else if(array.length>=12&&array.length<48){
 	 	array.length = 12;
@@ -46,7 +46,7 @@
 	 	}else if(window.innerWidth>=509&&window.innerWidth<=900){
 	 		dimPar = '22%';
 	 	}else if (window.innerWidth>900){
-	 		dimPar = '15%';
+	 		dimPar = '16%';
 	 	}
 	 }else if (array.length>=48){
 	 	array.length = 48;
@@ -58,15 +58,15 @@
 	 		dimPar = '8%';
 	 	}
 	 }
-
-	array.slice(0,array.length).forEach(function(image){
+	 
+	array.forEach(function(image){
 		var parent = document.createElement('div');
 		parent.style.width = dimPar;
 		parent.style.paddingBottom = dimPar;
 		parent.className = 'parent';
-
-		parent.appendChild(createImgandColorDiv(image, dimPar)[1]);
-		parent.appendChild(createImgandColorDiv(image, dimPar)[0]);
+		var imageAndColor = createImgandColorDiv(image, dimPar);
+		parent.appendChild(imageAndColor[1]);
+		parent.appendChild(imageAndColor[0]);
 		document.getElementById('picContainer').appendChild(parent);
 	});
 };
@@ -91,16 +91,14 @@ function createImgandColorDiv(url, dim){
 		COLORS.push(hsl);
 		cdiv.style.backgroundColor = 'hsl('+hsl[0]+','+hsl[1]+'%,'+hsl[2]+'%)';
 		if(COLORS.length===c.length){
-			setTimeout(function(){
-				type(getAttributes(COLORS), 0);
-
-			}, 2000);
+			type(getAttributes(COLORS), 0);
 		};
 	};
 
 	img.src = url;
 	return [img, cdiv];	
-}
+};
+
 
 function displayButton(){
 	var button = document.getElementById('startOver');
@@ -139,73 +137,83 @@ var COLOR_DEFINITIONS = [{
 	higherThan: 350,
 	lowerThan: 10,
 	attributes: ["sensual", "ambitious", "extroverted", "courageous", "egoistic"],
+	saturation: 0,
 	count: 0
 }, {
 	name: "Orange",
 	higherThan: 10,
 	lowerThan: 30,
 	attributes: ["social", "vivacious", "unpredictable", "assertive", "inconsistent"],
+	saturation: 0,
 	count: 0
 }, {
 	name: "Yellow",
 	higherThan: 30,
 	lowerThan: 75,
 	attributes: ["optimistic", "meticulous", "nerdy", "networker", "snob"],
+	saturation: 0,
 	count: 0
 }, {
 	name: "Green",
 	higherThan: 75,
 	lowerThan: 135,
 	attributes: ["caring", "empathetic", "practical", "gracious", "gossip girl"],
+	saturation: 0,
 	count: 0
 }, {
 	name: "Turquoise",
 	higherThan: 135,
 	lowerThan: 190,
 	attributes: ["wise", "independent","idealistic", "outspoken", "narcissistic"],
+	saturation: 0,
 	count: 0
 }, {
 	name: "Blue",
 	higherThan: 190,
 	lowerThan: 240,
 	attributes: ["harmonious", "trustworthy", "loyal", "sincere", "stubborn"],
+	saturation: 0,
 	count: 0
 }, {
 	name: "Purple",
 	higherThan: 240,
 	lowerThan: 310,
 	attributes: ["intuitive", "futuristic", "introspective", "eccentric", "drama queen"],
+	saturation: 0,
 	count: 0
 }, {
 	name: "Pink",
 	higherThan: 310,
 	lowerThan: 350, 
 	attributes: ["resourceful", "loving", "generous", "romantic", "naive"],
+	saturation: 0,
 	count: 0
 }];
+
 
 function getAttributes(colors){
 	var attr = [];
 	var total = 0;
-	
+
 	colors.forEach(function(hsl) {
 		if((hsl[1] > 50) && (hsl[2] > 20)){
 			total ++;
 			for(var x = 0; x<COLOR_DEFINITIONS.length; x++){
 				if((hsl[0]<COLOR_DEFINITIONS[x].lowerThan)&&(hsl[0]>=COLOR_DEFINITIONS[x].higherThan)){
+					COLOR_DEFINITIONS[x].saturation += hsl[1];
 					COLOR_DEFINITIONS[x].count ++;
 				}
 			}
 		}
 	});
 
+	COLOR_DEFINITIONS.sort(function(a, b){
+		return  b.saturation-a.saturation;
+	});
+
 	for(var z = 0; z<COLOR_DEFINITIONS.length; z++){
 		COLOR_DEFINITIONS[z].count = Math.floor(((COLOR_DEFINITIONS[z].count)/total)*5)*2;
 	}
-	
-	COLOR_DEFINITIONS.sort(function(a, b){
-		return  b.count-a.count;
-	});
 
 	for(var x = 0; x<COLOR_DEFINITIONS.length; x++){
 		if(COLOR_DEFINITIONS[x].count != 0){
@@ -253,7 +261,8 @@ function start(){
 	restart.addEventListener('click', function(){
 		COLORS = [];
 		for(var o = 0; o<COLOR_DEFINITIONS.length; o++){
-			COLOR_DEFINITIONS[o].count = 0;	
+			COLOR_DEFINITIONS[o].count = 0;
+			COLOR_DEFINITIONS[o].saturation = 0;	
 		}
 		while(document.images.length){
 			var parent = document.images[0].parentNode;
@@ -270,4 +279,3 @@ function start(){
 window.onload = function(){
 	start();	
 };
-	

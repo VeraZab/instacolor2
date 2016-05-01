@@ -19,7 +19,7 @@ class WelcomeController < ApplicationController
 
 
 		i = 0
-		until i == 4
+		until i == 2
 			@content = JSON.parse(RestClient.get @url)	
 			@result = @content["data"]
 			@url_next = @content['pagination']['next_url']	

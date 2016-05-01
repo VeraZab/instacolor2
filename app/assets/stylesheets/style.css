@@ -1,35 +1,43 @@
 @media only screen  and (max-width : 509px){
-	#formstyle, h1 {
+	body {
 		font-size: 26px;
 		line-height: 30px;
 	}
 }
 
 @media only screen  and (min-width : 510px) and (max-width : 900px){
-	#formstyle, h1 {
+	body {
 		font-size: 31px;
 		line-height: 30px;
 	}
 }
 
-@media only screen  and (min-width : 900px){
-	#formstyle, h1 {
+@media only screen  and (min-width : 901px) and (max-width : 1400px){
+	body {
+		font-size: 25px;
+		line-height: 25px;
+	}
+}
+
+@media only screen  and (min-width : 1401px){
+	body {
 		font-size: 31px;
 		line-height: 30px;
 	}
 }
 
 #startOver {
-	height: 2em;
-	width: 4em;
+	height: 4.3rem;
+	width: 15rem;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 3em;
+	font-size: 3.5rem;
 	font-family: 'Circular';
+	font-weight: bold;
 	display: none;
 	color: black;
 	background-color: white;
-	border: 1px solid black;
+	border: 4px solid black;
 }
 
 #startOver:hover{
@@ -38,8 +46,7 @@
 }
 
 #header {
-	padding-top: 50px;
-	height: 25%;
+	padding-top: 150px;
 }
 
 #formstyle, h1 {
@@ -48,18 +55,16 @@
 	color: black;
 	text-align: center;
 	width: 100%;
-	font-size: 3em;
+	font-size: 3.5rem;
 }
 
 h1 {
-	padding-top: 30px;
-	height: 30px;
-	-webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
+	-webkit-margin-before: 0rem;
+    -webkit-margin-after: 0rem;
 }
 
 #formstyle {
-	padding-top: 35px;
+	padding-top: 20px;
 	outline: none;
 	border: none;
 	background-color: transparent;
@@ -69,14 +74,14 @@ h1 {
 }
 
 #picContainer {
+	display: block;
 	text-align: center;
     position:absolute;
-    top: 30%;
+    top: 37%;
     left:0px;
     right:0px;
     bottom:0px;
-    width: 97%;
-    height: 68%;
+    width: 100%;
     overflow-y: auto;
     margin: 0 auto;
     line-height: 0;
