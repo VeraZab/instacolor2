@@ -194,9 +194,9 @@ var COLOR_DEFINITIONS = [{
 function getAttributes(colors){
 	var attr = [];
 	var total = 0;
-
+ 
 	colors.forEach(function(hsl) {
-		if((hsl[1] > 50) && (hsl[2] > 20)){
+		if((hsl[1] >= 40) && (hsl[2] > 20)){
 			total ++;
 			for(var x = 0; x<COLOR_DEFINITIONS.length; x++){
 				if((hsl[0]<COLOR_DEFINITIONS[x].lowerThan)&&(hsl[0]>=COLOR_DEFINITIONS[x].higherThan)){
@@ -212,7 +212,7 @@ function getAttributes(colors){
 	});
 
 	for(var z = 0; z<COLOR_DEFINITIONS.length; z++){
-		COLOR_DEFINITIONS[z].count = Math.floor(((COLOR_DEFINITIONS[z].count)/total)*5)*2;
+		COLOR_DEFINITIONS[z].count = Math.floor(((COLOR_DEFINITIONS[z].count)/total)*5*2);
 	}
 
 	for(var x = 0; x<COLOR_DEFINITIONS.length; x++){
