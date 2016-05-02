@@ -22,7 +22,7 @@ function sendDataRequest(){
  	xhr.open('GET', url, true);
  	xhr.setRequestHeader("Accept", "text/javascript");
  	xhr.send(); 
- }
+ };
 
  function createParentComponent(array){	
  	if(!array.length){
@@ -110,7 +110,7 @@ function getDominantHSLColor(image) {
 	var color = colorThief.getColor(image);
 	var hsl = rgbToHsl(color[0], color[1], color[2]);
 	return hsl;
-}
+};
 
 function rgbToHsl(r, g, b) {
 	r /= 255, g /= 255, b /= 255;
@@ -130,7 +130,7 @@ function rgbToHsl(r, g, b) {
 	    h /= 6;
 	}
 	return [Math.floor(h * 360), Math.floor(s * 100), Math.floor(l * 100)];
-}
+};
 
 var COLOR_DEFINITIONS = [{
 	name: "Red",
@@ -238,10 +238,10 @@ function type(string, index){
 	if (index < string.length) {
 		setTimeout(function(){ type(string, index + 1); }, Math.random() * 100);
 	}else{
-		form.blur();
-		setTimeout(function(){displayButton();}, 500);
+		form.disabled = true;
+		setTimeout(function(){displayButton();}, 300);
 	}
-}
+};
 
 function start(){
 	var form = document.getElementById('formstyle');
@@ -270,11 +270,12 @@ function start(){
 			parentOfParent.removeChild(parent);
 		};
 		form.value ='@';
+		form.disabled = false;
 		form.focus();
 		form.setSelectionRange(1,1);
 		restart.style.display = 'none';
 	});
-}
+};
 
 window.onload = function(){
 	start();	
