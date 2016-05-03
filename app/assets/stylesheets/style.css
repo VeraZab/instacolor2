@@ -10,7 +10,7 @@
 
 	#startOver {
 		margin: 0 auto;
-		margin-top: 10px;
+		margin-top: 15px;
 		height: 35px;
 		width: 100px;
 	}
@@ -28,7 +28,7 @@
 
 	#startOver {
 		margin: 0 auto;
-		margin-top: 10px;
+		margin-top: 20px;
 		height: 35px;
 		width: 100px;
 	}
@@ -48,6 +48,7 @@
 		height: 53px;
 		width: 157px;
 		margin: 0 auto;
+		margin-top: 35px;
 	}
 }
 
