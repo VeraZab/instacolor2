@@ -79,7 +79,6 @@ function createImgandColorDiv(url, dim){
 	var img = document.createElement('img');
 	img.style.height = dim+'px';
     img.style.width = dim+'px';
-    img.style.opacity = "0";
 
 	var cdiv=document.createElement('div');
 	cdiv.style.height = dim+'px';
@@ -92,7 +91,13 @@ function createImgandColorDiv(url, dim){
 		COLORS.push(hsl);
 		cdiv.style.backgroundColor = 'hsl('+hsl[0]+','+hsl[1]+'%,'+hsl[2]+'%)';
 		if(COLORS.length===c.length){
-			type(getAttributes(COLORS), 0);
+			setTimeout(function(){ 
+				for(var x = 0; x<document.getElementsByClassName('cdiv').length; x++){
+					document.getElementsByClassName('cdiv')[x].style.opacity = 1;
+					document.images[x].style.opacity = 0;
+				}
+				type(getAttributes(COLORS), 0);
+			}, 500);
 		};
 	};
 
@@ -289,3 +294,5 @@ function start(){
 window.onload = function(){
 	start();	
 };
+
+//https://support.google.com/webmasters/answer/6065812?hl=en
