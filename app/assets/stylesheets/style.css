@@ -1,4 +1,22 @@
-@media only screen  and (max-width : 900px){
+@media only screen  and (max-width : 500px){
+	#header, #formstyle, h1 {
+		font-size: 26px;
+		line-height: 26px;
+	}
+
+	#header {
+		padding-top: 40%;
+	}
+
+	#startOver {
+		margin: 0 auto;
+		margin-top: 10px;
+		height: 35px;
+		width: 100px;
+	}
+}
+
+@media only screen  and (min-width : 501px) and (max-width : 900px){
 	#header, #formstyle, h1 {
 		font-size: 26px;
 		line-height: 26px;
