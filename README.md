@@ -1,3 +1,2 @@
-# Instacolors
-
-# Taking a guess at peoples' personality based on the colors in their instagram pictures :)
+# Instacolors: guessing personalities based on color
+# Try: @shopify / @natgeo (national geographic) / @google :)
