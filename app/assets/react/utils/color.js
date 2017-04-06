@@ -24,9 +24,13 @@ export function hslToColor(hsl) {
 	let colorName;
 
 	COLOR_DEFINITIONS.forEach(definition => {
+		if (hsl[0] > 350 || hsl[0] < 10) { // hsl color boundaries for Red are non continous
+			colorName = 'Red';
+		};
+
 		if ((definition.higherThan < hsl[0]) && (hsl[0] <= definition.lowerThan)) {
 			colorName = definition.name;
-		}
+		};
 	});
 
 	return colorName;

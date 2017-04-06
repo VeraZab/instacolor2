@@ -55,24 +55,32 @@ export default class Results extends Component {
         });
 
         let mostSaturatedColor;
-        const mainColor = Object.keys(frequencies).reduce((a, b) => {
-            if (frequencies[b].count > frequencies[a].count) {
-                mostSaturatedColor = frequencies[b].mostSaturatedColor;
-                return b;
-            }
-            if (frequencies[b].count == frequencies[a].count) {
-                if (frequencies[b].saturation > frequencies[a].saturation) {
+        let mainColor;
+
+        if (Object.keys(frequencies).length == 1) {
+            mainColor = Object.keys(frequencies)[0];
+            mostSaturatedColor = frequencies[mainColor].mostSaturatedColor;
+        } else {
+            mainColor = Object.keys(frequencies).reduce((a, b) => {
+                if (frequencies[b].count > frequencies[a].count) {
                     mostSaturatedColor = frequencies[b].mostSaturatedColor;
                     return b;
+                }
+                if (frequencies[b].count == frequencies[a].count) {
+                    if (frequencies[b].saturation > frequencies[a].saturation) {
+                        mostSaturatedColor = frequencies[b].mostSaturatedColor;
+                        return b;
+                    } else {
+                        mostSaturatedColor = frequencies[a].mostSaturatedColor;
+                        return a;
+                    }
                 } else {
                     mostSaturatedColor = frequencies[a].mostSaturatedColor;
                     return a;
                 }
-            } else {
-                mostSaturatedColor = frequencies[a].mostSaturatedColor;
-                return a;
-            }
-        });
+            });
+        };
+
 
         const result = COLOR_DEFINITIONS
                         .filter(color => color.name == mainColor)[0].attributes
