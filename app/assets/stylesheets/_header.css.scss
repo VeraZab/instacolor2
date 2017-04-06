@@ -1,0 +1,55 @@
+@import 'utilities';
+
+.header {
+	font-family: $defaultfont;
+	width: 100%;
+	text-align: center;
+	margin-top: calc(50vh - 150px);
+	@media only screen and (max-width : 500px) {
+		font-size: $smallfont;
+	}
+
+	@media only screen  and (min-width : 500px) and (max-width : 1400px) {
+		font-size: $mediumfont;
+	}
+
+	@media only screen  and (min-width : 1401px) {
+		font-size: $largefont;
+	}
+}
+
+.header__question {
+	@media only screen and (max-width : 500px) {
+		font-size: $smallfont;
+	}
+
+	@media only screen  and (min-width : 500px) and (max-width : 1400px) {
+		font-size: $mediumfont;
+	}
+
+	@media only screen  and (min-width : 1401px) {
+		font-size: $largefont;
+	}
+}
+
+.header__form {
+	font-family: $defaultfont;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	overflow: hidden;
+	resize: none;
+	text-align: center;
+
+	@media only screen and (max-width : 500px) {
+		font-size: $smallfont;
+	}
+
+	@media only screen  and (min-width : 500px) and (max-width : 1400px) {
+		font-size: $mediumfont;
+	}
+
+	@media only screen  and (min-width : 1401px) {
+		font-size: $largefont;
+	}
+}

@@ -1,0 +1,22 @@
+@import 'utilities';
+
+.result {
+	color: white;
+	text-align: center;
+	font-family: $defaultfont;
+	width: 100%;
+	text-align: center;
+	padding-top: calc(50vh - 150px);
+
+	@media only screen and (max-width : 500px) {
+		font-size: $smallfont;
+	}
+
+	@media only screen  and (min-width : 500px) and (max-width : 1400px) {
+		font-size: $mediumfont;
+	}
+
+	@media only screen  and (min-width : 1401px) {
+		font-size: $largefont;
+	}
+}

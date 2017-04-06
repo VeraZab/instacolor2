@@ -1,0 +1,36 @@
+$smallImage: 29vw;
+$mediumImage: 15vw;
+
+.picturesContainer {
+	text-align: center;
+	line-height: 0;
+	height: 84vh;
+	margin-top: calc(50vh - 42vh);
+
+	@media only screen and (max-width : 500px) {
+		height: 90vh;
+		margin-top: calc(50vh - 45vh)
+	}
+}
+
+.imageContainer {
+	width: $mediumImage;
+	height: $mediumImage;
+	position: relative;
+	display: inline-block;
+	margin-left: 1px;
+	margin-bottom: 1px;
+
+	@media only screen and (max-width : 500px) {
+		width: $smallImage;
+		height: $smallImage;
+	}
+}
+
+img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	max-height: 100%;
+}
