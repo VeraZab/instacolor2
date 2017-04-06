@@ -4,7 +4,6 @@
   	<title>Instacolor</title>
   	<meta name="viewport" content="width=device-width">
   	<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-	<%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
 	<%= csrf_meta_tag %>
 	<meta property="og:url" content="http://instacolor.herokuapp.com/" />
 	<meta property="og:type" content="website" />
@@ -13,7 +12,8 @@
 	<meta property="og:image" content="http://instacolor.herokuapp.com/favicon.ico" />
 </head>
 
-<body>	
-<%= yield %>
+<body>
+    <div id="root"></div>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
 </body>
 </html>
