@@ -16,9 +16,11 @@ export default class ImageContainer extends Component {
         const rgbColor = colorThief.getColor(image);
         const hsl = rgbToHsl(rgbColor[0], rgbColor[1], rgbColor[2]);
 
-        dispatch(extractedColor(hsl));
-        this.refs.container.style.backgroundColor = `hsl(${hsl[0]},${hsl[1]}%,${hsl[2]}%)`;
-        image.style.opacity = 0;
+        setTimeout(() => {
+            dispatch(extractedColor(hsl));
+            this.refs.container.style.backgroundColor = `hsl(${hsl[0]},${hsl[1]}%,${hsl[2]}%)`;
+            image.style.opacity = 0;
+        }, 3000);
     }
 
     render() {

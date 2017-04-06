@@ -7,14 +7,31 @@ import {connect} from 'react-redux';
 
 class MainView extends Component {
     constructor(props) {
-        super(props)
+        super(props);
+        this.state = {
+            showResult: false
+        };
     }
 
-    showResult() {
-        const {imageUrls, extractedColors} = this.props;
-		return (imageUrls && extractedColors &&
-				imageUrls.length > 0 && extractedColors.length > 0 &&
-				imageUrls.length == extractedColors.length);
+    componentWillReceiveProps(nextProps) {
+        const {imageUrls, extractedColors} = nextProps;
+        const {showResult} = this.state;
+
+		if (imageUrls && extractedColors &&
+			imageUrls.length > 0 && extractedColors.length > 0 &&
+			imageUrls.length == extractedColors.length) {
+            setTimeout(() => {
+                this.setState({
+                    showResult: true
+                });
+            }, 2000);
+        };
+
+        if (showResult && extractedColors.length == 0) {
+            this.setState({
+                showResult: false
+            });
+        };
     }
 
     render() {
@@ -28,7 +45,7 @@ class MainView extends Component {
 
         switch (status) {
             case 'SUCCESS':
-                if (this.showResult()) {
+                if (this.state.showResult) {
                     return (
                         <Results
                             dispatch={dispatch}
