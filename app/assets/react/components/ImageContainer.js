@@ -20,7 +20,7 @@ export default class ImageContainer extends Component {
             dispatch(extractedColor(hsl));
             this.refs.container.style.backgroundColor = `hsl(${hsl[0]},${hsl[1]}%,${hsl[2]}%)`;
             image.style.opacity = 0;
-        }, 3000);
+        }, 2000);
     }
 
     render() {
